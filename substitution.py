@@ -87,8 +87,8 @@ def FirstRoot(t, e):
 
 def MatchTree(tau, t):
 	
-	tau = tau.asList()
-	t = t.asList()
+	tau = asList(tau)
+	t = asList(t)
 
 	if len(tau.list) == 0 and len(t.list) == 0:
 		return dict()
@@ -127,7 +127,7 @@ def MatchTree(tau, t):
 	raise Exception('MatchTree', 'No case matched')
 
 def ApplyTree(tau, sigma):
-	tau = tau.asAtomic()
+	tau = asAtomic(tau)
 
 	if tau._type == EMPTY:
 		return TreeExp.EmptyTree()
@@ -146,7 +146,7 @@ def ApplyTree(tau, sigma):
 			newList = newList + ApplyTree(tau.tree, x)
 		return TreeExp.ListTree(newList)
 
-	tau = tau.asList()
+	tau = asList(tau)
 	if tau._type == LIST:
 		head = ApplyTree(tau.list[0], sigma)
 		tail = ApplyTree(TreeExp.ListTree(tau.list[1:]), sigma)

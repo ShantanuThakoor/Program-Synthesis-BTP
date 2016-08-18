@@ -29,10 +29,10 @@ def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(set(), inputList)
 	tau2 = InferTreeExp(set(), outputList)
 	for x in Var(tau2) - Var(tau1):
-		for y in InverseVarMap.values() if Scope(y) == Scope(x):
+		for y in Var(tau1) if Scope(y) == Scope(x):
 			f = InferLiteralFunction(GetLiterals(x, y))
 			if f is not None:
-				sigma = {x.v : Val(y.v, f)}
+				sigma = {x.v : Val(FEXP, y.v, f)}
 				tau2 = ApplyTree(tau2, sigma)
 
 	subsetCond = not Var(tau2).issubset(Var(tau1))
@@ -49,7 +49,7 @@ def InferTreeExp(s, treeList):
 			break
 	if allEmpty:
 		return TreeExp.EmptyTree()
-	candidates = [flatten(Root(x)) for x in treeList]
+	candidates = flatten([list(Root(x)) for x in treeList])
 	filtered = []
 	for x in candidates:
 		works = False
@@ -76,19 +76,22 @@ def InferTreeExp(s, treeList):
 	for t in treeList:
 		tempList = asList(t)
 		tempRList = []
-		while tempList:
-			r = tempList[0]
+		while tempList.list:
+			r = tempList.list[0]
 			if Root(r) == set([e]):
 				tempRList.append(r)
-				tempList.pop(0)
+				tempList.list.pop(0)
 			else:
 				break
-		tempTPrime = TreeExp.ListTree(tempList)
+		tempTPrime = TreeExp.ListTree(tempList.list)
+		if e in Root(tempTPrime):
+			raise Exception('InferTreeExp', 'Weird thing')
+		
 		rList.append(tempRList)
 		tPrimeList.append(tempTPrime)
 	tau = InferTreeExp(s, tPrimeList)
 	M = len(rList[0])
-	if M*len(rList) == [len(x) for x in rList]:
+	if [M]*len(rList) == [len(x) for x in rList]:
 		rhoList = []
 		for j in range(M):
 			rhoj = InferRootExp(s, [x[j] for x in rList])
@@ -146,9 +149,9 @@ def GetLiterals(x1, x2):
 		raise Exception('Get Literals', 'Scope different')
 	R = set()
 	for i in range(len(preimage1[1])):
-		if preimage1[1][i] in Var and preimage2[1][i] in Var:
+		if preimage1[1][i]._type == VAR and preimage2[1][i]._type == VAR:
 			R = R | GetLiterals(preimage1[1][i], preimage2[1][i])
-		elif preimage1[1][i] not in Var and preimage2[1][i] not in Var:
+		elif preimage1[1][i]._type == LIT and preimage2[1][i]._type == LIT:
 			R = R | set([preimage1[1][i], preimage2[1][i]])
 		else:
 			raise Exception('Get Literals', 'Apparent mismatch of literal and variable')

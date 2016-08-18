@@ -56,20 +56,22 @@ class TreeExp:
 		inst.tree = tree
 		inst._type = LOOP
 
-	def asList(self):
-		if self._type == EMPTY:
-			return ListTree([])
-		return ListTree(self, EmptyTree())
+def asList(treegit):
+	if tree._type == EMPTY:
+		return ListTree([])
+	return ListTree(tree, EmptyTree())
 
-	def asAtomic(self):
-		if self._type in [ROOT, LOOP, EMPTY]:
-			return self.copy()
-		if len(self.list) == 1:
-			inst = self.list[0]
-			return inst
-		if len(self.list) == 0:
-			return EmptyTree()
-		return self.copy()
+def asAtomic(tree):
+	if tree._type in [ROOT, LOOP, EMPTY]:
+		return tree.copy()
+	if len(tree.list) == 1:
+		inst = tree.list[0]
+		return inst
+	if len(tree.list) == 0:
+		return EmptyTree()
+	return tree.copy()
+
+
 
 FEXP = 0
 VAR = 1
