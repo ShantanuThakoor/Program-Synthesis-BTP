@@ -20,6 +20,27 @@ def InferLiteralFunction(inputs, outputs):
 		return randomElement
 	return func
 
+def Scope(X):
+	if not X in InverseVarMap:
+		raise Exception('Scope', 'Variable not mapped to scope')
+	return InverseVarMap[X][0]
+
+def InferProgram(inputList, outputList):
+	tau1 = InferTreeExp(set(), inputList)
+	tau2 = InferTreeExp(set(), outputList)
+	for x in Var(tau2) - Var(tau1):
+		for y in InverseVarMap.values() if Scope(y) == Scope(x):
+			f = InferLiteralFunction(GetLiterals(x, y))
+			if f is not None:
+				sigma = {x.v : Val(y.v, f)}
+				tau2 = ApplyTree(tau2, sigma)
+
+	subsetCond = not Var(tau2).issubset(Var(tau1))
+	otherCond = not Iter(tau2).issubset(Iter(tau1))
+	if subsetCond or otherCond:
+		raise Exception('InferProgram', 'Not subset')
+	return Program(tau1, tau2)
+
 def InferTreeExp(s, treeList):
 	allEmpty = True
 	for x in treeList:
@@ -132,3 +153,14 @@ def GetLiterals(x1, x2):
 		else:
 			raise Exception('Get Literals', 'Apparent mismatch of literal and variable')
 	return R
+
+def RunProgram(P, t):
+	sigma = MatchMap(P.input, t)
+	tPrime = Apply(tau2, sigma)
+	if len(Var(tPrime)) == 0 and len(Iter(tPrime)) == 0:
+		return tPrime
+	raise Exception('RunProgram', 'Output not concrete')
+
+def main(inputList, outputList, newInput):
+	P = InferProgram(inputList, outputList)
+	return RunProgram(P, newInput)
