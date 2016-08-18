@@ -50,8 +50,50 @@ def InferTreeExp(s, treeList):
 			break
 	if e is None:
 		raise Exception('InferTreeExp', 'No e')
-	
+	rList = []
+	tPrimeList = []
+	for t in treeList:
+		tempList = asList(t)
+		tempRList = []
+		while tempList:
+			r = tempList[0]
+			if Root(r) == set([e]):
+				tempRList.append(r)
+				tempList.pop(0)
+			else:
+				break
+		tempTPrime = TreeExp.ListTree(tempList)
+		rList.append(tempRList)
+		tPrimeList.append(tempTPrime)
+	tau = InferTreeExp(s, tPrimeList)
+	M = len(rList[0])
+	if M*len(rList) == [len(x) for x in rList]:
+		rhoList = []
+		for j in range(M):
+			rhoj = InferRootExp(s, [x[j] for x in rList])
+			rhoList.append(rhoj)
+		rhoList.append(tau)
+		return TreeExp.ListTree(rhoList)
+	I = IterMap((s, [len(x) for x in rList]))
+	rho = InferRootExp([s, I], flatten(rList))
+	loopTree = TreeExp.LoopTree(I, rho)
+	return TreeExp.ListTree(loopTree, tau)
 
+def InferRootExp(s, rList):
+	rList = [asAtomic(x) for x in rList]
+	mList = []
+	tList = []
+	e = rList[0].tag
+	for r in rList:
+		if r._type != ROOT:
+			raise Exception('InferRootExp', 'NonRoot in arguments')
+		if r.tag != e:
+			raise Exception('InferRootExp', 'Root with different tag')
+		mList.append(r.map)
+		tList.append(r.children)
+	phi = InferAttMap(s, mList)
+	tau = InferTreeExp(s, tList)
+	return TreeExp.RootTree(e, phi, tau)
 
 def InferAttMap(s, mlist):
 	domain = mlist[0].keys()
