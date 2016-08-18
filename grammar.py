@@ -58,7 +58,7 @@ class TreeExp:
 
 	def asList(self):
 		if self._type == EMPTY:
-			return EmptyTree()
+			return ListTree([])
 		return ListTree(self, EmptyTree())
 
 	def asAtomic(self):

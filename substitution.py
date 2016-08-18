@@ -5,6 +5,58 @@ def merge(x, y):
 	z.update(y)
 	return z
 
+def Var(tree):
+	if tree._type == EMPTY:
+		return set()
+	if tree._type == ROOT:
+		mapping = tree.map
+		temp = [x for x in mapping.values() if x._type == VAR]
+		for x in tree.children:
+			temp = temp | Var(x)
+		return x
+	if tree._type == LIST:
+		temp = set()
+		for x in tree.list:
+			temp = temp | Var(x)
+		return temp
+	if tree._type == LOOP:
+		return Var(tree.tree)
+
+def FExp(tree):
+	if tree._type == EMPTY:
+		return set()
+	if tree._type == ROOT:
+		mapping = tree.map
+		temp = [x for x in mapping.values() if x._type == FEXP]
+		for x in tree.children:
+			temp = temp | FExp(x)
+		return x
+	if tree._type == LIST:
+		temp = set()
+		for x in tree.list:
+			temp = temp | FExp(x)
+		return temp
+	if tree._type == LOOP:
+		return FExp(tree.tree)
+
+def Iter(tree):
+	if tree._type == EMPTY:
+		return set()
+	if tree._type == ROOT:
+		temp = set()
+		for x in tree.children:
+			temp = temp | FExp(x)
+		return x
+	if tree._type == LIST:
+		temp = set()
+		for x in tree.list:
+			temp = temp | FExp(x)
+		return temp
+	if tree._type == LOOP:
+		s = set([tree.I])
+		return s | FExp(tree.tree)	
+
+
 def Root(tree):
 	if tree._type == EMPTY:
 		return set()
@@ -24,8 +76,15 @@ def MatchTree(tau, t):
 	tau = tau.asList()
 	t = t.asList()
 
-	if tau._type == EMPTY and t._type == EMPTY:
+	if len(tau.list) == 0 and len(t.list) == 0:
 		return dict()
+
+	# currently means that an iterator should have 
+	# at least one element in its substitution; may 
+	# want to change this later
+
+	if len(tau.list) == 0 or len(t.list) == 0:
+		raise Exception('MatchTree', 'Only one argument empty')
 
 	if tau.list[0]._type == ROOT and t.list[0]._type == ROOT:
 		if tau.list[0].tag == t.list[0].tag:
