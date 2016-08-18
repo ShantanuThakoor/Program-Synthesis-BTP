@@ -67,6 +67,8 @@ class TreeExp:
 		if len(self.list) == 1:
 			inst = self.list[0]
 			return inst
+		if len(self.list) == 0:
+			return EmptyTree()
 		return self.copy()
 
 FEXP = 0

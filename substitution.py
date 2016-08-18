@@ -71,6 +71,12 @@ def Root(tree):
 			temp = temp | Root(x)
 		return temp
 
+def FirstRoot(t, e):
+	t = asList(t)
+	if len(t.list) == 0:
+		return False
+	return Root(t.list[0]) == e
+
 def MatchTree(tau, t):
 	
 	tau = tau.asList()
@@ -142,7 +148,7 @@ def ApplyTree(tau, sigma):
 	
 def MatchMap(phi, m):
 	d = dict()
-	for a in Var:
+	for a in phi.keys():
 		if not phi[a] in Var:
 			if not phi[a] == m[a]:
 				raise Exception('MatchMap', 'Not a substitution')
