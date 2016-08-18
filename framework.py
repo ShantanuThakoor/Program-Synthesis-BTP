@@ -27,9 +27,11 @@ def Scope(X):
 
 def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(set(), inputList)
+	tau1.printTree()
 	tau2 = InferTreeExp(set(), outputList)
+	tau2.printTree()
 	for x in Var(tau2) - Var(tau1):
-		for y in Var(tau1) if Scope(y) == Scope(x):
+		for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
 			f = InferLiteralFunction(GetLiterals(x, y))
 			if f is not None:
 				sigma = {x.v : Val(FEXP, y.v, f)}
@@ -48,13 +50,13 @@ def InferTreeExp(s, treeList):
 			allEmpty = False
 			break
 	if allEmpty:
-		return TreeExp.EmptyTree()
+		return EmptyTree()
 	candidates = flatten([list(Root(x)) for x in treeList])
 	filtered = []
 	for x in candidates:
 		works = False
 		for t in treeList:
-			if firstRoot(t, x):
+			if FirstRoot(t, x):
 				works = True
 				break
 		if works:
@@ -83,7 +85,7 @@ def InferTreeExp(s, treeList):
 				tempList.list.pop(0)
 			else:
 				break
-		tempTPrime = TreeExp.ListTree(tempList.list)
+		tempTPrime = ListTree(tempList.list)
 		if e in Root(tempTPrime):
 			raise Exception('InferTreeExp', 'Weird thing')
 		
@@ -97,11 +99,11 @@ def InferTreeExp(s, treeList):
 			rhoj = InferRootExp(s, [x[j] for x in rList])
 			rhoList.append(rhoj)
 		rhoList.append(tau)
-		return TreeExp.ListTree(rhoList)
+		return ListTree(rhoList)
 	I = IterMap((s, [len(x) for x in rList]))
 	rho = InferRootExp([s, I], flatten(rList))
-	loopTree = TreeExp.LoopTree(I, rho)
-	return TreeExp.ListTree(loopTree, tau)
+	loopTree = LoopTree(I, rho)
+	return ListTree(loopTree, tau)
 
 def InferRootExp(s, rList):
 	rList = [asAtomic(x) for x in rList]
@@ -117,7 +119,7 @@ def InferRootExp(s, rList):
 		tList.append(r.children)
 	phi = InferAttMap(s, mList)
 	tau = InferTreeExp(s, tList)
-	return TreeExp.RootTree(e, phi, tau)
+	return RootTree(e, phi, tau)
 
 def InferAttMap(s, mlist):
 	domain = mlist[0].keys()

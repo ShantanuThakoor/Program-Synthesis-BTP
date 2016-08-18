@@ -130,27 +130,27 @@ def ApplyTree(tau, sigma):
 	tau = asAtomic(tau)
 
 	if tau._type == EMPTY:
-		return TreeExp.EmptyTree()
+		return EmptyTree()
 
 	if tau._type == ROOT:
 		newMapping = ApplyMap(tau.map, sigma)
 		newList = ApplyTree(tau.children, sigma)
-		return TreeExp.RootTree(tau.tag, newMapping, newList)
+		return RootTree(tau.tag, newMapping, newList)
 
 	if tau._type == LOOP:
 		if not tau.I in sigma:
-			return TreeExp.LoopTree(tau.I, tau.tree)
+			return LoopTree(tau.I, tau.tree)
 		sigmaList = sigma[tau.I]
 		newList = []
 		for x in sigmaList:
 			newList = newList + ApplyTree(tau.tree, x)
-		return TreeExp.ListTree(newList)
+		return ListTree(newList)
 
 	tau = asList(tau)
 	if tau._type == LIST:
 		head = ApplyTree(tau.list[0], sigma)
-		tail = ApplyTree(TreeExp.ListTree(tau.list[1:]), sigma)
-		return TreeExp.ListTree(head, tail)
+		tail = ApplyTree(ListTree(tau.list[1:]), sigma)
+		return ListTree(head, tail)
 
 	raise Exception('ApplyTree', 'No case matched')
 
