@@ -60,6 +60,23 @@ class TreeExp:
 		inst.tree = tree
 		inst._type = LOOP
 
+	def printTree(self, indent=0):
+		if self._type == EMPTY:
+			print " "*indent,"[EMPTY]"
+		if self._type == ROOT:
+			print " "*indent,"[ROOT",self.tag," ",self.map," ]"
+			for x in self.children:
+				x.printTree(indent+4)
+		if self._type == LIST:
+			print " "*indent,"[BEGINLIST"
+			for x in self.list:
+				x.printTree(indent)
+			print " "*indent,"ENDLIST]"
+		if self._type == LOOP:
+			print " "*indent,"[LOOP",self.I,"]"
+			self.tree.printTree(indent+4)
+
+
 def asList(treegit):
 	if tree._type == EMPTY:
 		return ListTree([])

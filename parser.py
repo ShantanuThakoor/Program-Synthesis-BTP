@@ -1,8 +1,6 @@
 import xml.etree.ElementTree as ET 
 from grammar import *
-
-tree = ET.parse('input.xml')
-root = tree.getroot()
+from framework import *
 
 def createExpTree(node):
 	e = node.tag
@@ -11,4 +9,10 @@ def createExpTree(node):
 	tree = TreeExp.ListTree(treeList)
 	return TreeExp.RootTree(e, mapping, tree)
 
+inputList = [createExpTree(ET.parse('input.xml').getroot())]
+outputList = [createExpTree(ET.parse('output.xml').getroot())]
 
+P = InferProgram(inputList, outputList)
+
+P.input.printTree()
+P.output.printTree()
