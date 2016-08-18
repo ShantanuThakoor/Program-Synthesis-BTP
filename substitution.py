@@ -120,7 +120,7 @@ def ApplyTree(tau, sigma):
 
 	if tau._type == ROOT:
 		newMapping = ApplyMap(tau.map, sigma)
-		newList = ApplyTree(tau.list, sigma)
+		newList = ApplyTree(tau.children, sigma)
 		return TreeExp.RootTree(tau.tag, newMapping, newList)
 
 	if tau._type == LOOP:
