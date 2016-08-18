@@ -27,6 +27,10 @@ class TreeExp:
 
 	@staticmethod
 	def ListTree(treeList):
+		if len(treeList) == 0:
+			inst = TreeExp()
+			inst._type = EMPTY
+			return inst
 		inst = TreeExp()
 		inst._type = LIST
 		inst.list = treeList
