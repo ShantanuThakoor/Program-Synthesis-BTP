@@ -11,24 +11,63 @@ class Program:
 		self.output = output
 
 class TreeExp:
-	def __init__(self):
-		self._type = EMPTY
+	@staticmethod
+	def EmptyTree():
+		inst = TreeExp()
+		inst._type = EMPTY
+		return inst
 
-	def __init__(self, tag, _map, children):
-		self.tag = tag
-		self.map = _map
-		self.children = children
-		self._type = ROOT
+	@staticmethod
+	def RootTree(tag, _map, children):
+		inst = TreeExp()
+		inst.tag = tag
+		inst.map = _map
+		inst.children = children
+		inst._type = ROOT
 
-	def __init__(self, head, tail):
-		self.list = append(head, tail)
-		self._type = LIST
+	@staticmethod
+	def ListTree(treeList):
+		inst = TreeExp()
+		inst._type = LIST
+		inst.list = treeList
 
-	def __init__(self, I, tree):
-		self.I = I
-		self.tree = tree
-		self._type = LOOP
+	@staticmethod
+	def ListTree(head, tail):
+		inst = TreeExp()
 
+		firstList = []
+		secondList = []
+		if head._type in [ROOT, LOOP]:
+			firstList = [head]
+		if head._type == LIST:
+			firstList = head.list
+		if tail._type in [ROOT, LOOP]:
+			secondList = [tail]
+		if tail._type == LIST:
+			secondList = tail.list
+
+		inst.list = firstList + secondList
+		inst._type = LIST
+
+	@staticmethod
+	def LoopTree(I, tree):
+		inst = TreeExp()
+		inst.I = I
+		inst.tree = tree
+		inst._type = LOOP
+
+	def asList(self):
+		if self._type == EMPTY:
+			return EmptyTree()
+		return ListTree(self, EmptyTree())
+
+	def asAtomic(self):
+		if self._type in [ROOT, LOOP, EMPTY]:
+			return self.copy()
+		if len(self.list) == 1:
+			inst = self.list[0]
+			return inst
+		return self.copy()
 
 FEXP = 0
 VAR = 1
