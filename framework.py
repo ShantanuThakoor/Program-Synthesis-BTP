@@ -6,6 +6,9 @@ InverseVarMap = dict()
 IterMap = dict()
 Var = set()
 
+def flatten(l):
+	return [val for sublist in l for val in sublist]
+
 def InferLiteralFunction(inputs, outputs):
 	d = dict()
 	for i in range(len(inputs)):
@@ -25,7 +28,30 @@ def InferTreeExp(s, treeList):
 			break
 	if allEmpty:
 		return TreeExp.EmptyTree()
+	candidates = [flatten(Root(x)) for x in treeList]
+	filtered = []
+	for x in candidates:
+		works = False
+		for t in treeList:
+			if firstRoot(t, x):
+				works = True
+				break
+		if works:
+			filtered.append(x)
+	e = None
+	for x in filtered:
+		works = True
+		for t in treeList:
+			if x in Root(t) and not FirstRoot(t, x):
+				works = False
+				break
+		if works:
+			e = x
+			break
+	if e is None:
+		raise Exception('InferTreeExp', 'No e')
 	
+
 
 def InferAttMap(s, mlist):
 	domain = mlist[0].keys()
@@ -43,7 +69,7 @@ def InferAttMap(s, mlist):
 		if allSame:
 			phi[a] = v
 		else:
-			phi[a] = VarMap[(s, mlist)]
+			phi[a] = VarMap[(s, [y[a] for y in mlist])]
 	return phi
 
 def GetLiterals(x1, x2):

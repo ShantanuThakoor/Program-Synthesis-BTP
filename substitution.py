@@ -56,7 +56,6 @@ def Iter(tree):
 		s = set([tree.I])
 		return s | FExp(tree.tree)	
 
-
 def Root(tree):
 	if tree._type == EMPTY:
 		return set()
