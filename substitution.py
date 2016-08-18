@@ -6,6 +6,7 @@ def merge(x, y):
 	return z
 
 def Var(tree):
+	tree = asAtomic(tree)
 	if tree._type == EMPTY:
 		return set()
 	if tree._type == ROOT:
@@ -13,16 +14,18 @@ def Var(tree):
 		temp = [x for x in mapping.values() if x._type == VAR]
 		for x in tree.children:
 			temp = temp | Var(x)
-		return x
+		return temp
+	if tree._type == LOOP:
+		return Var(tree.tree)
+	tree = asList(tree)
 	if tree._type == LIST:
 		temp = set()
 		for x in tree.list:
 			temp = temp | Var(x)
 		return temp
-	if tree._type == LOOP:
-		return Var(tree.tree)
 
 def FExp(tree):
+	tree = asAtomic(tree)
 	if tree._type == EMPTY:
 		return set()
 	if tree._type == ROOT:
@@ -30,45 +33,51 @@ def FExp(tree):
 		temp = [x for x in mapping.values() if x._type == FEXP]
 		for x in tree.children:
 			temp = temp | FExp(x)
-		return x
+		return temp
+	if tree._type == LOOP:
+		return FExp(tree.tree)
+	tree = asList(tree)
 	if tree._type == LIST:
 		temp = set()
 		for x in tree.list:
 			temp = temp | FExp(x)
 		return temp
-	if tree._type == LOOP:
-		return FExp(tree.tree)
 
 def Iter(tree):
+	tree = asAtomic(tree)
 	if tree._type == EMPTY:
 		return set()
 	if tree._type == ROOT:
 		temp = set()
 		for x in tree.children:
-			temp = temp | FExp(x)
-		return x
+			temp = temp | Iter(x)
+		return temp 
+	if tree._type == LOOP:
+		s = set([tree.I])
+		return s | Iter(tree.tree)	
+	tree = asList(tree)
 	if tree._type == LIST:
 		temp = set()
 		for x in tree.list:
-			temp = temp | FExp(x)
+			temp = temp | Iter(x)
 		return temp
-	if tree._type == LOOP:
-		s = set([tree.I])
-		return s | FExp(tree.tree)	
 
 def Root(tree):
+	tree = asAtomic(tree)
 	if tree._type == EMPTY:
 		return set()
 	if tree._type == ROOT:
 		return tree.tag
 	if tree._type == LOOP:
-		if tree.tree._type == ROOT:
-			return tree.tree.tag
+		if asAtomic(tree.tree)._type == ROOT:
+			return asAtomic(tree.tree).tag
+	tree = asList(tree)
 	if tree._type == LIST:
 		temp = set()
 		for x in tree.list:
 			temp = temp | Root(x)
 		return temp
+	raise Exception("Root", "No cases matched")
 
 def FirstRoot(t, e):
 	t = asList(t)
@@ -137,6 +146,7 @@ def ApplyTree(tau, sigma):
 			newList = newList + ApplyTree(tau.tree, x)
 		return TreeExp.ListTree(newList)
 
+	tau = tau.asList()
 	if tau._type == LIST:
 		head = ApplyTree(tau.list[0], sigma)
 		tail = ApplyTree(TreeExp.ListTree(tau.list[1:]), sigma)
@@ -148,9 +158,10 @@ def ApplyTree(tau, sigma):
 def MatchMap(phi, m):
 	d = dict()
 	for a in phi.keys():
-		if not phi[a] in Var:
-			if not phi[a] == m[a]:
-				raise Exception('MatchMap', 'Not a substitution')
+		varCond = phi[a]._type != VAR
+		otherCond = phi[a] == (None if a not in m else m[a])
+		if varCond != otherCond:
+			raise Exception('MatchMap', 'Not a substitution')
 		d = merge(d, {phi[a] : m[a]})
 	return d
 
@@ -163,4 +174,4 @@ def ApplyMap(phi, sigma):
 			ret[a] = Val(LIT, phi[a].f(sigma[phi[a].v]))
 		else:
 			ret[a] = phi[a]
-
+	return ret
