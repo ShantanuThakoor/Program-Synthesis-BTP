@@ -32,7 +32,7 @@ class TreeExp:
 				x.printTree(indent)
 			print " "*indent,"ENDLIST]"
 		if self._type == LOOP:
-			print " "*indent,"[LOOP",self.I,"]"
+			print " "*indent,"[LOOP",self.I.v,"]"
 			self.tree.printTree(indent+4)
 
 def EmptyTree():

@@ -1,10 +1,29 @@
 from grammar import *
 from substitution import *
 
-VarMap = dict()
+VarMapInternal = dict()
 InverseVarMap = dict()
-IterMap = dict()
-Var = frozenset()
+def VarMap(scope, valList):
+	global InverseVarMap
+	global VarMapInternal
+	key = (tuple(scope), tuple(valList))
+	if key in VarMapInternal:
+		return VarMapInternal[key]
+	newX = Val(VAR, "X" + str(len(InverseVarMap)))
+	VarMapInternal[key] = newX
+	InverseVarMap[newX] = key
+	return newX
+
+IterMapInternal = dict()
+def IterMap(scope, numList):
+	global IterMapInternal
+	key = (tuple(scope), tuple(numList))
+	if key in IterMapInternal:
+		return IterMapInternal[key]
+	itersAssigned = len(IterMapInternal)
+	newI = Val(ITER, "I" + str(itersAssigned))
+	IterMapInternal[key] = newI
+	return newI
 
 def flatten(l):
 	return [val for sublist in l for val in sublist]
@@ -27,9 +46,10 @@ def Scope(X):
 
 def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(frozenset(), inputList)
-	tau1.printTree()
 	tau2 = InferTreeExp(frozenset(), outputList)
-	tau2.printTree()
+	print [x.v for x in Var(tau1)]
+	tau1.printTree()
+	return
 	for x in Var(tau2) - Var(tau1):
 		for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
 			f = InferLiteralFunction(GetLiterals(x, y))
@@ -54,7 +74,6 @@ def InferTreeExp(s, treeList):
 	candidates = flatten([list(Root(x)) for x in treeList])
 	candidates = list(frozenset(candidates))
 	filtered = []
-	print candidates
 	for x in candidates:
 		works = False
 		for t in treeList:
@@ -102,8 +121,8 @@ def InferTreeExp(s, treeList):
 			rhoList.append(rhoj)
 		rhoList.append(tau)
 		return ListTree(rhoList)
-	I = IterMap[(tuple(s), tuple([len(x) for x in rList]))]
-	rho = InferRootExp([s, I], flatten(rList))
+	I = IterMap(tuple(s), tuple([len(x) for x in rList]))
+	rho = InferRootExp(s | frozenset([I]), flatten(rList))
 	loopTree = LoopTree(I, rho)
 	return ListTree(loopTree, tau)
 
@@ -133,13 +152,13 @@ def InferAttMap(s, mlist):
 		v = mlist[0][a]
 		allSame = True
 		for x in mlist:
-			if x[a] != v:
+			if x[a].v != v.v:
 				allSame = False
 				break
 		if allSame:
 			phi[a] = v
 		else:
-			phi[a] = VarMap[(s, [y[a] for y in mlist])]
+			phi[a] = VarMap(s, [y[a] for y in mlist])
 	return phi
 
 def GetLiterals(x1, x2):

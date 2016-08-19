@@ -11,8 +11,8 @@ def Var(tree):
 		return frozenset()
 	if tree._type == ROOT:
 		mapping = tree.map
-		temp = [x for x in mapping.values() if x._type == VAR]
-		for x in tree.children:
+		temp = frozenset([x for x in mapping.values() if x._type == VAR])
+		for x in asList(tree.children).list:
 			temp = temp | Var(x)
 		return temp
 	if tree._type == LOOP:
@@ -31,7 +31,7 @@ def FExp(tree):
 	if tree._type == ROOT:
 		mapping = tree.map
 		temp = [x for x in mapping.values() if x._type == FEXP]
-		for x in tree.children:
+		for x in asList(tree.children).list:
 			temp = temp | FExp(x)
 		return temp
 	if tree._type == LOOP:
@@ -49,9 +49,9 @@ def Iter(tree):
 		return frozenset()
 	if tree._type == ROOT:
 		temp = frozenset()
-		for x in tree.children:
+		for x in asList(tree.children).list:
 			temp = temp | Iter(x)
-		return temp 
+		return temp
 	if tree._type == LOOP:
 		s = frozenset([tree.I])
 		return s | Iter(tree.tree)	

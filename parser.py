@@ -18,12 +18,10 @@ outputs = ET.parse('output.xml').getroot()
 inputList = [createExpTree(x) for x in inputs]
 outputList = [createExpTree(x) for x in outputs]
 
-r = Root(inputList[0])
+#P = InferProgram(inputList, outputList)
 
-print r
-print FirstRoot(asAtomic(inputList[0]), r)
+trials = ET.parse('trial.xml').getroot()
+trialList = [createExpTree(x) for x in trials]
 
-P = InferProgram(inputList, outputList)
-
-P.input.printTree()
-P.output.printTree()
+# t = InferTreeExp(frozenset(), trialList)
+# t.printTree()

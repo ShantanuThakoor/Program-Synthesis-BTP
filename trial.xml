@@ -1,0 +1,10 @@
+<trial>
+	<parent>
+		<child a="a" b="b"></child>
+		<child a="a" b="c"></child>
+	</parent>
+	<parent>
+		<child a="a" b="c"></child>
+		<child a="d" b="c"></child>
+	</parent>
+</trial>
