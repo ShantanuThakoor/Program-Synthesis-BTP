@@ -8,7 +8,7 @@ def merge(x, y):
 def Var(tree):
 	tree = asAtomic(tree)
 	if tree._type == EMPTY:
-		return set()
+		return frozenset()
 	if tree._type == ROOT:
 		mapping = tree.map
 		temp = [x for x in mapping.values() if x._type == VAR]
@@ -19,7 +19,7 @@ def Var(tree):
 		return Var(tree.tree)
 	tree = asList(tree)
 	if tree._type == LIST:
-		temp = set()
+		temp = frozenset()
 		for x in tree.list:
 			temp = temp | Var(x)
 		return temp
@@ -27,7 +27,7 @@ def Var(tree):
 def FExp(tree):
 	tree = asAtomic(tree)
 	if tree._type == EMPTY:
-		return set()
+		return frozenset()
 	if tree._type == ROOT:
 		mapping = tree.map
 		temp = [x for x in mapping.values() if x._type == FEXP]
@@ -38,7 +38,7 @@ def FExp(tree):
 		return FExp(tree.tree)
 	tree = asList(tree)
 	if tree._type == LIST:
-		temp = set()
+		temp = frozenset()
 		for x in tree.list:
 			temp = temp | FExp(x)
 		return temp
@@ -46,18 +46,18 @@ def FExp(tree):
 def Iter(tree):
 	tree = asAtomic(tree)
 	if tree._type == EMPTY:
-		return set()
+		return frozenset()
 	if tree._type == ROOT:
-		temp = set()
+		temp = frozenset()
 		for x in tree.children:
 			temp = temp | Iter(x)
 		return temp 
 	if tree._type == LOOP:
-		s = set([tree.I])
+		s = frozenset([tree.I])
 		return s | Iter(tree.tree)	
 	tree = asList(tree)
 	if tree._type == LIST:
-		temp = set()
+		temp = frozenset()
 		for x in tree.list:
 			temp = temp | Iter(x)
 		return temp
@@ -65,15 +65,15 @@ def Iter(tree):
 def Root(tree):
 	tree = asAtomic(tree)
 	if tree._type == EMPTY:
-		return set()
+		return frozenset()
 	if tree._type == ROOT:
-		return tree.tag
+		return frozenset([tree.tag])
 	if tree._type == LOOP:
 		if asAtomic(tree.tree)._type == ROOT:
-			return asAtomic(tree.tree).tag
+			return frozenset([asAtomic(tree.tree).tag])
 	tree = asList(tree)
 	if tree._type == LIST:
-		temp = set()
+		temp = frozenset()
 		for x in tree.list:
 			temp = temp | Root(x)
 		return temp
@@ -83,7 +83,7 @@ def FirstRoot(t, e):
 	t = asList(t)
 	if len(t.list) == 0:
 		return False
-	return Root(t.list[0]) == e
+	return Root(t.list[0]) == frozenset([e])
 
 def MatchTree(tau, t):
 	

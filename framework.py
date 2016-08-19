@@ -4,7 +4,7 @@ from substitution import *
 VarMap = dict()
 InverseVarMap = dict()
 IterMap = dict()
-Var = set()
+Var = frozenset()
 
 def flatten(l):
 	return [val for sublist in l for val in sublist]
@@ -26,9 +26,9 @@ def Scope(X):
 	return InverseVarMap[X][0]
 
 def InferProgram(inputList, outputList):
-	tau1 = InferTreeExp(set(), inputList)
+	tau1 = InferTreeExp(frozenset(), inputList)
 	tau1.printTree()
-	tau2 = InferTreeExp(set(), outputList)
+	tau2 = InferTreeExp(frozenset(), outputList)
 	tau2.printTree()
 	for x in Var(tau2) - Var(tau1):
 		for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
@@ -52,7 +52,9 @@ def InferTreeExp(s, treeList):
 	if allEmpty:
 		return EmptyTree()
 	candidates = flatten([list(Root(x)) for x in treeList])
+	candidates = list(frozenset(candidates))
 	filtered = []
+	print candidates
 	for x in candidates:
 		works = False
 		for t in treeList:
@@ -80,7 +82,7 @@ def InferTreeExp(s, treeList):
 		tempRList = []
 		while tempList.list:
 			r = tempList.list[0]
-			if Root(r) == set([e]):
+			if Root(r) == frozenset([e]):
 				tempRList.append(r)
 				tempList.list.pop(0)
 			else:
@@ -100,7 +102,7 @@ def InferTreeExp(s, treeList):
 			rhoList.append(rhoj)
 		rhoList.append(tau)
 		return ListTree(rhoList)
-	I = IterMap((s, [len(x) for x in rList]))
+	I = IterMap[(tuple(s), tuple([len(x) for x in rList]))]
 	rho = InferRootExp([s, I], flatten(rList))
 	loopTree = LoopTree(I, rho)
 	return ListTree(loopTree, tau)
@@ -149,12 +151,12 @@ def GetLiterals(x1, x2):
 		raise Exception('Get Literals', 'Lengths not same')
 	if preimage1[0] != preimage2[0]:
 		raise Exception('Get Literals', 'Scope different')
-	R = set()
+	R = frozenset()
 	for i in range(len(preimage1[1])):
 		if preimage1[1][i]._type == VAR and preimage2[1][i]._type == VAR:
 			R = R | GetLiterals(preimage1[1][i], preimage2[1][i])
 		elif preimage1[1][i]._type == LIT and preimage2[1][i]._type == LIT:
-			R = R | set([preimage1[1][i], preimage2[1][i]])
+			R = R | frozenset([preimage1[1][i], preimage2[1][i]])
 		else:
 			raise Exception('Get Literals', 'Apparent mismatch of literal and variable')
 	return R

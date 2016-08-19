@@ -52,10 +52,6 @@ def RootTree(tag, _map, children):
 def ListTree(treeList, o=None):
 	if o is not None:
 		return ListTree2(treeList, o)
-	if len(treeList) == 0:
-		inst = TreeExp()
-		inst._type = EMPTY
-		return inst
 	inst = TreeExp()
 	inst._type = LIST
 	inst.list = treeList
@@ -119,8 +115,6 @@ class Iter:
 	def __init__(self, v):
 		self._type = ITER
 		self.v = v
-
-# Define Var as a set here
 
 
 
