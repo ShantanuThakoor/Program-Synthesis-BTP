@@ -14,6 +14,7 @@ def VarMap(scope, valList):
 	InverseVarMap[newX] = key
 	return newX
 
+# Use this one with some modification if the same loop requests an iterator more than once
 IterMapInternal = dict()
 def IterMap(scope, numList):
 	global IterMapInternal
@@ -25,10 +26,19 @@ def IterMap(scope, numList):
 	IterMapInternal[key] = newI
 	return newI
 
+def setOfPairsToLists(s):
+	a = []
+	b = []
+	for x in s:
+		a.append(x[0])
+		b.append(x[1])
+	return (a, b)
+
 def flatten(l):
 	return [val for sublist in l for val in sublist]
 
-def InferLiteralFunction(inputs, outputs):
+def InferLiteralFunction(ios):
+	inputs, outputs = setOfPairsToLists(ios)
 	d = dict()
 	for i in range(len(inputs)):
 		d[inputs[i]] = outputs[i]
@@ -46,16 +56,16 @@ def Scope(X):
 
 def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(frozenset(), inputList)
-	tau2 = InferTreeExp(frozenset(), outputList)
-	print [x.v for x in Var(tau1)]
 	tau1.printTree()
-	return
+	tau2 = InferTreeExp(frozenset(), outputList)
 	for x in Var(tau2) - Var(tau1):
 		for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
+			print x.v,y.v
 			f = InferLiteralFunction(GetLiterals(x, y))
 			if f is not None:
-				sigma = {x.v : Val(FEXP, y.v, f)}
+				sigma = {x : Val(FEXP, y.v, f)}
 				tau2 = ApplyTree(tau2, sigma)
+				break # not in pseudocode, but makes sense
 
 	subsetCond = not Var(tau2).issubset(Var(tau1))
 	otherCond = not Iter(tau2).issubset(Iter(tau1))
@@ -175,7 +185,7 @@ def GetLiterals(x1, x2):
 		if preimage1[1][i]._type == VAR and preimage2[1][i]._type == VAR:
 			R = R | GetLiterals(preimage1[1][i], preimage2[1][i])
 		elif preimage1[1][i]._type == LIT and preimage2[1][i]._type == LIT:
-			R = R | frozenset([preimage1[1][i], preimage2[1][i]])
+			R = R | frozenset([(preimage1[1][i], preimage2[1][i])])
 		else:
 			raise Exception('Get Literals', 'Apparent mismatch of literal and variable')
 	return R

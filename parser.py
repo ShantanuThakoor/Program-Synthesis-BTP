@@ -7,7 +7,7 @@ def createExpTree(node):
 	mapping = dict()
 	for key in node.attrib:
 		value = node.attrib[key]
-		mapping[key] = Val('LIT', value)
+		mapping[key] = Val(LIT, value)
 	treeList = [createExpTree(c) for c in node]
 	tree = ListTree(treeList)
 	return RootTree(e, mapping, tree)
@@ -18,10 +18,10 @@ outputs = ET.parse('output.xml').getroot()
 inputList = [createExpTree(x) for x in inputs]
 outputList = [createExpTree(x) for x in outputs]
 
-#P = InferProgram(inputList, outputList)
+P = InferProgram(inputList, outputList)
 
-trials = ET.parse('trial.xml').getroot()
-trialList = [createExpTree(x) for x in trials]
-
+# to test LGG creation
+# trials = ET.parse('trial.xml').getroot()
+# trialList = [createExpTree(x) for x in trials]
 # t = InferTreeExp(frozenset(), trialList)
 # t.printTree()

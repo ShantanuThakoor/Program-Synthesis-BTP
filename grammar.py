@@ -13,7 +13,7 @@ class Program:
 def pretty(m):
 	s = "{"
 	for i in m:
-		s += i + " : " + m[i].v + "| "
+		s += i + " : " + ("fof " if m[i]._type == FEXP else "") + m[i].v + "| "
 	s += "}"
 	return s
 

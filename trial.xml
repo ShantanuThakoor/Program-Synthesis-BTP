@@ -5,6 +5,5 @@
 	</parent>
 	<parent>
 		<child a="a" b="c"></child>
-		<child a="d" b="c"></child>
 	</parent>
 </trial>
