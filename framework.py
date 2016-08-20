@@ -60,13 +60,14 @@ def InferProgram(inputList, outputList):
 	tau2 = InferTreeExp(frozenset(), outputList)
 	for x in Var(tau2) - Var(tau1):
 		for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
-			print x.v,y.v
 			f = InferLiteralFunction(GetLiterals(x, y))
 			if f is not None:
-				sigma = {x : Val(FEXP, y.v, f)}
-				tau2 = ApplyTree(tau2, sigma)
+				# May not be best to use applytree here
+				# sigma = {x : Val(FEXP, y.v, f)}
+				# tau2 = ApplyTree(tau2, sigma)
+				tau2 = tau2.replace(x, Val(FEXP, y.v, f))
 				break # not in pseudocode, but makes sense
-
+	tau2.printTree()
 	subsetCond = not Var(tau2).issubset(Var(tau1))
 	otherCond = not Iter(tau2).issubset(Iter(tau1))
 	if subsetCond or otherCond:

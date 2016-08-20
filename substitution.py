@@ -135,6 +135,7 @@ def ApplyTree(tau, sigma):
 	if tau._type == ROOT:
 		newMapping = ApplyMap(tau.map, sigma)
 		newList = ApplyTree(tau.children, sigma)
+		newList.printTree()
 		return RootTree(tau.tag, newMapping, newList)
 
 	if tau._type == LOOP:

@@ -29,11 +29,26 @@ class TreeExp:
 		if self._type == LIST:
 			print " "*indent,"[BEGINLIST"
 			for x in self.list:
-				x.printTree(indent)
+				x.printTree(indent+4)
 			print " "*indent,"ENDLIST]"
 		if self._type == LOOP:
 			print " "*indent,"[LOOP",self.I.v,"]"
 			self.tree.printTree(indent+4)
+
+	def replace(self, x, y):
+		if self._type == EMPTY:
+			return EmptyTree()
+		if self._type == ROOT:
+			m = self.map
+			for a in m:
+				if m[a].v == x.v:
+					m[a] = y
+			return RootTree(self.tag, m, self.children.replace(x, y))
+		if self._type == LOOP:
+			return LoopTree(self.I, self.tree.replace(x, y))
+		if self._type == LIST:
+			l = [z.replace(x, y) for z in self.list]
+			return ListTree(l)
 
 def EmptyTree():
 	inst = TreeExp()
