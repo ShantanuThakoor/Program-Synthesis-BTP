@@ -50,6 +50,33 @@ class TreeExp:
 			l = [z.replace(x, y) for z in self.list]
 			return ListTree(l)
 
+	def toXML(self, indent=0):
+		if self._type == EMPTY:
+			return ""
+		if self._type == LOOP:
+			raise Exception('printXML', 'Not concrete')
+		s = ""
+		if self._type == ROOT:
+			s += " " * indent
+			s += "<"
+			s += self.tag
+			for x in self.map:
+				s += " "
+				s += x
+				s += "="
+				s += self.map[x].v
+			s += ">\n"
+			s += self.children.toXML(indent+4)
+			s += " " * indent
+			s += "</"
+			s += self.tag
+			s += ">\n"
+			return s
+		if self._type == LIST:
+			for t in self.list:
+				s += t.toXML(indent)
+			return s
+
 def EmptyTree():
 	inst = TreeExp()
 	inst._type = EMPTY

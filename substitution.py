@@ -154,7 +154,6 @@ def ApplyTree(tau, sigma):
 		sigmaList = sigma[tau.I]
 		newList = []
 		for x in sigmaList:
-			print pretty(x)
 			newList = newList + [ApplyTree(tau.tree, x)]
 		return ListTree(newList)
 

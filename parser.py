@@ -23,7 +23,8 @@ P = InferProgram(inputList, outputList)
 tests = ET.parse('test.xml').getroot()
 testList = [createExpTree(x) for x in tests]
 t = testList[0]
-t.printTree()
 
 t = RunProgram(P, t)
-t.printTree()
+
+s = t.toXML()
+print s

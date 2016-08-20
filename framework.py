@@ -209,7 +209,6 @@ def GetLiterals(x1, x2):
 
 def RunProgram(P, t):
 	sigma = MatchTree(P.input, t)
-	P.output.printTree()
 	tPrime = ApplyTree(P.output, sigma)
 	if len(Var(tPrime)) == 0 and len(Iter(tPrime)) == 0:
 		return tPrime
