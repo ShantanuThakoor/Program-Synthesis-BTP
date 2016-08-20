@@ -1,0 +1,14 @@
+<output>
+
+	<table>
+		<tableRow>
+			<rowPr border="1" height="2"></rowPr>
+			<tableCell text="P4" color="blue" font="Times" size="12" bold="1"></tableCell>
+		</tableRow>
+		<tableRow>
+			<rowPr border="1" height="2"></rowPr>
+			<tableCell text="P5" color="red" font="Times" size="12" bold="0"></tableCell>
+		</tableRow>
+	</table>
+
+</output>

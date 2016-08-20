@@ -1,0 +1,14 @@
+<input>
+
+	<textBox>
+		<para text="A2" color="red" font="Arial" size="13" bold="1"></para>
+		<para text="A3" color="blue" font="Arial" size="13" bold="0"></para>
+		<para text="A3" color="green" font="Arial" size="13" bold="0"></para>
+	</textBox>
+	
+	<textBox>
+		<para text="A1" color="yellow" font="Arial" size="13" bold="1"></para>
+		<para text="A1" color="red" font="Arial" size="13" bold="0"></para>
+	</textBox>
+
+</input>
