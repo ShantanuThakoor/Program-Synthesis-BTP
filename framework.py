@@ -62,7 +62,6 @@ def InferDict(ios):
 				return None
 		d[inputs[i]] = outputs[i]
 	return lambda x : d[x]
-	
 
 def Scope(X):
 	if not X in InverseVarMap:
@@ -211,8 +210,8 @@ def GetLiterals(x1, x2):
 	return R
 
 def RunProgram(P, t):
-	sigma = MatchMap(P.input, t)
-	tPrime = Apply(tau2, sigma)
+	sigma = MatchTree(P.input, t)
+	tPrime = ApplyTree(tau2, sigma)
 	if len(Var(tPrime)) == 0 and len(Iter(tPrime)) == 0:
 		return tPrime
 	raise Exception('RunProgram', 'Output not concrete')

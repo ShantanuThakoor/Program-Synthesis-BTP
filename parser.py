@@ -14,17 +14,16 @@ def createExpTree(node):
 
 inputs = ET.parse('input.xml').getroot()
 outputs = ET.parse('output.xml').getroot()
-#tests = ET.parse('test.xml').getroot()
 
 inputList = [createExpTree(x) for x in inputs]
 outputList = [createExpTree(x) for x in outputs]
 
 P = InferProgram(inputList, outputList)
 
+tests = ET.parse('test.xml').getroot()
+testList = [createExpTree(x) for x in tests]
+t = testList[0]
+t.printTree()
 
-
-# to test LGG creation
-# trials = ET.parse('trial.xml').getroot()
-# trialList = [createExpTree(x) for x in trials]
-# t = InferTreeExp(frozenset(), trialList)
-# t.printTree()
+t = RunProgram(P, t)
+t.printTree()

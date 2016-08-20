@@ -104,13 +104,13 @@ def MatchTree(tau, t):
 		if tau.list[0].tag == t.list[0].tag:
 			temp1 = MatchMap(tau.list[0].map, t.list[0].map)
 			temp2 = MatchTree(tau.list[0].children, t.list[0].children)
-			temp3 = MatchTree(tau.list[1:], t.list[1:])
+			temp3 = MatchTree(ListTree(tau.list[1:]), ListTree(t.list[1:]))
 			return merge(temp1, merge(temp2, temp3))
 
 	if tau.list[0]._type == LOOP:
 		rho = tau.list[0].tree
 		rhoRoot = Root(rho)
-		tauPrime = tau.list[1:]
+		tauPrime = ListTree(tau.list[1:])
 		rList = []
 		if not Root(tauPrime).issuperset(rhoRoot):
 				while t.list:
@@ -121,7 +121,7 @@ def MatchTree(tau, t):
 					else:
 						break
 				d = {tau.list[0].I : rList}
-				temp = MatchTree(tauPrime, t.list)
+				temp = MatchTree(tauPrime, ListTree(t.list))
 				return merge(temp, d)
 
 	raise Exception('MatchTree', 'No case matched')
@@ -158,6 +158,7 @@ def ApplyTree(tau, sigma):
 	
 def MatchMap(phi, m):
 	d = dict()
+	print pretty(phi), pretty(m)
 	for a in phi.keys():
 		varCond = phi[a]._type != VAR
 		otherCond = phi[a] == (None if a not in m else m[a])

@@ -2,13 +2,13 @@
 
 	<textBox>
 		<para text="P1" color="blue" font="Arial" size="12" bold="0"></para>
-		<para text="P2" color="blue" font="Arial" size="12" bold="1"></para>
+		<para text="P2" color="green" font="Arial" size="12" bold="1"></para>
 		<para text="P3" color="blue" font="Arial" size="12" bold="1"></para>
 	</textBox>
 	
 	<textBox>
 		<para text="P1" color="blue" font="Arial" size="12" bold="0"></para>
-		<para text="P2" color="blue" font="Arial" size="12" bold="1"></para>
+		<para text="P2" color="red" font="Arial" size="12" bold="1"></para>
 	</textBox>
 
 </input>
