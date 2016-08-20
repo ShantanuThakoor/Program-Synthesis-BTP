@@ -37,17 +37,32 @@ def setOfPairsToLists(s):
 def flatten(l):
 	return [val for sublist in l for val in sublist]
 
-def InferLiteralFunction(ios):
+def InferIdentity(ios):
 	inputs, outputs = setOfPairsToLists(ios)
+	inputs = map(lambda x: x.v, inputs)
+	outputs = map(lambda x: x.v, outputs)
+	if inputs == outputs:
+		return lambda x: x
+	return None
+
+def InferConst(ios):
+	_, outputs = setOfPairsToLists(ios)
+	outputs = map(lambda x: x.v, outputs)
+	if len(set(outputs)) == 1:
+		return lambda x: outputs[0]
+
+def InferDict(ios):
+	inputs, outputs = setOfPairsToLists(ios)
+	inputs = map(lambda x: x.v, inputs)
+	outputs = map(lambda x: x.v, outputs)
 	d = dict()
 	for i in range(len(inputs)):
+		if inputs[i] in d:
+			if inputs[i] != outputs[i]:
+				return None
 		d[inputs[i]] = outputs[i]
-	randomElement = outputs[0]
-	def func(x):
-		if x in d:
-			return d[x]
-		return randomElement
-	return func
+	return lambda x : d[x]
+	
 
 def Scope(X):
 	if not X in InverseVarMap:
@@ -59,14 +74,18 @@ def InferProgram(inputList, outputList):
 	tau1.printTree()
 	tau2 = InferTreeExp(frozenset(), outputList)
 	for x in Var(tau2) - Var(tau1):
-		for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
-			f = InferLiteralFunction(GetLiterals(x, y))
-			if f is not None:
-				# May not be best to use applytree here
-				# sigma = {x : Val(FEXP, y.v, f)}
-				# tau2 = ApplyTree(tau2, sigma)
-				tau2 = tau2.replace(x, Val(FEXP, y.v, f))
-				break # not in pseudocode, but makes sense
+		found = False
+		for t in [InferIdentity, InferConst, InferDict]:
+			if found:
+				break
+			for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
+				f = t(GetLiterals(x, y))
+				if f is not None:
+					found = True
+					tau2 = tau2.replace(x, Val(FEXP, y.v, f))
+					break
+		if not found:
+			raise Exception('InferProgram', 'Could not infer literal functions')
 	tau2.printTree()
 	subsetCond = not Var(tau2).issubset(Var(tau1))
 	otherCond = not Iter(tau2).issubset(Iter(tau1))
