@@ -1,0 +1,14 @@
+<output>
+
+	<table>
+		<tableRow>
+			<rowPr border="12" height="2"></rowPr>
+			<tableCell text="P4" color="red" font="TNR" size="12" bold="12"></tableCell>
+		</tableRow>
+		<tableRow>
+			<rowPr border="14" height="2"></rowPr>
+			<tableCell text="P6" color="red" font="CSMS" size="12" bold="14"></tableCell>
+		</tableRow>
+	</table>
+	
+</output>

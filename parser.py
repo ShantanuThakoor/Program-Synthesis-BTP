@@ -13,7 +13,7 @@ def createExpTree(node):
 	tree = ListTree(treeList)
 	return RootTree(e, mapping, tree)
 
-i = 2
+i = 3
 inputFile = "inputs/input" + str(i) + ".xml"
 outputFile = "outputs/output" + str(i) + ".xml"
 testInputFile = "testinputs/testinput" + str(i) + ".xml"
@@ -27,17 +27,17 @@ outputList = [createExpTree(x) for x in outputs]
 
 P = InferProgram(inputList, outputList)
 
-testInput = ET.parse(testInputFile).getroot()
-testInput = [createExpTree(x) for x in testInput][0]
+temp = ET.parse(testInputFile).getroot()
+testInputList = [createExpTree(x) for x in temp]
 
-testOutput = ET.parse(testOutputFile).getroot()
-testOutput = [createExpTree(x) for x in testOutput][0]
+temp = ET.parse(testOutputFile).getroot()
+testOutputList = [createExpTree(x) for x in temp]
 
+for i in range(len(testInputList)):
+	prediction = RunProgram(P, testInputList[i])
 
-prediction = RunProgram(P, testInput)
-
-print "Output"
-print prediction.toXML()
-print "\n"*3
-print "Expected output"
-print testOutput.toXML()
+	print "Output"
+	print prediction.toXML()
+	print "\n"*3
+	print "Expected output"
+	print testOutputList[i].toXML()

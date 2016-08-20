@@ -1,0 +1,8 @@
+<input>
+
+   <textBox>
+      <para text="P4" color="yellow" font="TNR" size="12"></para>
+      <para text="P6" color="violet" font="CSMS" size="14"></para>
+   </textBox>
+
+</input>
