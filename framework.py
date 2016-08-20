@@ -58,7 +58,7 @@ def InferDict(ios):
 	d = dict()
 	for i in range(len(inputs)):
 		if inputs[i] in d:
-			if inputs[i] != outputs[i]:
+			if d[inputs[i]] != outputs[i]:
 				return None
 		d[inputs[i]] = outputs[i]
 	return lambda x : d[x]
@@ -71,9 +71,13 @@ def Scope(X):
 def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(frozenset(), inputList)
 	tau2 = InferTreeExp(frozenset(), outputList)
+	tau1.printTree()
+	tau2.printTree()
 	for x in Var(tau2) - Var(tau1):
 		found = False
+		i = 0
 		for t in [InferIdentity, InferConst, InferDict]:
+			i = i + 1
 			if found:
 				break
 			for y in [y for y in Var(tau1) if Scope(y) == Scope(x)]:
@@ -81,9 +85,10 @@ def InferProgram(inputList, outputList):
 				if f is not None:
 					found = True
 					tau2 = tau2.replace(x, Val(FEXP, y.v, f))
+					# print x.v, "is", i, y.v
 					break
 		if not found:
-			raise Exception('InferProgram', 'Could not infer literal functions')
+			raise Exception('InferProgram', 'Could not infer literal functions for ' + x.v)
 	subsetCond = not Var(tau2).issubset(Var(tau1))
 	otherCond = not Iter(tau2).issubset(Iter(tau1))
 	if subsetCond or otherCond:

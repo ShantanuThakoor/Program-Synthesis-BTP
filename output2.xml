@@ -1,0 +1,11 @@
+<CATALOG>
+	<PLANT>
+		<COMMON botanical="Sanguinaria canadensis" req="shady"></COMMON>
+		<LIGHT name="Bloodroot" price="2.44" stock="31599" zone="4"></LIGHT>
+	</PLANT>
+
+	<PLANT>
+		<COMMON botanical="Aquilegia canadensis" req="shady"></COMMON>
+		<LIGHT name="Columbine" price="9.37" stock="30699" zone="3"></LIGHT>
+	</PLANT>
+</CATALOG>

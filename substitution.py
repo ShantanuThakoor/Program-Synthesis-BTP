@@ -132,6 +132,7 @@ def MatchMap(phi, m):
 		varCond = phi[a]._type != VAR
 		otherCond = (phi[a].v == (None if a not in m else m[a].v))
 		if varCond != otherCond:
+			print a, phi[a].v, m[a].v
 			raise Exception('MatchMap', 'Not a substitution')
 		d = merge(d, {phi[a].v : m[a]})
 		# print a, phi[a].v, m[a].v

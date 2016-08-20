@@ -12,18 +12,19 @@ def createExpTree(node):
 	tree = ListTree(treeList)
 	return RootTree(e, mapping, tree)
 
-inputs = ET.parse('input.xml').getroot()
-outputs = ET.parse('output.xml').getroot()
+inputs = ET.parse('input1.xml').getroot()
+outputs = ET.parse('output1.xml').getroot()
 
 inputList = [createExpTree(x) for x in inputs]
 outputList = [createExpTree(x) for x in outputs]
 
 P = InferProgram(inputList, outputList)
 
-tests = ET.parse('test.xml').getroot()
+tests = ET.parse('test1.xml').getroot()
 testList = [createExpTree(x) for x in tests]
 t = testList[0]
 
+t.printTree()
 t = RunProgram(P, t)
 
 s = t.toXML()
