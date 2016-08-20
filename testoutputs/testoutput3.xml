@@ -1,13 +1,12 @@
 <output>
-
 	<table>
 		<tableRow>
-			<rowPr border="2" height="2"></rowPr>
-			<tableCell text="A4" color="red" font="TNR" size="12" bold="2"></tableCell>
+			<rowPr border="9" height="2"></rowPr>
+			<tableCell text="K4" color="red" font="MS" size="12" bold="9"></tableCell>
 		</tableRow>
 		<tableRow>
 			<rowPr border="4" height="2"></rowPr>
-			<tableCell text="A6" color="red" font="CSMS" size="12" bold="4"></tableCell>
+			<tableCell text="K1" color="red" font="CS" size="12" bold="4"></tableCell>
 		</tableRow>
 	</table>
 </output>
