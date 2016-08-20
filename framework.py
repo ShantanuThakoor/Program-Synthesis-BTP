@@ -70,7 +70,6 @@ def Scope(X):
 
 def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(frozenset(), inputList)
-	tau1.printTree()
 	tau2 = InferTreeExp(frozenset(), outputList)
 	for x in Var(tau2) - Var(tau1):
 		found = False
@@ -85,7 +84,6 @@ def InferProgram(inputList, outputList):
 					break
 		if not found:
 			raise Exception('InferProgram', 'Could not infer literal functions')
-	tau2.printTree()
 	subsetCond = not Var(tau2).issubset(Var(tau1))
 	otherCond = not Iter(tau2).issubset(Iter(tau1))
 	if subsetCond or otherCond:
@@ -211,7 +209,8 @@ def GetLiterals(x1, x2):
 
 def RunProgram(P, t):
 	sigma = MatchTree(P.input, t)
-	tPrime = ApplyTree(tau2, sigma)
+	P.output.printTree()
+	tPrime = ApplyTree(P.output, sigma)
 	if len(Var(tPrime)) == 0 and len(Iter(tPrime)) == 0:
 		return tPrime
 	raise Exception('RunProgram', 'Output not concrete')

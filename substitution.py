@@ -104,7 +104,7 @@ def MatchTree(tau, t):
 		if tau.list[0].tag == t.list[0].tag:
 			temp1 = MatchMap(tau.list[0].map, t.list[0].map)
 			temp2 = MatchTree(tau.list[0].children, t.list[0].children)
-			temp3 = MatchTree(ListTree(tau.list[1:]), ListTree(t.list[1:]))
+			temp3 = MatchTree(asAtomic(ListTree(tau.list[1:])), asAtomic(ListTree(t.list[1:])))
 			return merge(temp1, merge(temp2, temp3))
 
 	if tau.list[0]._type == LOOP:
@@ -126,6 +126,17 @@ def MatchTree(tau, t):
 
 	raise Exception('MatchTree', 'No case matched')
 
+def MatchMap(phi, m):
+	d = dict()
+	for a in phi.keys():
+		varCond = phi[a]._type != VAR
+		otherCond = (phi[a].v == (None if a not in m else m[a].v))
+		if varCond != otherCond:
+			raise Exception('MatchMap', 'Not a substitution')
+		d = merge(d, {phi[a].v : m[a]})
+		# print a, phi[a].v, m[a].v
+	return d
+
 def ApplyTree(tau, sigma):
 	tau = asAtomic(tau)
 
@@ -135,7 +146,6 @@ def ApplyTree(tau, sigma):
 	if tau._type == ROOT:
 		newMapping = ApplyMap(tau.map, sigma)
 		newList = ApplyTree(tau.children, sigma)
-		newList.printTree()
 		return RootTree(tau.tag, newMapping, newList)
 
 	if tau._type == LOOP:
@@ -144,7 +154,8 @@ def ApplyTree(tau, sigma):
 		sigmaList = sigma[tau.I]
 		newList = []
 		for x in sigmaList:
-			newList = newList + ApplyTree(tau.tree, x)
+			print pretty(x)
+			newList = newList + [ApplyTree(tau.tree, x)]
 		return ListTree(newList)
 
 	tau = asList(tau)
@@ -155,25 +166,13 @@ def ApplyTree(tau, sigma):
 
 	raise Exception('ApplyTree', 'No case matched')
 
-	
-def MatchMap(phi, m):
-	d = dict()
-	print pretty(phi), pretty(m)
-	for a in phi.keys():
-		varCond = phi[a]._type != VAR
-		otherCond = phi[a] == (None if a not in m else m[a])
-		if varCond != otherCond:
-			raise Exception('MatchMap', 'Not a substitution')
-		d = merge(d, {phi[a] : m[a]})
-	return d
-
 def ApplyMap(phi, sigma):
 	ret = dict()
 	for a in phi.keys():
 		if phi[a]._type == VAR and sigma[phi[a].v]._type == LIT:
 			ret[a] = Val(LIT, sigma[phi[a].v])
 		elif phi[a]._type == FEXP and sigma[phi[a].v]._type == LIT:
-			ret[a] = Val(LIT, phi[a].f(sigma[phi[a].v]))
+			ret[a] = Val(LIT, phi[a].f(sigma[phi[a].v].v))
 		else:
 			ret[a] = phi[a]
 	return ret
