@@ -32,7 +32,7 @@ def setOfPairsToLists(s):
 	for x in s:
 		a.append(x[0])
 		b.append(x[1])
-	return (a, b)
+	return (b, a)
 
 def flatten(l):
 	return [val for sublist in l for val in sublist]
@@ -71,8 +71,8 @@ def Scope(X):
 def InferProgram(inputList, outputList):
 	tau1 = InferTreeExp(frozenset(), inputList)
 	tau2 = InferTreeExp(frozenset(), outputList)
-	tau1.printTree()
-	tau2.printTree()
+	#tau1.printTree()
+	#tau2.printTree()
 	for x in Var(tau2) - Var(tau1):
 		found = False
 		i = 0
@@ -85,7 +85,7 @@ def InferProgram(inputList, outputList):
 				if f is not None:
 					found = True
 					tau2 = tau2.replace(x, Val(FEXP, y.v, f))
-					# print x.v, "is", i, y.v
+					#print x.v, "is", i, y.v
 					break
 		if not found:
 			raise Exception('InferProgram', 'Could not infer literal functions for ' + x.v)
