@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET 
 from grammar import *
 from framework import *
+from clustering import *
 
 def createExpTree(node):
 	e = node.tag
