@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 from grammar import *
 from framework import *
 from clustering import *
+from ranking import *
 
 def createExpTree(node):
 	e = node.tag
@@ -13,37 +14,63 @@ def createExpTree(node):
 	tree = ListTree(treeList)
 	return RootTree(e, mapping, tree)
 
-debug = True
+debug = False
 
-i = 1
-inputFile = "inputs/input" + str(i) + ".xml"
-outputFile = "outputs/output" + str(i) + ".xml"
-testInputFile = "testinputs/testinput" + str(i) + ".xml"
-testOutputFile = "testoutputs/testoutput" + str(i) + ".xml"
+def singleTesting():
+	i = 1
+	inputFile = "inputs/input%d.xml" % i
+	outputFile = "outputs/output%d.xml" % i
+	testInputFile = "testinputs/testinput%d.xml" % i
+	testOutputFile = "testoutputs/testoutput%d.xml" % i
 
-inputs = ET.parse(inputFile).getroot()
-outputs = ET.parse(outputFile).getroot()
+	inputs = ET.parse(inputFile).getroot()
+	outputs = ET.parse(outputFile).getroot()
 
-inputList = [createExpTree(x) for x in inputs]
-outputList = [createExpTree(x) for x in outputs]
+	inputList = [createExpTree(x) for x in inputs]
+	outputList = [createExpTree(x) for x in outputs]
 
-P = InferProgram(inputList, outputList)
+	P = InferProgram(inputList, outputList)
 
-if debug:
-	P.input.printTree()
-	P.output.printTree()
+	if debug:
+		P.input.printTree()
+		P.output.printTree()
 
-temp = ET.parse(testInputFile).getroot()
-testInputList = [createExpTree(x) for x in temp]
+	temp = ET.parse(testInputFile).getroot()
+	testInputList = [createExpTree(x) for x in temp]
 
-temp = ET.parse(testOutputFile).getroot()
-testOutputList = [createExpTree(x) for x in temp]
+	temp = ET.parse(testOutputFile).getroot()
+	testOutputList = [createExpTree(x) for x in temp]
 
-for i in range(len(testInputList)):
-	prediction = RunProgram(P, testInputList[i])
+	for i in range(len(testInputList)):
+		prediction = RunProgram(P, testInputList[i])
 
-	print "Output"
-	print prediction.toXML()
-	print "\n"*3
-	print "Expected output"
-	print testOutputList[i].toXML()
+		print "Output %d" % i
+		print prediction.toXML()
+		print "\n"
+		print "Expected output %d" % i
+		print testOutputList[i].toXML()
+		print "\n"
+	
+def clusterTesting():
+	
+	i = 4
+	inputFile = "inputs/input%d.xml" % i
+	outputFile = "outputs/output%d.xml" % i
+	# testInputFile = "testinputs/testinput%d.xml" % i
+	# testOutputFile = "testoutputs/testoutput%d.xml" % i
+
+	inputs = ET.parse(inputFile).getroot()
+	outputs = ET.parse(outputFile).getroot()
+
+	inputList = [createExpTree(x) for x in inputs]
+	outputList = [createExpTree(x) for x in outputs]
+
+	clusters = FormClusters(inputList, outputList)
+	print len(clusters)
+	for i in range(len(clusters)):
+		print i
+		clusters[i].inputLGG.printTree()
+		clusters[i].outputLGG.printTree()
+		print "\n"*3
+
+clusterTesting()

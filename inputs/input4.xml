@@ -1,0 +1,34 @@
+<input>
+	
+	<textBox>
+      <para text="P4" color="yellow" font="TNR" size="12"></para>
+      <para text="P6" color="violet" font="CSMS" size="14"></para>
+   </textBox>
+
+   <textBox>
+      <para text="A4" color="magenta" font="MSMS" size="2"></para>
+      <para text="A6" color="violet" font="CSMS" size="4"></para>
+   </textBox>
+
+   <PLANT>
+		<COMMON name="Bloodroot" botanical="Sanguinaria canadensis" zone="4"></COMMON>
+		<LIGHT req="shady" price="2.44" stock="31599"></LIGHT>
+	</PLANT>
+
+	<PLANT>
+		<COMMON name="Columbine" botanical="Aquilegia canadensis" zone="3"></COMMON>
+		<LIGHT req="shady" price="9.37" stock="30699"></LIGHT>
+	</PLANT>
+
+	<textBox>
+		<para text="P1" color="blue" font="Arial" size="12" bold="0"></para>
+		<para text="P2" color="green" font="Arial" size="12" bold="1"></para>
+		<para text="P3" color="blue" font="Arial" size="12" bold="1"></para>
+	</textBox>
+	
+	<textBox>
+		<para text="P1" color="blue" font="Arial" size="12" bold="0"></para>
+		<para text="P2" color="red" font="Arial" size="12" bold="1"></para>
+	</textBox>
+
+</input>

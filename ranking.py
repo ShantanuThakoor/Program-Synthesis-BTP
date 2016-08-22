@@ -1,10 +1,11 @@
 from framework import *
 from grammar import *
 from substitution import *
+from clustering import *
 
 INFI = 10**5
 
-def MatchScore(cluster, input, output):
+def MatchScore(cluster, input, output, coeffs):
 	try:
 		newInputLGG = InferTreeExp(frozenset(), cluster.inputList + [input])
 		newOutputLGG = InferTreeExp(frozenset(), cluster.outputList + [output])
@@ -12,10 +13,23 @@ def MatchScore(cluster, input, output):
 		return INFI
 	# define some measure of how much the LGG has changed
 	# old and new inputLGG:
+	# 0) frequency
 	# 1) number of variables 
 	# 2) number of iterators 
 	# 3) number of variable free nodes
 	# 4) number of iterator free nodes
 	# 5) many more features...
 	# learn a linear combination of these to return the score
-	return 1
+
+	features = [len(cluster.inputList),
+				len(Var(newInputLGG)),
+				len(Var(cluster.inputLGG)),
+				len(Iter(newOutputLGG)),
+				len(Iter(cluster.outputLGG)),
+				]
+
+	sum = 0
+	for i in range(len(features)):
+		sum = sum + feautures[i] * coeffs[i]
+
+	return sum
