@@ -15,7 +15,7 @@ def createExpTree(node):
 
 debug = True
 
-i = 3
+i = 1
 inputFile = "inputs/input" + str(i) + ".xml"
 outputFile = "outputs/output" + str(i) + ".xml"
 testInputFile = "testinputs/testinput" + str(i) + ".xml"
