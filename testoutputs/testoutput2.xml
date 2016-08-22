@@ -1,11 +1,11 @@
 <CATALOG>
 	<PLANT>
 		<COMMON botanical="B" req="shady"></COMMON>
-		<LIGHT name="shady" price="E" stock="D" zone="C"></LIGHT>
+		<LIGHT name="A" price="E" stock="D" zone="C"></LIGHT>
 	</PLANT>
 
 	<PLANT>
-		<COMMON botanical="H" req="L"></COMMON>
-		<LIGHT name="shady" price="K" stock="J" zone="I"></LIGHT>
+		<COMMON botanical="H" req="shady"></COMMON>
+		<LIGHT name="G" price="K" stock="J" zone="I"></LIGHT>
 	</PLANT>
 </CATALOG>

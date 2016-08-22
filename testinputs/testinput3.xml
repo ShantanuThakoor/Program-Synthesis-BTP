@@ -2,7 +2,7 @@
 
    <textBox>
       <para text="K4" color="red" font="MS" size="9"></para>
-      <para text="K1" color="violet" font="CS" size="4"></para>
+      <para text="K1" color="violet" font="CSMS" size="4"></para>
    </textBox>
 
 </input>

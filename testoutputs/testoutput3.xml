@@ -6,7 +6,7 @@
 		</tableRow>
 		<tableRow>
 			<rowPr border="4" height="2"></rowPr>
-			<tableCell text="K1" color="red" font="CS" size="12" bold="4"></tableCell>
+			<tableCell text="K1" color="red" font="CSMS" size="12" bold="4"></tableCell>
 		</tableRow>
 	</table>
 </output>
