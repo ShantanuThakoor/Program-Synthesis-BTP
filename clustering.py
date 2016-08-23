@@ -15,6 +15,22 @@ def combine(input, output, cluster):
 	except:
 		return None
 
+def isJustList(tree):
+	if tree._type != LIST:
+		return False
+	count = 0
+	for x in tree.list:
+		if x._type != EMPTY:
+			count = count + 1
+	if count > 1:
+		return True
+	return False
+
+def tooGeneral(program):
+	if isJustList(program.input) or isJustList(program.output):
+		return True
+	return False
+
 def FormClusters(inputList, outputList):
 	clusters = []
 	for i in range(len(inputList)):
@@ -23,6 +39,8 @@ def FormClusters(inputList, outputList):
 		for j in range(len(clusters)):
 			newProgram = combine(input, output, clusters[j])
 			if newProgram is None:
+				continue
+			if tooGeneral(newProgram):
 				continue
 			clusters[j].inputList = clusters[j].inputList + [input]
 			clusters[j].outputList = clusters[j].outputList + [output]
