@@ -145,6 +145,10 @@ def InferTreeExp(s, treeList):
 		rList.append(tempRList)
 		tPrimeList.append(tempTPrime)
 	tau = InferTreeExp(s, tPrimeList)
+
+	if 0 in [len(r) for r in rList]:
+		raise Exception('InferTreeExp', '0 length iteration somewhere')
+
 	M = len(rList[0])
 	if [M]*len(rList) == [len(x) for x in rList]:
 		rhoList = []
