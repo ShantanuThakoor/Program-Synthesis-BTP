@@ -11,7 +11,8 @@ class Cluster:
 
 def combine(input, output, cluster):
 	try:
-		return InferProgram(cluster.inputList + [input], cluster.outputList + [output])
+		#return InferProgram(cluster.inputList + [input], cluster.outputList + [output])
+		return InferProgram([cluster.inputLGG, input], [cluster.outputLGG, output])
 	except:
 		return None
 

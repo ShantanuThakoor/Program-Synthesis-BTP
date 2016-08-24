@@ -5,7 +5,7 @@ from clustering import *
 
 INFI = 10**5
 
-def MatchScore(cluster, input, output, coeffs):
+def MatchScore(cluster, input, coeffs):
 	try:
 		newInputLGG = InferTreeExp(frozenset(), cluster.inputList + [input])
 		newOutputLGG = InferTreeExp(frozenset(), cluster.outputList + [output])
@@ -24,8 +24,8 @@ def MatchScore(cluster, input, output, coeffs):
 	features = [len(cluster.inputList),
 				len(Var(newInputLGG)),
 				len(Var(cluster.inputLGG)),
-				len(Iter(newOutputLGG)),
-				len(Iter(cluster.outputLGG)),
+				len(Iter(newInputLGG)),
+				len(Iter(cluster.inputLGG)),
 				]
 
 	sum = 0
