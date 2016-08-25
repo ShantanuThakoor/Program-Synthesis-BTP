@@ -67,12 +67,12 @@ from string import ascii_uppercase
 
 ##################################################################################################3
 
-random.seed(0)
+random.seed(10)
 
 fonts = ['Comic Sans','Arial']
 
-f1 = open('../ranking/input0.xml','w')
-f2 = open('../ranking/output0.xml','w')
+f1 = open('../ranking/input1.xml','w')
+f2 = open('../ranking/output1.xml','w')
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -89,60 +89,50 @@ for j in range(100):
 	else:
 		font = ''.join(random.choice(ascii_uppercase) for i in range(5))
 
-	correct = random.randrange(0,10)
-	rnd = random.randrange(0,2)
-	if(correct <= 7):
-		inc = inc + 1
-
-	if(font_option == 0):
-		if(correct <= 7):
-			option = 1
-		else:
-			option = 3
-	
-	elif(font_option == 1):
-		if(correct <= 7):
-			option = 2
-		else:
-			option = 3
-	
-	else:
-		option = 3
-
-	if(option == 1):
-		f2.write("<table>\n")
-	elif(option == 2):
-		f2.write("<list>\n")
-	else:
-		f2.write("<textbox>\n")
-
 	paras = random.randrange(1,20);
-	
+	textlist = []
+	sizelist = []
+
 	for i in range(paras):
 		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
 		size = random.randrange(10,20)
 		bold = random.randrange(0,5)
 		
-		if(option == 1):
-			f2.write("<tableRow>\n")
-			f2.write("<tableCell text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></tableCell>\n")
-			f2.write("</tableRow>\n")
-	
-		elif(option == 2):
-			f2.write("<item text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></item>\n")
+		f1.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
+		textlist.append("text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"")
+		sizelist.append(size)
+
+	f1.write("</textbox>\n")
+	if(min(sizelist) >= 12):
+		if(font_option != 2):
+			inc = inc + 1
+		
+		f2.write("<textbox>\n")
+		for i in textlist:
+			f2.write("<para "+i+"></para>\n")
+		f2.write("</textbox>\n")
+
+	else:
+		if(font_option == 0):
+			f2.write("<table>\n")
+			for i in textlist:
+				f2.write("<tableRow>\n")
+				f2.write("<tableCell "+i+"></tableCell>\n")
+				f2.write("</tableRow>\n")
+			f2.write("</table>\n")
+
+		elif(font_option == 1):
+			f2.write("<list>\n")
+			for i in textlist:
+				f2.write("<item "+i+"></item>\n")
+			f2.write("</list>\n")
 
 		else:
-			f2.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
-		
-		f1.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
+			f2.write("<textbox>\n")
+			for i in textlist:
+				f2.write("<para "+i+"></para>\n")
+			f2.write("</textbox>\n")
 
-	if(option == 1):
-		f2.write("</table>\n")
-	elif(option == 2):
-		f2.write("</list>\n")
-	else:
-		f2.write("</textbox>\n")
-	f1.write("</textbox>\n")
 
 f1.write("</input>")
 f1.close()
@@ -157,8 +147,8 @@ random.seed(1010)
 
 fonts = ['Comic Sans','Arial']
 
-f1 = open('../test/input0.xml','w')
-f2 = open('../test/output0.xml','w')
+f1 = open('../test/input1.xml','w')
+f2 = open('../test/output1.xml','w')
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -175,61 +165,50 @@ for j in range(100):
 	else:
 		font = ''.join(random.choice(ascii_uppercase) for i in range(5))
 
-	correct = random.randrange(0,10)
-	rnd = random.randrange(0,2)
-	if(correct < 6):
-		inc = inc + 1
-
-	if(font_option == 0):
-		if(correct < 6):
-			option = 1
-		else:
-			option = 3
-	
-	elif(font_option == 1):
-		if(correct < 6):
-			option = 2
-		else:
-			option = 3
-
-	
-	else:
-		option = 3
-
-	if(option == 1):
-		f2.write("<table>\n")
-	elif(option == 2):
-		f2.write("<list>\n")
-	else:
-		f2.write("<textbox>\n")
-
 	paras = random.randrange(1,20);
-	
+	textlist = []
+	sizelist = []
+
 	for i in range(paras):
 		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
 		size = random.randrange(10,20)
 		bold = random.randrange(0,5)
 		
-		if(option == 1):
-			f2.write("<tableRow>\n")
-			f2.write("<tableCell text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></tableCell>\n")
-			f2.write("</tableRow>\n")
-	
-		elif(option == 2):
-			f2.write("<item text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></item>\n")
+		f1.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
+		textlist.append("text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"")
+		sizelist.append(size)
+
+	f1.write("</textbox>\n")
+	if(min(sizelist) >= 12):
+		if(font_option != 2):
+			inc = inc + 1
+		
+		f2.write("<textbox>\n")
+		for i in textlist:
+			f2.write("<para "+i+"></para>\n")
+		f2.write("</textbox>\n")
+
+	else:
+		if(font_option == 0):
+			f2.write("<table>\n")
+			for i in textlist:
+				f2.write("<tableRow>\n")
+				f2.write("<tableCell "+i+"></tableCell>\n")
+				f2.write("</tableRow>\n")
+			f2.write("</table>\n")
+
+		elif(font_option == 1):
+			f2.write("<list>\n")
+			for i in textlist:
+				f2.write("<item "+i+"></item>\n")
+			f2.write("</list>\n")
 
 		else:
-			f2.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
-		
-		f1.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
+			f2.write("<textbox>\n")
+			for i in textlist:
+				f2.write("<para "+i+"></para>\n")
+			f2.write("</textbox>\n")
 
-	if(option == 1):
-		f2.write("</table>\n")
-	elif(option == 2):
-		f2.write("</list>\n")
-	else:
-		f2.write("</textbox>\n")
-	f1.write("</textbox>\n")
 
 f1.write("</input>")
 f1.close()
