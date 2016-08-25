@@ -7,6 +7,8 @@ INFI = 10**5
 
 
 def getFeatures(cluster, input):
+	cluster.inputLGG.printTree()
+	input.printTree()
 	newInputLGG = InferTreeExp(frozenset(), [cluster.inputLGG, input])
 	runProgram(Program(cluster.inputLGG, cluster.outputLGG), input)
 	
@@ -21,13 +23,14 @@ def CreateIdealMatchings(clusters, input, output):
 	data = ([], [])
 	for i in range(len(input)):
 		for j in range(len(clusters)):
-			try:
-				features = getFeatures(clusters[j], input[i])
-			except:
-				continue
+			# try:
+			features = getFeatures(clusters[j], input[i])
+			# except:
+			# 	continue
 			prediction = execute(clusters[j], input[i])
 			predictionXML = prediction.toXML()
 			outputXML = output.toXML()
+			print predictionXML, outputXML
 			data[0].append(feautures)
 			if predictionXML == outputXML:
 				data[1].append(1)
@@ -51,7 +54,7 @@ def LearnWeights(data):
 	from sklearn import svm
 	X = data[0]
 	Y = data[1]
-	clf = smv.LinearSVC()
+	clf = svm.LinearSVC()
 	clf.fit(X, Y)
 	return clf.coef_
 
