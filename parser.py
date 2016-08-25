@@ -70,6 +70,8 @@ def EntireTest():
 			print "Prediction\n", p
 			print "Output\n", o
 
-	print len(failedInputs)
+	num = len(testInputList)
+	failed = len(failedInputs)
+	print "%d of %d successfully predicted" % (num - failed, num)
 
 EntireTest()
