@@ -11,8 +11,8 @@ class Cluster:
 
 def combine(input, output, cluster):
 	try:
-		#return InferProgram(cluster.inputList + [input], cluster.outputList + [output])
-		return InferProgram([cluster.inputLGG, input], [cluster.outputLGG, output])
+		return InferProgram(cluster.inputList + [input], cluster.outputList + [output])
+		# return InferProgram([cluster.inputLGG, input], [cluster.outputLGG, output])
 	except:
 		return None
 
@@ -50,6 +50,10 @@ def FormClusters(inputList, outputList):
 			break
 		if best >= 0:
 			continue
+		# print "New cluster", i
+		# input.printTree()
+		# output.printTree()
+		
 		clusters.append(Cluster(input, output, [input], [output]))
 	return clusters
 

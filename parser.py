@@ -32,39 +32,39 @@ def EntireTest():
 	outputList = listFromFile(outputFile % i)
 	rankingInputList = listFromFile(rankingInputFile % i)
 	rankingOutputList = listFromFile(rankingOutputFile % i)
-	# testInputList = listFromFile(testInputFile % i)
-	# testOutputList = listFromFile(testOutputFile % i)
+	testInputList = listFromFile(testInputFile % i)
+	testOutputList = listFromFile(testOutputFile % i)
 
 	clusters = FormClusters(inputList, outputList)
-	print len(clusters)
+	# print len(clusters)
 	# for x in clusters:
 	# 	x.inputLGG.printTree()
 	# 	x.outputLGG.printTree()
+	# 	print "\n"
 
-	#data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
-	data = CreateIdealMatchings(clusters, inputList, outputList)
+	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
+	
+	for i in range(len(data[0])):
+		print data[0][i], data[1][i]
 
-	print data
-
-	weights = LearnWeights(data)
-
-
+	classifier = LearnWeights(data)
+	print classifier.coef_[0]
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
 
-	# for i in range(len(testInputList)):
-	# 	input = testInputList[i]
-	# 	output = testOutputList[i]
+	for i in range(len(testInputList)):
+		input = testInputList[i]
+		output = testOutputList[i]
 
-	# 	prediction = GetBestOutput(clusters, input, weights)
-	# 	p = prediction.toXML()
-	# 	o = output.toXML()
+		prediction = GetBestOutput(clusters, input, classifier)
+		p = prediction.toXML()
+		o = output.toXML()
 
-	# 	if p != o:
-	# 		failedInputs += [input.toXML()]
-	# 		failedPredictions += [prediction.toXML()]
-	# 		failedOutputs += [output.toXML()]
+		if p != o:
+			failedInputs += [input.toXML()]
+			failedPredictions += [prediction.toXML()]
+			failedOutputs += [output.toXML()]
 
 
 
