@@ -53,4 +53,5 @@ def FormClusters(inputList, outputList):
 		clusters.append(Cluster(input, output, [input], [output]))
 	return clusters
 
-
+def execute(cluster, input):
+	return RunProgram(Program(cluster.inputLGG, cluster.outputLGG), input)

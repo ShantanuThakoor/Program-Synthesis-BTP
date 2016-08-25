@@ -14,63 +14,48 @@ def createExpTree(node):
 	tree = ListTree(treeList)
 	return RootTree(e, mapping, tree)
 
-debug = False
+def listFromFile(file):
+	raw = ET.parse(file).getroot()
+	treeList = [createExpTree(x) for x in raw]
 
-def singleTesting():
+inputFile = "training/input%d.xml"
+outputFile = "training/output%d.xml"
+rankingInputFile = "ranking/input%d.xml"
+rankingOutputFile = "ranking/output%d.xml"
+testInputFile = "test/input%d.xml"
+testOutputFile = "test/output%d.xml"
+
+def EntireTest():
 	i = 1
-	inputFile = "inputs/input%d.xml" % i
-	outputFile = "outputs/output%d.xml" % i
-	testInputFile = "testinputs/testinput%d.xml" % i
-	testOutputFile = "testoutputs/testoutput%d.xml" % i
-
-	inputs = ET.parse(inputFile).getroot()
-	outputs = ET.parse(outputFile).getroot()
-
-	inputList = [createExpTree(x) for x in inputs]
-	outputList = [createExpTree(x) for x in outputs]
-
-	P = InferProgram(inputList, outputList)
-
-	if debug:
-		P.input.printTree()
-		P.output.printTree()
-
-	temp = ET.parse(testInputFile).getroot()
-	testInputList = [createExpTree(x) for x in temp]
-
-	temp = ET.parse(testOutputFile).getroot()
-	testOutputList = [createExpTree(x) for x in temp]
-
-	for i in range(len(testInputList)):
-		prediction = RunProgram(P, testInputList[i])
-
-		print "Output %d" % i
-		print prediction.toXML()
-		print "\n"
-		print "Expected output %d" % i
-		print testOutputList[i].toXML()
-		print "\n"
-	
-def clusterTesting():
-	
-	i = 4
-	inputFile = "inputs/input%d.xml" % i
-	outputFile = "outputs/output%d.xml" % i
-	# testInputFile = "testinputs/testinput%d.xml" % i
-	# testOutputFile = "testoutputs/testoutput%d.xml" % i
-
-	inputs = ET.parse(inputFile).getroot()
-	outputs = ET.parse(outputFile).getroot()
-
-	inputList = [createExpTree(x) for x in inputs]
-	outputList = [createExpTree(x) for x in outputs]
+	inputList = listFromFile(inputFile % i)
+	outputList = listFromFile(outputFile % i)
+	rankingInputList = listFromFile(rankingInputFile % i)
+	rankingOutputList = listFromFile(rankingOutputFile % i)
+	testInputList = listFromFile(testInputFile % i)
+	testOutputList = listFromFile(testOutputFile % i)
 
 	clusters = FormClusters(inputList, outputList)
-	print len(clusters)
-	for i in range(len(clusters)):
-		print i
-		clusters[i].inputLGG.printTree()
-		clusters[i].outputLGG.printTree()
-		print "\n"*3
+	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
+	weights = LearnWeights(data)
+
+
+	failedInputs = []
+	failedPredictions = []
+	failedOutputs = []
+
+	for i in range(len(testInputList)):
+		input = testInputList[i]
+		output = testOutputList[i]
+
+		prediction = GetBestOutput(clusters, input, weights)
+		p = prediction.toXML()
+		o = output.toXML()
+
+		if p != o:
+			failedInputs += [input.toXML()]
+			failedPredictions += [prediction.toXML()]
+			failedOutputs += [output.toXML()]
+
+
 
 clusterTesting()
