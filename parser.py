@@ -27,7 +27,7 @@ testInputFile = "test/input%d.xml"
 testOutputFile = "test/output%d.xml"
 
 def EntireTest():
-	i = 0
+	i = 1
 	inputList = listFromFile(inputFile % i)
 	outputList = listFromFile(outputFile % i)
 	rankingInputList = listFromFile(rankingInputFile % i)
