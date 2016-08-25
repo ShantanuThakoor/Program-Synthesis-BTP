@@ -69,8 +69,8 @@ def Scope(X):
 	return InverseVarMap[X][0]
 
 def InferProgram(inputList, outputList):
-	tau1 = InferTreeExp(frozenset(), inputList)
-	tau2 = InferTreeExp(frozenset(), outputList)
+	tau1 = asAtomic(InferTreeExp(frozenset(), inputList))
+	tau2 = asAtomic(InferTreeExp(frozenset(), outputList))
 	#tau1.printTree()
 	#tau2.printTree()
 	for x in Var(tau2) - Var(tau1):
@@ -156,11 +156,11 @@ def InferTreeExp(s, treeList):
 			rhoj = InferRootExp(s, [x[j] for x in rList])
 			rhoList.append(rhoj)
 		rhoList.append(tau)
-		return ListTree(rhoList)
+		return removeEmpties(ListTree(rhoList))
 	I = IterMap(tuple(s), tuple([len(x) for x in rList]))
 	rho = InferRootExp(s | frozenset([I]), flatten(rList))
 	loopTree = LoopTree(I, rho)
-	return ListTree(loopTree, tau)
+	return removeEmpties(ListTree(loopTree, tau))
 
 def InferRootExp(s, rList):
 	rList = [asAtomic(x) for x in rList]

@@ -142,6 +142,18 @@ def asAtomic(tree):
 		return EmptyTree()
 	return tree
 
+def removeEmpties(tree):
+	if tree._type == EMPTY:
+		return tree
+	if tree._type == ROOT:
+		return RootTree(tree.tag, tree.map, removeEmpties(tree.children))
+	if tree._type == LOOP:
+		return LoopTree(tree.I, removeEmpties(tree.tree))
+	if tree._type == LIST:
+		t = [removeEmpties(x) for x in tree.list]
+		t = [x for x in tree.list if not x._type == EMPTY]
+		return ListTree(t)
+
 FEXP = 0
 VAR = 1
 LIT = 2
