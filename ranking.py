@@ -7,10 +7,11 @@ INFI = 10**5
 
 def MatchScore(cluster, input, coeffs):
 	try:
-		newInputLGG = InferTreeExp(frozenset(), cluster.inputList + [input])
-		newOutputLGG = InferTreeExp(frozenset(), cluster.outputList + [output])
+		newInputLGG = InferTreeExp(frozenset(), [cluster.inputLGG, input])
+		runProgram(Program(cluster.inputLGG, cluster.outputLGG), input)
 	except:
 		return INFI
+
 	# define some measure of how much the LGG has changed
 	# old and new inputLGG:
 	# 0) frequency
