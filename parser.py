@@ -36,19 +36,15 @@ def EntireTest():
 	testOutputList = listFromFile(testOutputFile % i)
 
 	clusters = FormClusters(inputList, outputList)
-	# print len(clusters)
-	# for x in clusters:
-	# 	x.inputLGG.printTree()
-	# 	x.outputLGG.printTree()
-	# 	print "\n"
+	print len(clusters)
+	for x in clusters:
+		x.inputLGG.printTree()
+		x.outputLGG.printTree()
+		print "\n"
 
 	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
-	
-	for i in range(len(data[0])):
-		print data[0][i], data[1][i]
 
 	classifier = LearnWeights(data)
-	print classifier.coef_[0]
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
@@ -58,14 +54,22 @@ def EntireTest():
 		output = testOutputList[i]
 
 		prediction = GetBestOutput(clusters, input, classifier)
-		p = prediction.toXML()
+		if prediction is not None:
+			p = prediction.toXML()
+		else:
+			p = "No prediction"
 		o = output.toXML()
 
 		if p != o:
-			failedInputs += [input.toXML()]
-			failedPredictions += [prediction.toXML()]
-			failedOutputs += [output.toXML()]
+			inp = input.toXML()
+			failedInputs += [inp]
+			failedPredictions += [p]
+			failedOutputs += [o]
+			print "Number ", i
+			print "Input\n", inp
+			print "Prediction\n", p
+			print "Output\n", o
 
-
+	print len(failedInputs)
 
 EntireTest()

@@ -35,17 +35,12 @@ def CreateIdealMatchings(clusters, input, output):
 				data[1].append(0)
 	return data
 
-def MatchScore(cluster, input, coeffs):
+def MatchScore(cluster, input, classifier):
 	try:
-		features = getFeatures(cluster, cluster.inputLGG, newInputLGG)
+		features = getFeatures(cluster, input)
 	except:
-		return INFI
-
-	sum = 0
-	for i in range(len(features)):
-		sum = sum + feautures[i] * coeffs[i]
-
-	return sum
+		return -1
+	return classifier.decision_function([features])[0]
 
 def LearnWeights(data):
 	from sklearn import svm
@@ -56,17 +51,17 @@ def LearnWeights(data):
 	return clf
 
 def GetBestOutput(clusters, input, classifier):
-	bestScore = INFI - 1
+	bestScore = -INFI
 	best = -1
-	weights = classifier.coefs_[0]
 	for i in range(len(clusters)):
-		newScore = MatchScore(clusters[i], input, weights)
-		if newScore <= bestScore:
+		newScore = MatchScore(clusters[i], input, classifier)
+		if newScore > bestScore:
 			bestScore = newScore
 			best = i
 	if best < 0:
-		return input
+		return None
 	try:
 		return execute(clusters[best], input)
 	except:
-		return input
+		print "Program failed"
+		return None
