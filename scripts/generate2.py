@@ -3,52 +3,63 @@ from string import ascii_uppercase
 
 fonts = ['Comic Sans','Arial','Times New Roman']
 
-random.seed(4342)
+random.seed(432)
 
 f1 = open('../training/input2.xml','w')
 f2 = open('../training/output2.xml','w')
 
-# f2 = open('input_rank.xml','w')
-# f21 = open('output_rank.xml','w')
-
-# f3 = open('input_test.xml','w')
-# f31 = open('output_test.xml','w')
-
 f1.write("<ppt>\n")
 f2.write("<ppt>\n")
 
-for j in range(15):
+a = 0
+b = 0
+c = 0
+
+for j in range(30):
 	
 	f1.write("<slide>\n")
-	f2.write("<slide>\n")
-
-	image_option = random.randrange(0,2)
-	if(image_option == 1):
-		imsize = random.randrange(10,20)
-		align = random.randrange(0,3)
-		f1.write("<image align=\""+['right','center','left'][align]+"\" size=\""+str(imsize)+"\"></image>\n")
-		f2.write("<image align=\"left\" size=\"8\"></image>\n")
+	
+	imsize = random.randrange(10,20)
+	align = random.randrange(0,3)
+	f1.write("<image align=\""+['right','center','left'][align]+"\" size=\""+str(imsize)+"\"></image>\n")
 		
-	paras = random.randrange(1,20);
 	f1.write("<textbox>\n")
-	f2.write("<textbox>\n")
-
-	for i in range(paras):
+	textlist = []
+	sizelist = []
+	
+	for i in range(5):
 		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
-		size = random.randrange(10,20)
+		size = random.randrange(10,40)
 		font = random.randrange(0,3)
 		align = random.randrange(0,3)
 		
 		f1.write("<para text=\""+text+"\" font=\""+fonts[font]+"\" size=\""+str(size)+"\" align=\""+['right','center','left'][align]+"\"></para>\n")
 
-		if(image_option == 1):
-			f2.write("<para text=\""+text+"\" font=\""+fonts[font]+"\" size=\""+str(10)+"\" align=\"right\"></para>\n")
-		else:
-			f2.write("<para text=\""+text+"\" font=\""+fonts[font]+"\" size=\""+str(size)+"\" align=\"center\"></para>\n")
+		textlist.append("text=\""+text+"\" font=\""+fonts[font]+"\" size=\"10\" align=\"left\"")
+		sizelist.append(size)
 
 	f1.write("</textbox>\n")
 	f1.write("</slide>\n")
+
+	minsize = min(sizelist)
+	if(minsize < 13):
+		a = a + 1
+		f2.write("<slide left=\"true\">\n")
+		f2.write("<image align=\"left\" size=\"8\"></image>\n")
+	elif(minsize < 20):
+		b = b + 1
+		f2.write("<slide center=\"true\">\n")
+		f2.write("<image align=\"center\" size=\"8\"></image>\n")
+	else:
+		c = c + 1
+		f2.write("<slide right=\"true\">\n")
+		f2.write("<image align=\"right\" size=\"8\"></image>\n")
+
+	f2.write("<textbox>\n")
+	for i in textlist:
+		f2.write("<para "+i+"></para>\n")
 	f2.write("</textbox>\n")
+
 	f2.write("</slide>\n")
 
 f1.write("</ppt>")
@@ -56,154 +67,143 @@ f1.close()
 f2.write("</ppt>")
 f2.close()
 
+print a,b,c
 ##################################################################################################3
 
-# random.seed(10)
+fonts = ['Comic Sans','Arial','Times New Roman']
 
-# fonts = ['Comic Sans','Arial']
+random.seed(10)
 
-# f1 = open('../ranking/input1.xml','w')
-# f2 = open('../ranking/output1.xml','w')
+f1 = open('../ranking/input2.xml','w')
+f2 = open('../ranking/output2.xml','w')
 
-# f1.write("<input>\n")
-# f2.write("<output>\n")
+f1.write("<ppt>\n")
+f2.write("<ppt>\n")
 
-# inc = 0
+a = 0
+b = 0
+c = 0
 
-# for j in range(100):
+for j in range(300):
 	
-# 	f1.write("<textbox>\n")
-
-# 	font_option = random.randrange(0,3)
-# 	if(font_option != 2):
-# 			font = fonts[font_option];
-# 	else:
-# 		font = ''.join(random.choice(ascii_uppercase) for i in range(5))
-
-# 	paras = random.randrange(1,20);
-# 	textlist = []
-# 	sizelist = []
-
-# 	for i in range(paras):
-# 		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
-# 		size = random.randrange(10,20)
-# 		bold = random.randrange(0,5)
+	f1.write("<slide>\n")
+	
+	imsize = random.randrange(10,20)
+	align = random.randrange(0,3)
+	f1.write("<image align=\""+['right','center','left'][align]+"\" size=\""+str(imsize)+"\"></image>\n")
 		
-# 		f1.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
-# 		textlist.append("text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"")
-# 		sizelist.append(size)
-
-# 	f1.write("</textbox>\n")
-# 	if(min(sizelist) >= 12):
-# 		if(font_option != 2):
-# 			inc = inc + 1
+	f1.write("<textbox>\n")
+	textlist = []
+	sizelist = []
+	
+	for i in range(5):
+		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
+		size = random.randrange(10,40)
+		font = random.randrange(0,3)
+		align = random.randrange(0,3)
 		
-# 		f2.write("<textbox>\n")
-# 		for i in textlist:
-# 			f2.write("<para "+i+"></para>\n")
-# 		f2.write("</textbox>\n")
+		f1.write("<para text=\""+text+"\" font=\""+fonts[font]+"\" size=\""+str(size)+"\" align=\""+['right','center','left'][align]+"\"></para>\n")
 
-# 	else:
-# 		if(font_option == 0):
-# 			f2.write("<table>\n")
-# 			for i in textlist:
-# 				f2.write("<tableRow>\n")
-# 				f2.write("<tableCell "+i+"></tableCell>\n")
-# 				f2.write("</tableRow>\n")
-# 			f2.write("</table>\n")
+		textlist.append("text=\""+text+"\" font=\""+fonts[font]+"\" size=\"10\" align=\"left\"")
+		sizelist.append(size)
 
-# 		elif(font_option == 1):
-# 			f2.write("<list>\n")
-# 			for i in textlist:
-# 				f2.write("<item "+i+"></item>\n")
-# 			f2.write("</list>\n")
+	f1.write("</textbox>\n")
+	f1.write("</slide>\n")
 
-# 		else:
-# 			f2.write("<textbox>\n")
-# 			for i in textlist:
-# 				f2.write("<para "+i+"></para>\n")
-# 			f2.write("</textbox>\n")
+	minsize = min(sizelist)
+	if(minsize < 13):
+		a = a + 1
+		f2.write("<slide left=\"true\">\n")
+		f2.write("<image align=\"left\" size=\"8\"></image>\n")
+	elif(minsize < 20):
+		b = b + 1
+		f2.write("<slide center=\"true\">\n")
+		f2.write("<image align=\"center\" size=\"8\"></image>\n")
+	else:
+		c = c + 1
+		f2.write("<slide right=\"true\">\n")
+		f2.write("<image align=\"right\" size=\"8\"></image>\n")
 
+	f2.write("<textbox>\n")
+	for i in textlist:
+		f2.write("<para "+i+"></para>\n")
+	f2.write("</textbox>\n")
 
-# f1.write("</input>")
-# f1.close()
-# f2.write("</output>")
-# f2.close()
+	f2.write("</slide>\n")
 
-# print inc
+f1.write("</ppt>")
+f1.close()
+f2.write("</ppt>")
+f2.close()
+
+print a,b,c
 
 # ###########################################################################################
 
-# random.seed(1010)
+fonts = ['Comic Sans','Arial','Times New Roman']
 
-# fonts = ['Comic Sans','Arial']
+random.seed(1010)
 
-# f1 = open('../test/input1.xml','w')
-# f2 = open('../test/output1.xml','w')
+f1 = open('../test/input2.xml','w')
+f2 = open('../test/output2.xml','w')
 
-# f1.write("<input>\n")
-# f2.write("<output>\n")
+f1.write("<ppt>\n")
+f2.write("<ppt>\n")
 
-# inc = 0
+a = 0
+b = 0
+c = 0
 
-# for j in range(100):
+for j in range(20):
 	
-# 	f1.write("<textbox>\n")
-
-# 	font_option = random.randrange(0,3)
-# 	if(font_option != 2):
-# 			font = fonts[font_option];
-# 	else:
-# 		font = ''.join(random.choice(ascii_uppercase) for i in range(5))
-
-# 	paras = random.randrange(1,20);
-# 	textlist = []
-# 	sizelist = []
-
-# 	for i in range(paras):
-# 		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
-# 		size = random.randrange(10,20)
-# 		bold = random.randrange(0,5)
+	f1.write("<slide>\n")
+	
+	imsize = random.randrange(10,20)
+	align = random.randrange(0,3)
+	f1.write("<image align=\""+['right','center','left'][align]+"\" size=\""+str(imsize)+"\"></image>\n")
 		
-# 		f1.write("<para text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"></para>\n")
-# 		textlist.append("text=\""+text+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" bold=\""+str(bold)+"\"")
-# 		sizelist.append(size)
-
-# 	f1.write("</textbox>\n")
-# 	if(min(sizelist) >= 12):
-# 		if(font_option != 2):
-# 			inc = inc + 1
+	f1.write("<textbox>\n")
+	textlist = []
+	sizelist = []
+	
+	for i in range(5):
+		text = ''.join(random.choice(ascii_uppercase) for i in range(10))
+		size = random.randrange(10,40)
+		font = random.randrange(0,3)
+		align = random.randrange(0,3)
 		
-# 		f2.write("<textbox>\n")
-# 		for i in textlist:
-# 			f2.write("<para "+i+"></para>\n")
-# 		f2.write("</textbox>\n")
+		f1.write("<para text=\""+text+"\" font=\""+fonts[font]+"\" size=\""+str(size)+"\" align=\""+['right','center','left'][align]+"\"></para>\n")
 
-# 	else:
-# 		if(font_option == 0):
-# 			f2.write("<table>\n")
-# 			for i in textlist:
-# 				f2.write("<tableRow>\n")
-# 				f2.write("<tableCell "+i+"></tableCell>\n")
-# 				f2.write("</tableRow>\n")
-# 			f2.write("</table>\n")
+		textlist.append("text=\""+text+"\" font=\""+fonts[font]+"\" size=\"10\" align=\"left\"")
+		sizelist.append(size)
 
-# 		elif(font_option == 1):
-# 			f2.write("<list>\n")
-# 			for i in textlist:
-# 				f2.write("<item "+i+"></item>\n")
-# 			f2.write("</list>\n")
+	f1.write("</textbox>\n")
+	f1.write("</slide>\n")
 
-# 		else:
-# 			f2.write("<textbox>\n")
-# 			for i in textlist:
-# 				f2.write("<para "+i+"></para>\n")
-# 			f2.write("</textbox>\n")
+	minsize = min(sizelist)
+	if(minsize < 13):
+		a = a + 1
+		f2.write("<slide left=\"true\">\n")
+		f2.write("<image align=\"left\" size=\"8\"></image>\n")
+	elif(minsize < 20):
+		b = b + 1
+		f2.write("<slide center=\"true\">\n")
+		f2.write("<image align=\"center\" size=\"8\"></image>\n")
+	else:
+		c = c + 1
+		f2.write("<slide right=\"true\">\n")
+		f2.write("<image align=\"right\" size=\"8\"></image>\n")
 
+	f2.write("<textbox>\n")
+	for i in textlist:
+		f2.write("<para "+i+"></para>\n")
+	f2.write("</textbox>\n")
 
-# f1.write("</input>")
-# f1.close()
-# f2.write("</output>")
-# f2.close()
+	f2.write("</slide>\n")
 
-# print inc
+f1.write("</ppt>")
+f1.close()
+f2.write("</ppt>")
+f2.close()
+
+print a,b,c
