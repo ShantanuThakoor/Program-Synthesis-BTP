@@ -130,6 +130,8 @@ def MatchMap(phi, m):
 	global matches
 	d = dict()
 	for a in phi.keys():
+		if phi[a]._type == VAR:
+			Globals.matches = Globals.matches + 1
 		if phi[a]._type == LIT:
 			if phi[a].v == m[a].v:
 				Globals.matches = Globals.matches + 1

@@ -27,7 +27,7 @@ testInputFile = "test/input%d.xml"
 testOutputFile = "test/output%d.xml"
 
 def EntireTest():
-	i = 3
+	i = 2
 	inputList = listFromFile(inputFile % i)
 	outputList = listFromFile(outputFile % i)
 	rankingInputList = listFromFile(rankingInputFile % i)
@@ -42,8 +42,16 @@ def EntireTest():
 		x.outputLGG.printTree()
 		print "\n"
 
+	# for x in testInputList:
+	# 	x.printTree()
+	# 	output = RunProgram(Program(clusters[0].inputLGG, clusters[0].outputLGG), x)
+	# 	output.printTree()
+	# 	print "\n"
+
 	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
+	print data
 	classifier = LearnWeights(data)
+	print classifier.coef_
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
