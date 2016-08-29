@@ -49,9 +49,9 @@ def EntireTest():
 	# 	print "\n"
 
 	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
-	print data
+	# print data
 	classifier = LearnWeights(data)
-	print classifier.coef_
+	# print classifier.coef_
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []

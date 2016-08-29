@@ -127,14 +127,13 @@ def MatchTree(tau, t):
 	raise Exception('MatchTree', 'No case matched')
 
 def MatchMap(phi, m):
-	global matches
 	d = dict()
 	for a in phi.keys():
 		if phi[a]._type == VAR:
-			Globals.matches = Globals.matches + 1
+			Globals.variables = Globals.variables + 1
 		if phi[a]._type == LIT:
 			if phi[a].v == m[a].v:
-				Globals.matches = Globals.matches + 1
+				Globals.literals = Globals.literals + 1
 		d = merge(d, {phi[a].v: m[a]})
 	return d
 

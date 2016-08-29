@@ -8,14 +8,16 @@ INFI = 10**5
 
 def getFeatures(cluster, input):
 	newInputLGG = InferTreeExp(frozenset(), cluster.inputList + [input])
-	Globals.matches = 0
+	Globals.literals = 0
+	Globals.variables = 0
 	RunProgram(Program(cluster.inputLGG, cluster.outputLGG), input)
 	return [len(cluster.inputList),
 			len(Var(cluster.inputLGG)),
 			len(Var(newInputLGG)),
 			len(Iter(cluster.inputLGG)),
 			len(Iter(newInputLGG)),
-			Globals.matches,
+			Globals.literals,
+			Globals.variables,
 			]
 
 def CreateIdealMatchings(clusters, input, output):

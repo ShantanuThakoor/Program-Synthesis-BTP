@@ -1,2 +1,3 @@
 class Globals(object):
-	matches = 0
+	literals = 0
+	variables = 0
