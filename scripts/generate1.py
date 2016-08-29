@@ -79,7 +79,7 @@ f2.write("<output>\n")
 
 inc = 0
 
-for j in range(10000):
+for j in range(100):
 	
 	f1.write("<textbox>\n")
 
