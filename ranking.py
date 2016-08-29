@@ -2,22 +2,20 @@ from framework import *
 from grammar import *
 from substitution import *
 from clustering import *
+from myGlobals import Globals
 
 INFI = 10**5
 
-matches = 0
-
 def getFeatures(cluster, input):
 	newInputLGG = InferTreeExp(frozenset(), cluster.inputList + [input])
-	global matches
-	matches = 0
+	Globals.matches = 0
 	RunProgram(Program(cluster.inputLGG, cluster.outputLGG), input)
 	return [len(cluster.inputList),
 			len(Var(cluster.inputLGG)),
 			len(Var(newInputLGG)),
 			len(Iter(cluster.inputLGG)),
 			len(Iter(newInputLGG)),
-			matches,
+			Globals.matches,
 			]
 
 def CreateIdealMatchings(clusters, input, output):
@@ -26,7 +24,7 @@ def CreateIdealMatchings(clusters, input, output):
 		for j in range(len(clusters)):
 			try:
 				features = getFeatures(clusters[j], input[i])
-			except:
+			except :
 				continue
 			prediction = execute(clusters[j], input[i])
 			predictionXML = prediction.toXML()

@@ -43,12 +43,11 @@ def EntireTest():
 		print "\n"
 
 	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
-
 	classifier = LearnWeights(data)
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
-
+	printFailues = False
 	for i in range(len(testInputList)):
 		input = testInputList[i]
 		output = testOutputList[i]
@@ -65,10 +64,11 @@ def EntireTest():
 			failedInputs += [inp]
 			failedPredictions += [p]
 			failedOutputs += [o]
-			print "Number ", i
-			print "Input\n", inp
-			print "Prediction\n", p
-			print "Output\n", o
+			if printFailues:
+				print "Number ", i
+				print "Input\n", inp
+				print "Prediction\n", p
+				print "Output\n", o
 
 	num = len(testInputList)
 	failed = len(failedInputs)
