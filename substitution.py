@@ -128,6 +128,7 @@ def MatchTree(tau, t, partial=False):
 
 def MatchMap(phi, m, partial=False):
 	d = dict()
+	global matches
 	for a in phi.keys():
 		if not partial:
 			varCond = phi[a]._type != VAR
@@ -137,7 +138,10 @@ def MatchMap(phi, m, partial=False):
 				raise Exception('MatchMap', 'Not a substitution')
 			d = merge(d, {phi[a].v : m[a]})
 		else:
-			d = merge(d, {phi[a].v, m[a]}
+			if phi[a]._type == LIT:
+				if phi[a].v == m[a].v:
+					matches = matches + 1
+			d = merge(d, {phi[a].v, m[a]})
 	return d
 
 def ApplyTree(tau, sigma):
