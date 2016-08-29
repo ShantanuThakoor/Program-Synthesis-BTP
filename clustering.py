@@ -1,6 +1,7 @@
 from framework import *
 from grammar import *
 from substitution import *
+from myGlobals import *
 
 class Cluster:
 	def __init__(self, inputLGG, outputLGG, inputList, outputList):

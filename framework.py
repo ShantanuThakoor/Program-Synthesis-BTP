@@ -217,8 +217,7 @@ def GetLiterals(x1, x2):
 	return R
 
 def RunProgram(P, t):
-	# make PartialMatchTree
-	sigma = MatchTree(P.input, t, True)
+	sigma = MatchTree(P.input, t)
 	tPrime = ApplyTree(P.output, sigma)
 	if len(Var(tPrime)) == 0 and len(Iter(tPrime)) == 0:
 		return tPrime
