@@ -85,7 +85,7 @@ def FirstRoot(t, e):
 		return False
 	return Root(t.list[0]) == frozenset([e])
 
-def MatchTree(tau, t):
+def MatchTree(tau, t, partial=False):
 	
 	tau = asList(tau)
 	t = asList(t)
@@ -102,9 +102,9 @@ def MatchTree(tau, t):
 
 	if tau.list[0]._type == ROOT and t.list[0]._type == ROOT:
 		if tau.list[0].tag == t.list[0].tag:
-			temp1 = MatchMap(tau.list[0].map, t.list[0].map)
-			temp2 = MatchTree(tau.list[0].children, t.list[0].children)
-			temp3 = MatchTree(asAtomic(ListTree(tau.list[1:])), asAtomic(ListTree(t.list[1:])))
+			temp1 = MatchMap(tau.list[0].map, t.list[0].map, partial)
+			temp2 = MatchTree(tau.list[0].children, t.list[0].children, partial)
+			temp3 = MatchTree(asAtomic(ListTree(tau.list[1:])), asAtomic(ListTree(t.list[1:])), partial)
 			return merge(temp1, merge(temp2, temp3))
 
 	if tau.list[0]._type == LOOP:
@@ -126,16 +126,18 @@ def MatchTree(tau, t):
 
 	raise Exception('MatchTree', 'No case matched')
 
-def MatchMap(phi, m):
+def MatchMap(phi, m, partial=False):
 	d = dict()
 	for a in phi.keys():
-		varCond = phi[a]._type != VAR
-		otherCond = (phi[a].v == (None if a not in m else m[a].v))
-		if varCond != otherCond:
-			# print a, phi[a].v, m[a].v
-			raise Exception('MatchMap', 'Not a substitution')
-		d = merge(d, {phi[a].v : m[a]})
-		# print a, phi[a].v, m[a].v
+		if not partial:
+			varCond = phi[a]._type != VAR
+			otherCond = (phi[a].v == (None if a not in m else m[a].v))
+			if varCond != otherCond:
+				# print a, phi[a].v, m[a].v
+				raise Exception('MatchMap', 'Not a substitution')
+			d = merge(d, {phi[a].v : m[a]})
+		else:
+			d = merge(d, {phi[a].v, m[a]}
 	return d
 
 def ApplyTree(tau, sigma):
