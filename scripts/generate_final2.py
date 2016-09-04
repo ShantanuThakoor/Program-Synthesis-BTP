@@ -16,7 +16,7 @@ a = 0
 b = 0
 c = 0
 
-for j in range(100):
+for j in range(50):
 	
 	size = sizes[random.randrange(0,9)]
 	color = colors[random.randrange(0,5)]
@@ -104,7 +104,7 @@ a = 0
 b = 0
 c = 0
 
-for j in range(1000):
+for j in range(300):
 	
 	size = sizes[random.randrange(0,9)]
 	color = colors[random.randrange(0,5)]
@@ -136,7 +136,7 @@ for j in range(1000):
 
 	if(len(satisfied) > 0):
 
-		option = satisfied[0]
+		option = satisfied[random.randrange(0,len(satisfied))]
 
 		if(option == 0):
 			f2.write("<slide image_align=\"left\">\n")
@@ -225,7 +225,7 @@ for j in range(50):
 
 	if(len(satisfied) > 0):
 
-		option = satisfied[0]
+		option = satisfied[random.randrange(0,len(satisfied))]
 
 		if(option == 0):
 			f2.write("<slide image_align=\"left\">\n")
