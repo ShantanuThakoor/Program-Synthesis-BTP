@@ -14,9 +14,8 @@ test_examples = 100
 
 random.seed(1301)
 
-fonts = ['Comic Sans','Arial','Times New Roman','Arial Bold']
-sizes = [1,2,3,4,5,6,8,10,12,14,16,18,20]
-colors = ['red','blue','green','yellow','black']
+fonts = ['Arial','Times New Roman']
+sizes = [6,8,10,12,14]
 
 ######################################################################
 
@@ -28,14 +27,17 @@ outputs = []
 j = 0
 a = 0
 
+b = 0
+c = 0
+d = 0
+
 f1.write("<input>\n")
 f2.write("<output>\n")
 
 while j < impurity_train*train_examples:
 	
-	font = fonts[random.randrange(0,4)]
-	size = sizes[random.randrange(0,13)]
-	color = colors[random.randrange(0,5)]
+	font = fonts[random.randrange(0,2)]
+	size = sizes[random.randrange(0,5)]
 	textlist = []
 	
 	paras = random.randrange(1,20);
@@ -46,36 +48,39 @@ while j < impurity_train*train_examples:
 
 	unique = []
 
-	if(size == 10 and color=="red"):
+	if(font == "Times New Roman" and size == 10):
 		unique.append(0)
 	if(font == "Arial"):
 		unique.append(1)
-	if(font == "Times New Roman" and color=="blue"):
+	if(size == 8):
 		unique.append(2)
 
 	if len(unique) == 1:
 
 		inp = "<textbox>\n";
 		for i in textlist:
-			inp = inp + "<para text=\""+i+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" color=\""+str(color)+"\"></para>\n"
+			inp = inp + "<para text=\""+i+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" style=\"normal\"></para>\n"
 		inp = inp + "</textbox>\n"
 
-		if unique[0] == 0:
+		if unique[0] == 2:
+			b = b + 1
 			out = "<list>\n"
 			for i in textlist:
-				out = out + "<item text=\""+i+"\" font=\""+str(font)+"\" size=\"12\" color=\"blue\"></item>\n"
+				out = out + "<item text=\""+i+"\" font=\""+str(font)+"\" size=\"" + str(size) +"\" style=\"underline\"></item>\n"
 			out = out + "</list>\n"
 
 		elif unique[0] == 1:
+			c = c + 1
 			out = "<table>\n";
 			for i in textlist:
-				out = out + "<tableRow text=\""+i+"\" font=\"Arial\" size=\""+str(size)+"\" color=\"red\"></tableRow>\n"
+				out = out + "<tableRow text=\""+i+"\" font=\"Arial\" size=\""+str(size)+"\" style=\"italic\"></tableRow>\n"
 			out = out + "</table>\n"
 		
-		elif unique[0] == 2:
+		elif unique[0] == 0:
+			d =  d + 1
 			out = "<textbox>\n";
 			for i in textlist:
-				out = out + "<para text=\""+i+"\" font=\"Comic Sans\" size=\""+str(size)+"\" color=\"blue\"></para>\n"
+				out = out + "<para text=\""+i+"\" font=\"Times New Roman\" size=\""+str(size)+"\" style=\"bold\"></para>\n"
 			out = out + "</textbox>\n"
 		
 		inputs.append(inp)
@@ -86,9 +91,8 @@ while j < impurity_train*train_examples:
 
 while j < train_examples:
 	
-	font = fonts[random.randrange(0,4)]
-	size = sizes[random.randrange(0,13)]
-	color = colors[random.randrange(0,5)]
+	font = "Arial"
+	size = 8
 	textlist = []
 	
 	paras = random.randrange(1,20);

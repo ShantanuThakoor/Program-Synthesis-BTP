@@ -49,7 +49,7 @@ def LearnWeights(data):
 	from sklearn import svm
 	X = data[0]
 	Y = data[1]
-	clf = svm.LinearSVC()
+	clf = svm.LinearSVC(random_state=0)
 	clf.fit(X, Y)
 	return clf
 

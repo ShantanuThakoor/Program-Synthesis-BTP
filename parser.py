@@ -27,7 +27,7 @@ testInputFile = "test/input%d.xml"
 testOutputFile = "test/output%d.xml"
 
 def EntireTest():
-	i = 2
+	i = 7
 	inputList = listFromFile(inputFile % i)
 	outputList = listFromFile(outputFile % i)
 	rankingInputList = listFromFile(rankingInputFile % i)
@@ -51,11 +51,76 @@ def EntireTest():
 	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
 	# print data
 	classifier = LearnWeights(data)
-	# print classifier.coef_
+	print classifier.coef_
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
 	printFailues = False
+
+	################################## Train ###############################
+	failedInputs = []
+	failedPredictions = []
+	failedOutputs = []
+	for i in range(len(inputList)):
+		input = inputList[i]
+		output = outputList[i]
+
+		prediction = GetBestOutput(clusters, input, classifier)
+		if prediction is not None:
+			p = prediction.toXML()
+		else:
+			p = "No prediction"
+		o = output.toXML()
+
+		if p != o:
+			inp = input.toXML()
+			failedInputs += [inp]
+			failedPredictions += [p]
+			failedOutputs += [o]
+			if printFailues:
+				print "Number ", i
+				print "Input\n", inp
+				print "Prediction\n", p
+				print "Output\n", o
+
+	num = len(inputList)
+	failed = len(failedInputs)
+	print "%d of %d successfully predicted" % (num - failed, num)
+
+	################################## Ranking ###############################
+	failedInputs = []
+	failedPredictions = []
+	failedOutputs = []
+	for i in range(len(rankingInputList)):
+		input = rankingInputList[i]
+		output = rankingOutputList[i]
+
+		prediction = GetBestOutput(clusters, input, classifier)
+		if prediction is not None:
+			p = prediction.toXML()
+		else:
+			p = "No prediction"
+		o = output.toXML()
+
+		if p != o:
+			inp = input.toXML()
+			failedInputs += [inp]
+			failedPredictions += [p]
+			failedOutputs += [o]
+			if printFailues:
+				print "Number ", i
+				print "Input\n", inp
+				print "Prediction\n", p
+				print "Output\n", o
+
+	num = len(rankingInputList)
+	failed = len(failedInputs)
+	print "%d of %d successfully predicted" % (num - failed, num)
+
+	##################################### Test #####################################
+	failedInputs = []
+	failedPredictions = []
+	failedOutputs = []
 	for i in range(len(testInputList)):
 		input = testInputList[i]
 		output = testOutputList[i]
