@@ -3,6 +3,10 @@ from grammar import *
 from framework import *
 from clustering import *
 from ranking import *
+import sys
+
+args = sys.argv
+
 
 def createExpTree(node):
 	e = node.tag
@@ -27,7 +31,7 @@ testInputFile = "test/input%d.xml"
 testOutputFile = "test/output%d.xml"
 
 def EntireTest():
-	i = 7
+	i = int(args[1])
 	inputList = listFromFile(inputFile % i)
 	outputList = listFromFile(outputFile % i)
 	rankingInputList = listFromFile(rankingInputFile % i)

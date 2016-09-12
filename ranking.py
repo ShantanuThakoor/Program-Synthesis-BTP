@@ -3,6 +3,7 @@ from grammar import *
 from substitution import *
 from clustering import *
 from myGlobals import Globals
+import numpy as np
 
 INFI = 10**5
 
@@ -47,10 +48,17 @@ def MatchScore(cluster, input, classifier):
 
 def LearnWeights(data):
 	from sklearn import svm
+	from sklearn import grid_search
 	X = data[0]
 	Y = data[1]
 	clf = svm.LinearSVC(random_state=0)
-	clf.fit(X, Y)
+	C_s = np.logspace(-10, 0, 10)
+	param_grid = [	{'C': C_s} ]
+	opt_clf = grid_search.GridSearchCV(clf, param_grid, cv=4)
+	opt_clf.fit(X,Y)
+	print opt_clf.best_params_
+
+	clf.fit(X,Y)
 	return clf
 
 def GetBestOutput(clusters, input, classifier):
