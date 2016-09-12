@@ -35,6 +35,7 @@ def tooGeneral(program):
 
 def FormClusters(inputList, outputList):
 	clusters = []
+	print len(inputList), len(outputList)
 	for i in range(len(inputList)):
 		input, output = inputList[i], outputList[i]
 		best = -1
