@@ -44,14 +44,16 @@ def printToDB(tree, parent, clusterID=None):
 		# need to print parent or clusterID
 		# element
 		# attributes
-		if clusterID:
-			print "isOfCluster%d(node%d)" % (clusterID, nodeNumber)
+		if clusterID is not None:
+			print "isOfCluster(Node%d, %d)" % (nodeNumber, clusterID)
 		else:
-			print "isChild(node%d, node%d)" % (nodeNumber, parent)
-		print "elementIs%s(node%d)" (tree.tag, nodeNumber)
-		for k in tree.mapping:
-			v = tree.mapping[k]
-			print "%s_is_%s(node%d)" % (k, v, nodeNumber)
+			print "isChild(Node%d, Node%d)" % (nodeNumber, parent)
+		print "elementIs(Node%d, %s)" % (nodeNumber, "\""+tree.tag+"\"")
+		for k in tree.map:
+			v = tree.map[k]
+			if k == "text":
+				continue
+			print "%sIs(Node%d, %s)" % (k, nodeNumber, "\""+v.v+"\"")
 		nodeNumber = nodeNumber + 1
 		printToDB(tree.children, nodeNumber-1, None)
 
@@ -85,7 +87,7 @@ def EntireTest():
 	for x in data:
 		printToDB(x[0], -1, x[1])
 	return
-	
+
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
