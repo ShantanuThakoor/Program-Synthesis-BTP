@@ -30,6 +30,31 @@ rankingOutputFile = "ranking/output%d.xml"
 testInputFile = "test/input%d.xml"
 testOutputFile = "test/output%d.xml"
 
+nodeNumber = 0
+
+def printToDB(tree, parent, clusterID=None):
+	global nodeNumber
+	if tree._type == EMPTY:
+		return
+	if tree._type == LIST:
+		for x in tree.list:
+			printToDB(x, parent)
+		return
+	if tree._type == ROOT:
+		# need to print parent or clusterID
+		# element
+		# attributes
+		if clusterID:
+			print "isOfCluster%d(node%d)" % (clusterID, nodeNumber)
+		else:
+			print "isChild(node%d, node%d)" % (nodeNumber, parent)
+		print "elementIs%s(node%d)" (tree.tag, nodeNumber)
+		for k in tree.mapping:
+			v = tree.mapping[k]
+			print "%s_is_%s(node%d)" % (k, v, nodeNumber)
+		nodeNumber = nodeNumber + 1
+		printToDB(tree.children, nodeNumber-1, None)
+
 def EntireTest():
 	i = int(args[1])
 	inputList = listFromFile(inputFile % i)
@@ -40,11 +65,11 @@ def EntireTest():
 	testOutputList = listFromFile(testOutputFile % i)
 
 	clusters = FormClusters(inputList, outputList)
-	print len(clusters)
-	for x in clusters:
-		x.inputLGG.printTree()
-		x.outputLGG.printTree()
-		print "\n"
+	# print len(clusters)
+	# for x in clusters:
+	# 	x.inputLGG.printTree()
+	# 	x.outputLGG.printTree()
+	# 	print "\n"
 
 	# for x in testInputList:
 	# 	x.printTree()
@@ -52,10 +77,15 @@ def EntireTest():
 	# 	output.printTree()
 	# 	print "\n"
 
-	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
-	# print data
-	classifier = LearnWeights(data)
-	print classifier.coef_
+	# data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
+	# classifier = LearnWeights(data)
+	# print classifier.coef_
+	
+	data = CreateDBData(clusters, rankingInputList, rankingOutputList)
+	for x in data:
+		printToDB(x[0], -1, x[1])
+	return
+	
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
