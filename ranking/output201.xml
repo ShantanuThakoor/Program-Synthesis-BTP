@@ -1,14 +1,37 @@
 <output>
 <table>
-<tableRow text="KFJXDSYWLJ" font="Arial" size="2" color="red"></tableRow>
-<tableRow text="JNHRSNXMCZ" font="Arial" size="2" color="red"></tableRow>
+<tableRow text="JIUUOJCLZO" font="Arial" size="4" color="red"></tableRow>
+<tableRow text="NPEYJDELGM" font="Arial" size="4" color="red"></tableRow>
+</table>
+<list>
+<item text="WEXZNESLWF" font="Arial_Bold" size="12" color="blue"></item>
+<item text="MYOKATWCAH" font="Arial_Bold" size="12" color="blue"></item>
+<item text="QLNEKWRVJY" font="Arial_Bold" size="12" color="blue"></item>
+</list>
+<table>
+<tableRow text="ZBSOLSHCRV" font="Arial" size="20" color="red"></tableRow>
+</table>
+<table>
+<tableRow text="DBLCJDKLTY" font="Arial" size="6" color="red"></tableRow>
+<tableRow text="MXBKKZTLVR" font="Arial" size="6" color="red"></tableRow>
 </table>
 <textbox>
-<para text="WHONENSQKA" font="Comic Sans" size="5" color="blue"></para>
+<para text="HHHLWYQQOC" font="Comic Sans" size="20" color="blue"></para>
+<para text="EPLJAARZTM" font="Comic Sans" size="20" color="blue"></para>
+<para text="EOXPMSPNJF" font="Comic Sans" size="20" color="blue"></para>
+</textbox>
+<textbox>
+<para text="LAAUTFKCJP" font="Comic Sans" size="18" color="blue"></para>
+<para text="XMDAIWSRWO" font="Comic Sans" size="18" color="blue"></para>
+<para text="LTEVJCMLDM" font="Comic Sans" size="18" color="blue"></para>
+</textbox>
+<textbox>
+<para text="GXXDWKKCTW" font="Comic Sans" size="10" color="blue"></para>
+<para text="HMCFFIQPSF" font="Comic Sans" size="10" color="blue"></para>
 </textbox>
 <list>
-<item text="EYBTDGLRTT" font="Arial" size="12" color="blue"></item>
-<item text="NRQLUGLMDQ" font="Arial" size="12" color="blue"></item>
-<item text="PNMFRDBJLW" font="Arial" size="12" color="blue"></item>
+<item text="EXZNESLWF" font="Times_New_Roman" size="12" color="blue"></item>
+<item text="YOKATWCAH" font="Times_New_Roman" size="12" color="blue"></item>
+<item text="LNEKWRVJY" font="Times_New_Roman" size="12" color="blue"></item>
 </list>
 </output>
