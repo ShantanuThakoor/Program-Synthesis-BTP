@@ -21,6 +21,20 @@ def getFeatures(cluster, input):
 			Globals.variables,
 			]
 
+def CreateDBData(clusters, input, output):
+	data = []
+	for i in range(len(input)):
+		for j in range(len(clusters)):
+			try:
+				features = getFeatures(clusters[j], input[i])
+			except :
+				continue
+			prediction = execute(clusters[j], input[i])
+			predictionXML = prediction.toXML()
+			outputXML = output[i].toXML()
+			data.append((input[i], j))
+	return data
+
 def CreateIdealMatchings(clusters, input, output):
 	data = ([], [])
 	for i in range(len(input)):
