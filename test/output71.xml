@@ -1,13 +1,108 @@
 <output>
 <bullet d="1">
+<point color="green"></point>
 <point color="black"></point>
 <point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="black"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="green"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
 <point color="green"></point>
 </bullet>
 <bullet d="1">
 <point color="green"></point>
 <point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
 <point color="black"></point>
+<point color="green"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="blue"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="black"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="black"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="black"></point>
+<point color="green"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
 </bullet>
 <bullet a="1">
 <point color="orange"></point>
@@ -17,52 +112,22 @@
 <bullet d="1">
 <point color="blue"></point>
 <point color="green"></point>
-<point color="black"></point>
+<point color="blue"></point>
 </bullet>
 <bullet d="1">
+<point color="blue"></point>
+<point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
 <point color="green"></point>
-<point color="blue"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="black"></point>
 </bullet>
 <bullet d="1">
 <point color="green"></point>
 <point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
 <point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
 </bullet>
 <bullet a="1">
 <point color="orange"></point>
@@ -72,22 +137,17 @@
 <bullet d="1">
 <point color="black"></point>
 <point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
+<point color="green"></point>
 </bullet>
 <bullet d="1">
 <point color="black"></point>
 <point color="blue"></point>
 <point color="black"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
 </bullet>
 <bullet d="1">
 <point color="green"></point>
@@ -95,34 +155,94 @@
 <point color="blue"></point>
 </bullet>
 <bullet d="1">
-<point color="black"></point>
 <point color="green"></point>
 <point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="black"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
 <point color="black"></point>
 </bullet>
 <bullet d="1">
+<point color="blue"></point>
 <point color="black"></point>
-<point color="green"></point>
 <point color="blue"></point>
 </bullet>
 <bullet a="1">
 <point color="orange"></point>
 <point color="orange"></point>
 <point color="orange"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
+</bullet>
+<bullet b="1">
+<point color="yellow"></point>
+<point color="yellow"></point>
+<point color="yellow"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
 </bullet>
 <bullet c="1">
 <point color="pink"></point>
@@ -131,248 +251,8 @@
 </bullet>
 <bullet d="1">
 <point color="blue"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
 <point color="blue"></point>
 <point color="blue"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="blue"></point>
-<point color="green"></point>
-</bullet>
-<bullet a="1">
-<point color="orange"></point>
-<point color="orange"></point>
-<point color="orange"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet a="1">
-<point color="orange"></point>
-<point color="orange"></point>
-<point color="orange"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet a="1">
-<point color="orange"></point>
-<point color="orange"></point>
-<point color="orange"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="blue"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="blue"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="blue"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet a="1">
-<point color="orange"></point>
-<point color="orange"></point>
-<point color="orange"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="blue"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet b="1">
-<point color="yellow"></point>
-<point color="yellow"></point>
-<point color="yellow"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="blue"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="black"></point>
-<point color="green"></point>
 </bullet>
 <bullet c="1">
 <point color="pink"></point>
@@ -380,64 +260,59 @@
 <point color="pink"></point>
 </bullet>
 <bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
 <point color="green"></point>
 <point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
 <point color="green"></point>
 </bullet>
 <bullet d="1">
 <point color="blue"></point>
-<point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="green"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
 <point color="blue"></point>
 <point color="blue"></point>
 </bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="blue"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="black"></point>
+<bullet c="1">
+<point color="pink"></point>
+<point color="pink"></point>
+<point color="pink"></point>
 </bullet>
 <bullet a="1">
 <point color="orange"></point>
 <point color="orange"></point>
 <point color="orange"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="black"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
 </bullet>
 <bullet b="1">
 <point color="yellow"></point>
@@ -445,44 +320,54 @@
 <point color="yellow"></point>
 </bullet>
 <bullet d="1">
-<point color="green"></point>
-<point color="green"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="blue"></point>
-<point color="blue"></point>
-</bullet>
-<bullet d="1">
 <point color="blue"></point>
 <point color="black"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="black"></point>
 <point color="blue"></point>
-</bullet>
-<bullet d="1">
-<point color="green"></point>
-<point color="blue"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="blue"></point>
-<point color="green"></point>
-<point color="black"></point>
-</bullet>
-<bullet d="1">
-<point color="black"></point>
-<point color="black"></point>
-<point color="black"></point>
 </bullet>
 <bullet a="1">
 <point color="orange"></point>
 <point color="orange"></point>
 <point color="orange"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="green"></point>
 </bullet>
 <bullet b="1">
 <point color="yellow"></point>
@@ -491,12 +376,127 @@
 </bullet>
 <bullet d="1">
 <point color="black"></point>
+<point color="green"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="black"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="green"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
 <point color="blue"></point>
 <point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="blue"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="black"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="green"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="blue"></point>
+<point color="black"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="green"></point>
+<point color="black"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="blue"></point>
+<point color="green"></point>
 </bullet>
 <bullet d="1">
 <point color="blue"></point>
 <point color="blue"></point>
 <point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="black"></point>
+<point color="green"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="black"></point>
+<point color="green"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="black"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="black"></point>
+<point color="blue"></point>
+</bullet>
+<bullet d="1">
+<point color="blue"></point>
+<point color="black"></point>
+<point color="black"></point>
+</bullet>
+<bullet d="1">
+<point color="green"></point>
+<point color="green"></point>
+<point color="black"></point>
+</bullet>
+<bullet a="1">
+<point color="orange"></point>
+<point color="orange"></point>
+<point color="orange"></point>
 </bullet>
 </output>

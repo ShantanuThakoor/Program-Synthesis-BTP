@@ -1,29 +1,33 @@
 import random
 from string import ascii_uppercase
+from datetime import datetime
 import sys
 
-# x =  datetime.now()
-# print x
-# random.seed(x)
+x =  datetime.now()
+print x
+random.seed(x)
 
 args = sys.argv
 impurity_rank = float(args[1])
-impurity_test = 0.2
+impurity_rank_unseen = float(args[2])
+
+impurity_test = 0.1
+impurity_test_unseen = 0.2
 impurity_train = 0.1
 
 train_examples = 100
 rank_examples = 300
 test_examples = 100
 
-random.seed(1301)
+# random.seed(1301)
 
 colors = ['red','blue','green','black']
 colors2 = ['orange','yellow','pink']
 
 ##########################################################################################33
 
-f1 = open('../training/input7.xml','w')
-f2 = open('../training/output7.xml','w')
+f1 = open('../training/input71.xml','w')
+f2 = open('../training/output71.xml','w')
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -115,6 +119,7 @@ while j < train_examples:
 
 	j = j + 1
 
+	
 z = list(zip(inputs, outputs))
 random.shuffle(z)
 inputs, outputs = zip(*z)
@@ -133,10 +138,10 @@ print a,b,c,d
 
 ##################################################################################################3
 
-random.seed(101)
+# random.seed(101)
 
-f1 = open('../ranking/input7.xml','w')
-f2 = open('../ranking/output7.xml','w')
+f1 = open('../ranking/input71.xml','w')
+f2 = open('../ranking/output71.xml','w')
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -204,6 +209,31 @@ while j < impurity_rank*rank_examples:
 
 	j = j + 1
 
+
+while j < rank_examples*impurity_rank_unseen:
+	color1 = random.randrange(0,3)
+	color2 = random.randrange(0,3)
+	color3 = random.randrange(0,3)
+	case = random.randrange(0,2)
+
+	inp = "<bullet>\n"
+	inp = inp + "<point color=\""+colors[color1+1]+"\"></point>\n"
+	inp = inp + "<point color=\""+colors[0]+"\"></point>\n"
+	inp = inp + "<point color=\""+colors[1+color3]+"\"></point>\n"
+	inp = inp + "</bullet>\n"
+
+	out = "<bullet a=\"1\">\n"
+	out = out + "<point color=\""+colors2[0]+"\"></point>\n"
+	out = out + "<point color=\""+colors2[0]+"\"></point>\n"
+	out = out + "<point color=\""+colors2[0]+"\"></point>\n"
+	out = out + "</bullet>\n"
+
+	inputs.append(inp)
+	outputs.append(out)
+
+	j = j + 1
+
+
 while j < rank_examples:
 	
 	color1 = random.randrange(0,3)
@@ -228,6 +258,7 @@ while j < rank_examples:
 
 	j = j + 1
 
+
 z = list(zip(inputs, outputs))
 random.shuffle(z)
 inputs, outputs = zip(*z)
@@ -246,10 +277,10 @@ print a,b,c,d
 
 # # ###########################################################################################
 
-random.seed(11)
+# random.seed(11)
 
-f1 = open('../test/input7.xml','w')
-f2 = open('../test/output7.xml','w')
+f1 = open('../test/input71.xml','w')
+f2 = open('../test/output71.xml','w')
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -316,6 +347,31 @@ while j < impurity_test*test_examples:
 	outputs.append(out)
 
 	j = j + 1
+
+
+while j < test_examples*impurity_test_unseen:
+	color1 = random.randrange(0,3)
+	color2 = random.randrange(0,3)
+	color3 = random.randrange(0,3)
+	case = random.randrange(0,2)
+
+	inp = "<bullet>\n"
+	inp = inp + "<point color=\""+colors[color1+1]+"\"></point>\n"
+	inp = inp + "<point color=\""+colors[0]+"\"></point>\n"
+	inp = inp + "<point color=\""+colors[1+color3]+"\"></point>\n"
+	inp = inp + "</bullet>\n"
+
+	out = "<bullet a=\"1\">\n"
+	out = out + "<point color=\""+colors2[0]+"\"></point>\n"
+	out = out + "<point color=\""+colors2[0]+"\"></point>\n"
+	out = out + "<point color=\""+colors2[0]+"\"></point>\n"
+	out = out + "</bullet>\n"
+
+	inputs.append(inp)
+	outputs.append(out)
+
+	j = j + 1
+
 
 while j < test_examples:
 	
