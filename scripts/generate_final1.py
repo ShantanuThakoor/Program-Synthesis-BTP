@@ -1,9 +1,13 @@
 import random
 from string import ascii_uppercase
 import sys
+from datetime import datetime
+
+x =  datetime.now()
+print x
+random.seed(x)
 
 args = sys.argv
-
 impurity_rank = float(args[1])
 impurity_test = 0.8
 impurity_train = 0.9
@@ -12,7 +16,7 @@ train_examples = 100
 rank_examples = 300
 test_examples = 100
 
-random.seed(1301)
+# random.seed(1301)
 
 fonts = ['Comic Sans','Arial','Times New Roman','Arial Bold']
 sizes = [1,2,3,4,5,6,8,10,12,14,16,18,20]
@@ -153,7 +157,7 @@ f2.close()
 print a
 ##################################################################################################3
 
-random.seed(101)
+# random.seed(101)
 
 f1 = open('../ranking/input4.xml','w')
 f2 = open('../ranking/output4.xml','w')
@@ -289,7 +293,7 @@ print a
 
 # ###########################################################################################
 
-random.seed(11)
+# random.seed(11)
 
 f1 = open('../test/input4.xml','w')
 f2 = open('../test/output4.xml','w')

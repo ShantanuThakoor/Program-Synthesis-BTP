@@ -52,12 +52,14 @@ def LearnWeights(data):
 	X = data[0]
 	Y = data[1]
 	clf = svm.LinearSVC(random_state=0)
+	
 	C_s = np.logspace(-10, 0, 10)
-	param_grid = [	{'C': C_s} ]
+	param_grid = [{'C': C_s}]
 	opt_clf = grid_search.GridSearchCV(clf, param_grid, cv=4)
 	opt_clf.fit(X,Y)
 	print opt_clf.best_params_
 
+	clf.C = opt_clf.best_params_['C']
 	clf.fit(X,Y)
 	return clf
 

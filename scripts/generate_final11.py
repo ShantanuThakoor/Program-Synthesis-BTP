@@ -1,6 +1,11 @@
 import random
 from string import ascii_uppercase
 import sys
+from datetime import datetime
+
+x =  datetime.now()
+print x
+random.seed(x)
 
 args = sys.argv
 
@@ -15,7 +20,7 @@ train_examples = 100
 rank_examples = 300
 test_examples = 100
 
-random.seed(1301)
+# random.seed(1301)
 
 fonts = ['Comic Sans','Arial','Times New Roman','Arial Bold']
 sizes = [1,2,3,4,5,6,8,10,12,14,16,18,20]
@@ -158,7 +163,7 @@ print a
 
 ##################################################################################################3
 
-random.seed(101)
+# random.seed(101)
 
 f1 = open('../ranking/input41.xml','w')
 f2 = open('../ranking/output41.xml','w')
@@ -170,12 +175,8 @@ j = 0
 a = 0
 b = 0
 c = 0
-
 d = 0
 e = 0
-
-f = 0
-g = 0
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -217,12 +218,14 @@ while j < impurity_rank*rank_examples:
 			out = out + "</list>\n"
 
 		elif unique[0] == 1:
+			b = b + 1
 			out = "<table>\n";
 			for i in textlist:
 				out = out + "<tableRow text=\""+i+"\" font=\"Arial\" size=\""+str(size)+"\" color=\"red\"></tableRow>\n"
 			out = out + "</table>\n"
 		
 		elif unique[0] == 2:
+			c = c + 1
 			out = "<textbox>\n";
 			for i in textlist:
 				out = out + "<para text=\""+i+"\" font=\"Comic Sans\" size=\""+str(size)+"\" color=\"blue\"></para>\n"
@@ -248,11 +251,9 @@ while j < impurity_rank_unseen*rank_examples:
 	unique = []
 	if(color!="red" and font == "Times New Roman"):
 		unique.append(0)
-	if(color=="red" and font != "Arial"):
-		unique.append(1)
 
 	if len(unique) == 1:
-
+		d = d + 1
 		inp = "<textbox>\n";
 		for i in textlist:
 			inp = inp + "<para text=\""+i+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" color=\""+str(color)+"\"></para>\n"
@@ -292,7 +293,7 @@ while j < rank_examples:
 	unique = []
 
 	if(size == 10 and color=="red" and font == "Arial" and paras > 10):
-		a = a+1
+		e = e+1
 		unique.append(0)
 	if(size == 10 and color=="red" and font == "Arial" and paras <= 10):
 		unique.append(1)
@@ -342,14 +343,14 @@ f1.close()
 f2.write("</output>")
 f2.close()
 
-print a
+print a,b,c,d,e
 
 # ###########################################################################################
 
-random.seed(11)
+# random.seed(11)
 
-f1 = open('../ranking/input41.xml','w')
-f2 = open('../ranking/output41.xml','w')
+f1 = open('../test/input41.xml','w')
+f2 = open('../test/output41.xml','w')
 
 inputs = []
 outputs = []
@@ -358,12 +359,8 @@ j = 0
 a = 0
 b = 0
 c = 0
-
 d = 0
 e = 0
-
-f = 0
-g = 0
 
 f1.write("<input>\n")
 f2.write("<output>\n")
@@ -405,12 +402,14 @@ while j < impurity_test*test_examples:
 			out = out + "</list>\n"
 
 		elif unique[0] == 1:
+			b = b + 1
 			out = "<table>\n";
 			for i in textlist:
 				out = out + "<tableRow text=\""+i+"\" font=\"Arial\" size=\""+str(size)+"\" color=\"red\"></tableRow>\n"
 			out = out + "</table>\n"
 		
 		elif unique[0] == 2:
+			c = c + 1
 			out = "<textbox>\n";
 			for i in textlist:
 				out = out + "<para text=\""+i+"\" font=\"Comic Sans\" size=\""+str(size)+"\" color=\"blue\"></para>\n"
@@ -436,11 +435,9 @@ while j < impurity_test_unseen*test_examples:
 	unique = []
 	if(color!="red" and font == "Times New Roman"):
 		unique.append(0)
-	if(color=="red" and font != "Arial"):
-		unique.append(1)
 
 	if len(unique) == 1:
-
+		d = d + 1
 		inp = "<textbox>\n";
 		for i in textlist:
 			inp = inp + "<para text=\""+i+"\" font=\""+str(font)+"\" size=\""+str(size)+"\" color=\""+str(color)+"\"></para>\n"
@@ -480,7 +477,7 @@ while j < test_examples:
 	unique = []
 
 	if(size == 10 and color=="red" and font == "Arial" and paras > 10):
-		a = a+1
+		e = e+1
 		unique.append(0)
 	if(size == 10 and color=="red" and font == "Arial" and paras <= 10):
 		unique.append(1)
@@ -530,4 +527,4 @@ f1.close()
 f2.write("</output>")
 f2.close()
 
-print a
+print a,b,c,d,e

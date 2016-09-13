@@ -1,20 +1,22 @@
-python generate_final4.py 0.0
+python generate_final3.py 0.0 
 cd ..
-t=`python parser.py 7 | tail -n 5`
-echo $t" "$i >> out
+t=`python parser.py 6 | tail -n 6`
+echo $t" "0
 cd scripts/
 
-python generate_final4.py 0.05
+echo ""
+python generate_final3.py 0.05 
 cd ..
-t=`python parser.py 7 | tail -n 5`
-echo $t" "$i >> out
+t=`python parser.py 6 | tail -n 6`
+echo $t" "5
 cd scripts/
 
 
-for i in `seq 10 5 60`; do
-	python generate_final4.py 0.$i
+for i in `seq 10 5 80`; do
+	echo ""
+	python generate_final3.py 0.$i 
 	cd ..
-	t=`python parser.py 7 | tail -n 5`
-	echo $t" "$i >> out
+	t=`python parser.py 6 | tail -n 6`
+	echo $t" "$i
 	cd scripts/
 done

@@ -1,6 +1,10 @@
 import random
 from string import ascii_uppercase
 import sys
+from datetime import datetime
+
+print datetime.now()
+random.seed(datetime.now())
 
 args = sys.argv
 
@@ -12,7 +16,7 @@ train_examples = 100
 rank_examples = 300
 test_examples = 100
 
-random.seed(1301)
+# random.seed(1301)
 
 fonts = ['Arial','Times New Roman', 'Comic Sans MS', 'Gotham']
 sizes = [8,10,12,14]
@@ -157,7 +161,7 @@ f2.close()
 print a,b,c,d
 ##################################################################################################
 
-random.seed(101)
+# random.seed(101)
 
 f1 = open('../ranking/input9.xml','w')
 f2 = open('../ranking/output9.xml','w')
@@ -297,7 +301,7 @@ f2.close()
 print a,b,c,d
 ##################################################################################################
 
-random.seed(11)
+# random.seed(11)
 
 f1 = open('../test/input9.xml','w')
 f2 = open('../test/output9.xml','w')
