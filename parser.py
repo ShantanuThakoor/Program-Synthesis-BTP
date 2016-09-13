@@ -67,11 +67,11 @@ def EntireTest():
 	testOutputList = listFromFile(testOutputFile % i)
 
 	clusters = FormClusters(inputList, outputList)
-	# print len(clusters)
-	# for x in clusters:
-	# 	x.inputLGG.printTree()
-	# 	x.outputLGG.printTree()
-	# 	print "\n"
+	print len(clusters)
+	for x in clusters:
+		x.inputLGG.printTree()
+		x.outputLGG.printTree()
+		print "\n"
 
 	# for x in testInputList:
 	# 	x.printTree()
@@ -79,15 +79,14 @@ def EntireTest():
 	# 	output.printTree()
 	# 	print "\n"
 
-	# data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
-	# classifier = LearnWeights(data)
-	# print classifier.coef_
+	data = CreateIdealMatchings(clusters, rankingInputList, rankingOutputList)
+	classifier = LearnWeights(data)
+	print classifier.coef_
 	
 	data = CreateDBData(clusters, rankingInputList, rankingOutputList)
 	for x in data:
 		printToDB(x[0], -1, x[1])
 	return
-
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
