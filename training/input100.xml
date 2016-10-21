@@ -1,0 +1,16 @@
+<input>
+<slide>
+	<textbox color="blue" size="10"></textbox>
+	<textbox color="blue" size="12"></textbox>
+</slide>
+<slide>
+	<textbox color="blue" size="14"></textbox>
+</slide>
+<slide>
+	<textbox color="red" size="8"></textbox>
+	<textbox color="green" size="8"></textbox>
+</slide>
+<slide>
+	<textbox color="yellow" size="8"></textbox>
+</slide>
+</input>

@@ -1,3 +1,4 @@
+from __future__ import division
 import xml.etree.ElementTree as ET 
 from grammar import *
 from framework import *
@@ -83,10 +84,10 @@ def EntireTest():
 	classifier = LearnWeights(data)
 	print classifier.coef_
 	
-	data = CreateDBData(clusters, rankingInputList, rankingOutputList)
-	for x in data:
-		printToDB(x[0], -1, x[1])
-	return
+	# data = CreateDBData(clusters, rankingInputList, rankingOutputList)
+	# for x in data:
+	# 	printToDB(x[0], -1, x[1])
+	# return
 	failedInputs = []
 	failedPredictions = []
 	failedOutputs = []
@@ -121,6 +122,7 @@ def EntireTest():
 	num = len(inputList)
 	failed = len(failedInputs)
 	print "%d of %d successfully predicted" % (num - failed, num)
+	print "Accuracy %d" % int((num-failed)*100/num)
 
 	################################## Ranking ###############################
 	failedInputs = []
@@ -151,6 +153,7 @@ def EntireTest():
 	num = len(rankingInputList)
 	failed = len(failedInputs)
 	print "%d of %d successfully predicted" % (num - failed, num)
+	print "Accuracy %d" % int((num-failed)*100/num)
 
 	##################################### Test #####################################
 	failedInputs = []
@@ -181,5 +184,5 @@ def EntireTest():
 	num = len(testInputList)
 	failed = len(failedInputs)
 	print "%d of %d successfully predicted" % (num - failed, num)
-
+	print "Accuracy %d" % int((num-failed)*100/num)
 EntireTest()

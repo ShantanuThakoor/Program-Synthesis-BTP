@@ -1,1155 +1,1267 @@
 <input>
 <list>
-<item text="DEYPICXCIG" font="Arial" size="8" bulletType="diamond"></item>
-<item text="YDQIYDDYKB" font="Arial" size="8" bulletType="diamond"></item>
-</list>
-<list>
-<item text="ASDHMBCXHR" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ZYXRWUOQBK" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="LHGGCKHEEO" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="WJYIAGPBKK" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="IEZGEMUBUL" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="QDDWTIBRRX" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="VFPVTAWNRB" font="Arial" size="14" bulletType="traingle"></item>
-<item text="JCFEWKFJOB" font="Arial" size="14" bulletType="traingle"></item>
-<item text="JDQHMKIZSB" font="Arial" size="14" bulletType="traingle"></item>
-<item text="UGMCFYQIWG" font="Arial" size="14" bulletType="traingle"></item>
-</list>
-<list>
-<item text="ARVBHUIROB" font="Arial" size="14" bulletType="diamond"></item>
-<item text="NFQJUKXARS" font="Arial" size="14" bulletType="diamond"></item>
-<item text="TUZVEOLFYK" font="Arial" size="14" bulletType="diamond"></item>
-<item text="ECXJXKPOQT" font="Arial" size="14" bulletType="diamond"></item>
-<item text="DJEGHPQRRK" font="Arial" size="14" bulletType="diamond"></item>
-<item text="GDGPXWHXIY" font="Arial" size="14" bulletType="diamond"></item>
-<item text="GSCUNJUMQD" font="Arial" size="14" bulletType="diamond"></item>
-<item text="YUBUFYTTYP" font="Arial" size="14" bulletType="diamond"></item>
-<item text="FPQLRBJYAD" font="Arial" size="14" bulletType="diamond"></item>
-<item text="NWOFDQXHIW" font="Arial" size="14" bulletType="diamond"></item>
-<item text="TWMKHXJQWR" font="Arial" size="14" bulletType="diamond"></item>
-<item text="AQMXASJKFR" font="Arial" size="14" bulletType="diamond"></item>
-<item text="WEXCICUMRP" font="Arial" size="14" bulletType="diamond"></item>
-<item text="XXNRXCCIJB" font="Arial" size="14" bulletType="diamond"></item>
-<item text="QMXOXNODCP" font="Arial" size="14" bulletType="diamond"></item>
-<item text="WMULVWXEJO" font="Arial" size="14" bulletType="diamond"></item>
-<item text="RIYWMLTZBD" font="Arial" size="14" bulletType="diamond"></item>
-<item text="LROSZVNBRH" font="Arial" size="14" bulletType="diamond"></item>
-<item text="UNXXARTAGT" font="Arial" size="14" bulletType="diamond"></item>
-</list>
-<list>
-<item text="KZEJKIBMGJ" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="DQPCFQMDFO" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="QQBAWEOQFO" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="IHEZDABOAF" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="TPIWKJUZMA" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="LVPIKLBHQB" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="GCYKHDGDIS" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="JOBXJAYCGO" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="FEMGNXYCYX" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="GKLQIYSDHD" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="RAWFADWJMF" font="Comic Sans MS" size="14" bulletType="circle"></item>
-<item text="YZBTBAWGCI" font="Comic Sans MS" size="14" bulletType="circle"></item>
-</list>
-<list>
-<item text="KKYZETJHRP" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="AABOJDVOOD" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="JKTHCBECXQ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="JUFWSHIZDU" font="Comic Sans MS" size="8" bulletType="square"></item>
-</list>
-<list>
-<item text="PPLHGMSGMN" font="Gotham" size="12" bulletType="square"></item>
-<item text="RHUOENQMXZ" font="Gotham" size="12" bulletType="square"></item>
-<item text="HGMGVPDGQY" font="Gotham" size="12" bulletType="square"></item>
-<item text="GLVDGWZRFW" font="Gotham" size="12" bulletType="square"></item>
-<item text="BMVCRKRFSC" font="Gotham" size="12" bulletType="square"></item>
-<item text="MHMBAWITXB" font="Gotham" size="12" bulletType="square"></item>
-<item text="COIPAVRHFN" font="Gotham" size="12" bulletType="square"></item>
-<item text="UCAMWLEHAU" font="Gotham" size="12" bulletType="square"></item>
-<item text="XBPDMYTRBX" font="Gotham" size="12" bulletType="square"></item>
-<item text="FKXZXCUKPT" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="TIRLWHMZAJ" font="Gotham" size="12" bulletType="square"></item>
-<item text="PDCNSCWTRO" font="Gotham" size="12" bulletType="square"></item>
-<item text="IKIQFHZNLA" font="Gotham" size="12" bulletType="square"></item>
-<item text="SOIYJHDCWN" font="Gotham" size="12" bulletType="square"></item>
-<item text="JFLOKBMRLS" font="Gotham" size="12" bulletType="square"></item>
-<item text="EDQQLETLGE" font="Gotham" size="12" bulletType="square"></item>
-<item text="FCZMAWXPZT" font="Gotham" size="12" bulletType="square"></item>
-<item text="PKFJMUQPIM" font="Gotham" size="12" bulletType="square"></item>
-<item text="IIISFRHDAD" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="KSTKOYZZIX" font="Arial" size="8" bulletType="diamond"></item>
-<item text="TTRQPNQXPT" font="Arial" size="8" bulletType="diamond"></item>
-<item text="YTCAGCRZGT" font="Arial" size="8" bulletType="diamond"></item>
-<item text="RIBUWPKZMD" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WQDAMKXMFO" font="Arial" size="8" bulletType="diamond"></item>
-<item text="ARGJZHNNFN" font="Arial" size="8" bulletType="diamond"></item>
-<item text="MROQKXBSOW" font="Arial" size="8" bulletType="diamond"></item>
-<item text="UDOCPSWPXB" font="Arial" size="8" bulletType="diamond"></item>
-<item text="TKOPXIWWOQ" font="Arial" size="8" bulletType="diamond"></item>
-<item text="LERQORLPCL" font="Arial" size="8" bulletType="diamond"></item>
-<item text="EPOUVQCHAB" font="Arial" size="8" bulletType="diamond"></item>
-<item text="KGGTHHGYCB" font="Arial" size="8" bulletType="diamond"></item>
-<item text="XEUSTEERKB" font="Arial" size="8" bulletType="diamond"></item>
-<item text="MIGFKALIKT" font="Arial" size="8" bulletType="diamond"></item>
-</list>
-<list>
-<item text="COZQVZUBDY" font="Arial" size="14" bulletType="diamond"></item>
-<item text="XBLEGPHAGY" font="Arial" size="14" bulletType="diamond"></item>
-<item text="SXLIMQGLME" font="Arial" size="14" bulletType="diamond"></item>
-<item text="FRNSOVLNWO" font="Arial" size="14" bulletType="diamond"></item>
-<item text="PHZUMXFKRZ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="VRVNJBBDSP" font="Arial" size="14" bulletType="diamond"></item>
-<item text="ESWAXUFSSD" font="Arial" size="14" bulletType="diamond"></item>
-<item text="MLHJNBALGM" font="Arial" size="14" bulletType="diamond"></item>
-<item text="IOSEPNEWFQ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="ETNRHOIQMJ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="COACFURAQP" font="Arial" size="14" bulletType="diamond"></item>
-<item text="WJQFMTTZPO" font="Arial" size="14" bulletType="diamond"></item>
-<item text="GNHXJWKSAF" font="Arial" size="14" bulletType="diamond"></item>
-<item text="FZPRMQIIQD" font="Arial" size="14" bulletType="diamond"></item>
-<item text="ULJOMFEKUL" font="Arial" size="14" bulletType="diamond"></item>
-<item text="HQXLVJPMDJ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="WNKRMKATUF" font="Arial" size="14" bulletType="diamond"></item>
-<item text="FTLCOKWPDX" font="Arial" size="14" bulletType="diamond"></item>
-<item text="FAPPRBHLUI" font="Arial" size="14" bulletType="diamond"></item>
-</list>
-<list>
-<item text="FFXOFYDXHD" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="KWOIMAQLIB" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="UQLHCHFXOL" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="INFXHQXLWI" font="Comic Sans MS" size="10" bulletType="square"></item>
-</list>
-<list>
-<item text="EGOWOBKJEL" font="Arial" size="12" bulletType="diamond"></item>
-<item text="YWOCYYDEVF" font="Arial" size="12" bulletType="diamond"></item>
-<item text="JCLXVBWRXV" font="Arial" size="12" bulletType="diamond"></item>
-<item text="ZYEAPWEGQE" font="Arial" size="12" bulletType="diamond"></item>
-<item text="ROLJPBIULU" font="Arial" size="12" bulletType="diamond"></item>
-<item text="NIKGJSRCMX" font="Arial" size="12" bulletType="diamond"></item>
-<item text="HVHRDLQYXE" font="Arial" size="12" bulletType="diamond"></item>
-<item text="LKQZOYGLVQ" font="Arial" size="12" bulletType="diamond"></item>
-<item text="LQVUAEYWWP" font="Arial" size="12" bulletType="diamond"></item>
-<item text="IJFUMXDLAW" font="Arial" size="12" bulletType="diamond"></item>
-<item text="TQOKKGJIAS" font="Arial" size="12" bulletType="diamond"></item>
-<item text="EMSAKUVMUL" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="QJTTZMROCW" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="WBZYBGBOFE" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="SGERZOBAQF" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="ERYQSIWGDB" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="NVHEKTBSYZ" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="TTIWHRMUAP" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="ZPIWBSFEQE" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="UNQIJGKGAY" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="ECLRYBZSPZ" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="WYEWDYEQHI" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="TLNZRMMQHG" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="FXDKTLLJTS" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="VRXNVQAXFZ" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="RXHQHEQQFC" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="RWCWFZVMSC" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="PSTOSHNSKT" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-</list>
-<list>
-<item text="GJZZVHJNEC" font="Arial" size="14" bulletType="diamond"></item>
-</list>
-<list>
-<item text="KGYYQXBKCM" font="Arial" size="12" bulletType="diamond"></item>
-<item text="QJSTYILBTV" font="Arial" size="12" bulletType="diamond"></item>
-<item text="OINXSJIRLN" font="Arial" size="12" bulletType="diamond"></item>
-<item text="JYKFUDHCJI" font="Arial" size="12" bulletType="diamond"></item>
-<item text="RCIYBSLGZD" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="TQDZRCBKPS" font="Arial" size="14" bulletType="diamond"></item>
-<item text="VQHGBPZVAH" font="Arial" size="14" bulletType="diamond"></item>
-<item text="OLUDAJMDFV" font="Arial" size="14" bulletType="diamond"></item>
-<item text="HGHUTENBEL" font="Arial" size="14" bulletType="diamond"></item>
-<item text="ZONYZMXRRH" font="Arial" size="14" bulletType="diamond"></item>
-</list>
-<list>
-<item text="TRCKIJWWYD" font="Gotham" size="12" bulletType="square"></item>
-<item text="TQQQCJLLDE" font="Gotham" size="12" bulletType="square"></item>
-<item text="FYADPKQXTX" font="Gotham" size="12" bulletType="square"></item>
-<item text="RIZPFTCFEB" font="Gotham" size="12" bulletType="square"></item>
-<item text="IMUJRZRJBM" font="Gotham" size="12" bulletType="square"></item>
-<item text="SMCXJIDPPC" font="Gotham" size="12" bulletType="square"></item>
-<item text="CSCHXKNEFI" font="Gotham" size="12" bulletType="square"></item>
-<item text="THSIMOYVYS" font="Gotham" size="12" bulletType="square"></item>
-<item text="FTFBKVHLDA" font="Gotham" size="12" bulletType="square"></item>
-<item text="QRVXGKSRVD" font="Gotham" size="12" bulletType="square"></item>
-<item text="RMUDLXZXBV" font="Gotham" size="12" bulletType="square"></item>
-<item text="JXJCTRYJIL" font="Gotham" size="12" bulletType="square"></item>
-<item text="NAERVUGNQK" font="Gotham" size="12" bulletType="square"></item>
-<item text="LQZMIKNSYX" font="Gotham" size="12" bulletType="square"></item>
-<item text="DMIVZXBWNW" font="Gotham" size="12" bulletType="square"></item>
-<item text="YXHVOAQIYG" font="Gotham" size="12" bulletType="square"></item>
-<item text="RNTHILEUJX" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="LGZEOTUUPL" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="GOIMAJYWLZ" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="BOPGVZLMWD" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="VVKSXPBMDL" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="HFFRCIPTQX" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="KDBCDIIJGD" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="ZLWNSSSMWP" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="AUTTNYZSPS" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-</list>
-<list>
-<item text="QHIBNHXRYC" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="FRRKQUKRKL" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="MVUVOIJEQE" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="CCQKTAJPJE" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="YTCECJBMGQ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="CJGXBQGEBJ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="TGRYPPNQZG" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="WKOOAKYSJJ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="RFMFKLZBTT" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="KMKKNVFPET" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="PBRSKXQFDX" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="EWKTRXNBIP" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="HSGUAEAIMH" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="GHDMZRGKRT" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="RZOCBTEVNC" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="VRUOXCRGHB" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="FWOXOQGGIK" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="IWFNSDUQRB" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="NKGHIDGHNU" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="AGLMQIBEGL" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="FOIFQDPNSF" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="XMOSYSTVSH" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="LPEIAGZMDT" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="OQDPKVBYCS" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="WVYRSHIZHS" font="Arial" size="8" bulletType="circle"></item>
-<item text="QXGWAONDWW" font="Arial" size="8" bulletType="circle"></item>
-<item text="RFXEAFOTFK" font="Arial" size="8" bulletType="circle"></item>
-<item text="HWFMIPYNBT" font="Arial" size="8" bulletType="circle"></item>
-<item text="DJNIDRFFMD" font="Arial" size="8" bulletType="circle"></item>
-<item text="EHLRHSYSCT" font="Arial" size="8" bulletType="circle"></item>
-<item text="SYQXWCAAUK" font="Arial" size="8" bulletType="circle"></item>
-<item text="QTUUGCZRHW" font="Arial" size="8" bulletType="circle"></item>
-<item text="YUFNDEJPXV" font="Arial" size="8" bulletType="circle"></item>
-<item text="LQIBHTRUWR" font="Arial" size="8" bulletType="circle"></item>
-<item text="BOGNZEVYBV" font="Arial" size="8" bulletType="circle"></item>
-</list>
-<list>
-<item text="XUQOHEQAKJ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="FPJBCHCIOO" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="DCZAFSXMRS" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="PVWBKJAVMQ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="TEMDFOYIIB" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="SWVHDLJYZM" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="REZTCFTMKZ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="RKKNHKPWDZ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="UKYDDGSSJN" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="BWNXXATXNI" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="XFVMZECXZG" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="MDEIZEPTPG" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="FKGTNSIORL" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="XUZZFLZSYZ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="LTLSECNKDS" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="ZHHRJECMLJ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="WCNRYCGYPF" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="EQMKTVTSRK" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="YNATBFEQZW" font="Comic Sans MS" size="12" bulletType="circle"></item>
-</list>
-<list>
-<item text="XCLVIJQGFN" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="TTWQLGHSVN" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="RQJKWBPJOV" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="NPNRERKZFE" font="Arial" size="10" bulletType="diamond"></item>
-<item text="OXKWZOOYMO" font="Arial" size="10" bulletType="diamond"></item>
-<item text="OAKWFJDOLU" font="Arial" size="10" bulletType="diamond"></item>
-<item text="AWOFEYZTVF" font="Arial" size="10" bulletType="diamond"></item>
-<item text="HZXMPOZHII" font="Arial" size="10" bulletType="diamond"></item>
-<item text="PRKUZQIRJQ" font="Arial" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="PFPAHOCKXP" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="BOPTIAQNSA" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="VCUGYQGALT" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="FLMTYQCRUR" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="VLFYYNSFDJ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="ACWZTPAADY" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="QLUESCQPKN" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="IPCAFYEAUC" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="CMOUHXRQTQ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="TIZSVPJDTT" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="XRJVKZSVJZ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="WOAHHALNFN" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="RUKSPZYBJL" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="JHSSKWPUNT" font="Comic Sans MS" size="8" bulletType="square"></item>
-</list>
-<list>
-<item text="GCGRIVIBUE" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="TRSXATTOCG" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="PULJREQYZI" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="ZPTBINCQAM" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="YJUEQPTMIZ" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="FHPJYRJHWM" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="VPMDBFGMWZ" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="YGGDLVZNLS" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="BLMXPIVPET" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="DKRCPADYSO" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="GXCFQSRZFL" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="NTPNRPLDGA" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="RZCIYTCPWG" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="GYVXYVCBFD" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="JMHUWINGNF" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="RAREILVZNN" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="IOQWVHMCYP" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-<item text="KKBJKFMOBL" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-</list>
-<list>
-<item text="ALAVCSWTLF" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="ZLBNSNTSXH" font="Arial" size="14" bulletType="square"></item>
-<item text="MJKPBALRPN" font="Arial" size="14" bulletType="square"></item>
-<item text="XJKOVYXMCE" font="Arial" size="14" bulletType="square"></item>
-</list>
-<list>
-<item text="XGYOLEOFVE" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="TPKLEENQUW" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="WSNAJNVKRY" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="FACQTFTENM" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="VLPGYWEEGK" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="ESCMEOLFGC" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="LCPZCODSVT" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="CSNDGCMDPR" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="BUHDXDROGT" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="JHFYIODKEQ" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="POJAGVSFXZ" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="OSRWHESUWG" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="JPHDMRIISS" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="XCFFEEAZGJ" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="ENNTPTYTHO" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="HLZATKDCZK" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="OYYCYMPJSD" font="Comic Sans MS" size="10" bulletType="square"></item>
-</list>
-<list>
-<item text="EBHEXLGKFH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="TFWFBQRPSD" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="PKLQAZCFSH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="LWKZFUNOCH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="UEAECUDLTJ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="BZIPRPLJBY" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="JOYCNZTIPZ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="PNJVKLKIRH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="NSZUXSPDZP" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="CAWLVESPWK" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="NETOJNBGAE" font="Gotham" size="12" bulletType="square"></item>
-<item text="VEVEZYGZFU" font="Gotham" size="12" bulletType="square"></item>
-<item text="RNUKPIVNJK" font="Gotham" size="12" bulletType="square"></item>
-<item text="UVASAKIHQB" font="Gotham" size="12" bulletType="square"></item>
-<item text="CNUPQVCHNO" font="Gotham" size="12" bulletType="square"></item>
-<item text="MYVFTLATHO" font="Gotham" size="12" bulletType="square"></item>
-<item text="LYMFNSQNAS" font="Gotham" size="12" bulletType="square"></item>
-<item text="LSLCZMPIHE" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="CGDRWGPHFO" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="ZYCQAKSCSR" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="KJFYSBMNBV" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="GRAOUQUJAN" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="MPSZCUKUTH" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="IXOICVMICT" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="MJIEGONBZN" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="LWOWGYTZRR" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CTIGCCTLOM" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="ZYLVKPLOXE" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="WAZTTUXQIB" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="PERSBYGLPX" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="YYGSAOUYPD" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="IMYPXECRTZ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="BHZWMZTVZA" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="UIBRDARRVH" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="MCLDCHTNTG" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CJWSLCTSES" font="Comic Sans MS" size="12" bulletType="circle"></item>
-</list>
-<list>
-<item text="DCEZRXOFST" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="PTHWVLGAAY" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="PJEUJNJUTX" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="RYDIQSTWKI" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="ROKXJRZEZP" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="TVSIXODAWO" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="NAOOEWTUDQ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="PNBRQRTNSH" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="PLBPJOKAKX" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="SBHNHVCHVG" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="QYXDQIYLEJ" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="CYAOLMOYXR" font="Arial" size="8" bulletType="traingle"></item>
-<item text="VZOTZTJPIQ" font="Arial" size="8" bulletType="traingle"></item>
-<item text="NTJRAFYIUO" font="Arial" size="8" bulletType="traingle"></item>
-<item text="RIGKIRQQYU" font="Arial" size="8" bulletType="traingle"></item>
-<item text="PSUCLVNTTX" font="Arial" size="8" bulletType="traingle"></item>
-<item text="JUVSKHZCQL" font="Arial" size="8" bulletType="traingle"></item>
-<item text="FZBLVTGNYC" font="Arial" size="8" bulletType="traingle"></item>
-</list>
-<list>
-<item text="HTGRKEBGUX" font="Gotham" size="12" bulletType="square"></item>
-<item text="KXLSWWWWEZ" font="Gotham" size="12" bulletType="square"></item>
-<item text="TBEZVYWBJF" font="Gotham" size="12" bulletType="square"></item>
-<item text="ISZPMNDXCI" font="Gotham" size="12" bulletType="square"></item>
-<item text="UGWPYKNPFF" font="Gotham" size="12" bulletType="square"></item>
-<item text="XTRCSDIYMH" font="Gotham" size="12" bulletType="square"></item>
-<item text="PPHHKDHBOL" font="Gotham" size="12" bulletType="square"></item>
-<item text="KCMARXZPUU" font="Gotham" size="12" bulletType="square"></item>
-<item text="BATUDADOWQ" font="Gotham" size="12" bulletType="square"></item>
-<item text="TGYWVEPJOT" font="Gotham" size="12" bulletType="square"></item>
-<item text="WARJINZOMY" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="SCVAZJUXEX" font="Arial" size="10" bulletType="diamond"></item>
-<item text="HPMPWXYXRL" font="Arial" size="10" bulletType="diamond"></item>
-<item text="VESBYBERXS" font="Arial" size="10" bulletType="diamond"></item>
-<item text="LBTXRLZDOL" font="Arial" size="10" bulletType="diamond"></item>
-<item text="BEAVCFJAAG" font="Arial" size="10" bulletType="diamond"></item>
-<item text="EXUAPZXBWV" font="Arial" size="10" bulletType="diamond"></item>
-<item text="UZYQVZLJMC" font="Arial" size="10" bulletType="diamond"></item>
-<item text="USYMEJCVRK" font="Arial" size="10" bulletType="diamond"></item>
-<item text="XGPZBPRRGY" font="Arial" size="10" bulletType="diamond"></item>
-<item text="IADIMWQUSQ" font="Arial" size="10" bulletType="diamond"></item>
-<item text="LEHUZTFWJB" font="Arial" size="10" bulletType="diamond"></item>
-<item text="LPELSIPTVM" font="Arial" size="10" bulletType="diamond"></item>
-<item text="MKKYKLJZBQ" font="Arial" size="10" bulletType="diamond"></item>
-<item text="VGZYBXHTUH" font="Arial" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="NPMIGNNUMG" font="Arial" size="12" bulletType="diamond"></item>
-<item text="IDGDYBKOSK" font="Arial" size="12" bulletType="diamond"></item>
-<item text="VIKNCMDTDI" font="Arial" size="12" bulletType="diamond"></item>
-<item text="MSGNLSODPL" font="Arial" size="12" bulletType="diamond"></item>
-<item text="ZCXAHGKBZE" font="Arial" size="12" bulletType="diamond"></item>
-<item text="LFKTJAYSJR" font="Arial" size="12" bulletType="diamond"></item>
-<item text="WOKBHAQGET" font="Arial" size="12" bulletType="diamond"></item>
-<item text="NUXIZLCJME" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="ASWFLBYUAR" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="RPFBGDHILP" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="JDZEKRHJYT" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="LOEQMYDRLW" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="UDOSRFKVNS" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="BVOQCSGQVH" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="GIZAGEHGVE" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="EWVEDYHEYX" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="LUPMHHBPKL" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="MAYFPIUBHJ" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="WMGZKCGUXZ" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="UIWVBMIVXH" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="PTGZBGAKIP" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="HZGEUIQYMX" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="VEYPJVGLHW" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="TYBNIHPNPQ" font="Comic Sans MS" size="10" bulletType="square"></item>
-<item text="PYCWHAEXIJ" font="Comic Sans MS" size="10" bulletType="square"></item>
-</list>
-<list>
-<item text="YFQPHFAVMG" font="Arial" size="14" bulletType="circle"></item>
-</list>
-<list>
-<item text="FLVAFBUBGF" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WSKBNHTDPH" font="Arial" size="8" bulletType="diamond"></item>
-<item text="YLWZLIXGLL" font="Arial" size="8" bulletType="diamond"></item>
-<item text="IPCHOXEEIM" font="Arial" size="8" bulletType="diamond"></item>
-<item text="BMARDNOLDK" font="Arial" size="8" bulletType="diamond"></item>
-<item text="OOTZQQUMMF" font="Arial" size="8" bulletType="diamond"></item>
-<item text="PSZJHMQCTU" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WEQHQKBNPN" font="Arial" size="8" bulletType="diamond"></item>
-<item text="JANJUHSTUX" font="Arial" size="8" bulletType="diamond"></item>
-</list>
-<list>
-<item text="QVMRGMSJZV" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="MGERFOGVRX" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="FZLUWCSSIU" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="PQNGFGRVBB" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="JRVCNDPWDM" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="FGFIDDWJMX" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="JIFIAKOXIN" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="PGJATZVRAF" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="JKZVUCHLHA" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="OGDIIVNDBR" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="YZGYMZPONR" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="ZXUKGEYPNV" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="PNCUXDOQQX" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="GPPIMJVALT" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="PZEWCCAUZC" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="DLLEYOFABS" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="JBQGTMPVLB" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="YVFRYMIGWX" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="LMTGPWRNPW" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="ZTMHWGRHLZ" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="SORJKPQPKM" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="GZBUCIKZOW" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="KANZTJKNGF" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-<item text="DKMYLYQVMA" font="Comic Sans MS" size="14" bulletType="diamond"></item>
-</list>
-<list>
-<item text="VJOYQWNCRG" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="XTTXEFDUML" font="Gotham" size="12" bulletType="square"></item>
-<item text="CCGEVKDYMU" font="Gotham" size="12" bulletType="square"></item>
-<item text="BAHJIPEWMB" font="Gotham" size="12" bulletType="square"></item>
-<item text="NRLUOBQMUQ" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="LDQLUADHKI" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="KFXNXMVDDH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="RTTAGWKBMG" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="QPMYSBFVDA" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="DQIFMXQTEP" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="XWIHPXJSXV" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="GGVWOCIFMA" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="UJESDVHUSC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="YRKRATAKFI" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="YWQYAHQVSH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="QCRETHNGMO" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ITKRTMICVO" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="GIERKGSJYM" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ZFHKMEWNMN" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ELNBPRQZTE" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="MYRLAXVGCC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="TYLTYSXSYA" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="TYGNRYYSUG" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="LCDHQDBXIH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="HEXBQZDFON" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="CUTAIWDAWL" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="NYEJIYIQDZ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="PJQKLETJDI" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ILHCDBUKIG" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="EOKKSLBOPH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="WCMYRQCGZS" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="HEFUQVGLES" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="JLMMXLTDGZ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="JXKBLOOOYM" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="OSYNTGYVXL" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ILGZGHMOYK" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="REVYTOVGVU" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="JRCFTAIXOC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="NPAKNCSKLC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="MWXWKOODWA" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="NBWYFFFRFM" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="GTDDCKJBYI" font="Arial" size="12" bulletType="diamond"></item>
-<item text="CJGGEGYOVN" font="Arial" size="12" bulletType="diamond"></item>
-<item text="LYFDSQKJUT" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="WFYFXFNEQP" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="XZHBFIAXOT" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="JDWMXJRUOJ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="HTPRCAYQIF" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="RZXNUOYADN" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="DPMKZRJVJE" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="LFYUMLZGBU" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="KQYLZIFKYD" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="BPMKAXWNHT" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="RAQSBIFRVL" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="EDZTBEFREE" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="CKFPKKPWPK" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="AQVCDCVIQD" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="NBTPQITZLH" font="Comic Sans MS" size="8" bulletType="circle"></item>
-<item text="UEXDCONJUC" font="Comic Sans MS" size="8" bulletType="circle"></item>
-<item text="LJKVYNKBJJ" font="Comic Sans MS" size="8" bulletType="circle"></item>
-<item text="GSFPYFAJUK" font="Comic Sans MS" size="8" bulletType="circle"></item>
-</list>
-<list>
-<item text="GSHXYJDNFA" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="JGDIKEIOQN" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="KVPUBBAKTZ" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="KBHTMRQAXT" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="DKINVKSHCQ" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="XMODMTGTHP" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="OYXZIRFUQI" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="DYDMNHUNIC" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="PKSVIKHUEW" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="EZLYLTFVWL" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="GTDTSRLPYH" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="DSHOLLUBMA" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="HBMPALPFRM" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="KKZSFORPPL" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="STYUEQZRMD" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="FQQQBHQNSD" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="KQBBFEFMCF" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CPVCIMVYFQ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="QPESSLZBCR" font="Comic Sans MS" size="12" bulletType="circle"></item>
-</list>
-<list>
-<item text="JODCPRXNZO" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="UIGIPIKBJP" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="SVNBKGGPOG" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="DAKGPKJQMQ" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="CQFAXXXAIS" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="RQQSXDPGZN" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="NZBUZBYVRQ" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="XDOCELHXLM" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="RADAJLBAYT" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="KXIFLOGUFS" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="DEVSMFSGJR" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="YAFSMIZNXN" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="JEFJRJFZMW" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="ZQYMAQRFDM" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="JGRAXDKHUK" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="UQSPEPIRQG" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="KDCEFHMFFP" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-</list>
-<list>
-<item text="PAFGWPTITT" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="MZANZBAMUA" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="YNXBGSTJXZ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="RCMFSMYYAC" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="EQMXNTBIOV" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="EMGLLGSKZB" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="LUJUVUAYML" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="HTLCRCLHTJ" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="EAECCYBWUX" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="BOHOTSSTRO" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="LULYATXMNE" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="MKZNOCZLPK" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="YDCJCFPQOM" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="EIXJTERCSZ" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="XPKHRRYTPK" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="WLJPIBNMRA" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="IFILUITTLQ" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="AMEIRIMSXY" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CQYBBRDEAM" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="LYUMJMTQNF" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="XLYBGYRNRB" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="XMHFXZRYLF" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="DSMFPGRMPB" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="NZCRCOTSKB" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="GTVPYEGJPY" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="XOUDTFOZIC" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="MJDAFEUKTT" font="Comic Sans MS" size="12" bulletType="circle"></item>
-</list>
-<list>
-<item text="LONWLKBCVL" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="BODBVALMWX" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="ADHFQGFXBL" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="IINZJOZKWV" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="MOBIGHOMVU" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="YAIBCLTSNC" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="VMBKSZQITU" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="YINWTHCUHK" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="JHPBKRSAKS" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="CCNIEFZNLM" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="KSTEUKILPE" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="MBOYCGNIJV" font="Arial" size="12" bulletType="diamond"></item>
-<item text="ZOBQYJPYYX" font="Arial" size="12" bulletType="diamond"></item>
-<item text="ELGIAAQMSN" font="Arial" size="12" bulletType="diamond"></item>
-<item text="KKYMDPWJQL" font="Arial" size="12" bulletType="diamond"></item>
-<item text="BNVOAXXYNJ" font="Arial" size="12" bulletType="diamond"></item>
-<item text="VNSTYWIUUL" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="ZFDUFVMDNG" font="Arial" size="12" bulletType="diamond"></item>
-<item text="XQLHFNLCDV" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="KKCASOWXJS" font="Arial" size="12" bulletType="square"></item>
-<item text="XWEMHZKRWB" font="Arial" size="12" bulletType="square"></item>
-<item text="ZROBSVCXDE" font="Arial" size="12" bulletType="square"></item>
-<item text="PALGUNMHPQ" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="DCUOMDIFUJ" font="Arial" size="8" bulletType="circle"></item>
-<item text="BRUJPSMWVJ" font="Arial" size="8" bulletType="circle"></item>
-<item text="NIUVGTVEBU" font="Arial" size="8" bulletType="circle"></item>
-<item text="LBIOIFJBTN" font="Arial" size="8" bulletType="circle"></item>
-<item text="XZBKCZDFMP" font="Arial" size="8" bulletType="circle"></item>
-<item text="TDICKBOJZZ" font="Arial" size="8" bulletType="circle"></item>
-<item text="UZZATWJWHA" font="Arial" size="8" bulletType="circle"></item>
-<item text="AIOOUPWCBD" font="Arial" size="8" bulletType="circle"></item>
-<item text="VXGSAYGOBT" font="Arial" size="8" bulletType="circle"></item>
-<item text="XYNWJOGXQV" font="Arial" size="8" bulletType="circle"></item>
-<item text="NZACGJPLNI" font="Arial" size="8" bulletType="circle"></item>
-<item text="KAUSWVQEBI" font="Arial" size="8" bulletType="circle"></item>
-<item text="NNSSHOYICZ" font="Arial" size="8" bulletType="circle"></item>
-<item text="KWDQPPOMXO" font="Arial" size="8" bulletType="circle"></item>
-<item text="QBWAWGXDZL" font="Arial" size="8" bulletType="circle"></item>
-</list>
-<list>
-<item text="UWQSMDRZIP" font="Arial" size="8" bulletType="diamond"></item>
-<item text="LJPVKDDCIN" font="Arial" size="8" bulletType="diamond"></item>
-<item text="EKEUPUUWRS" font="Arial" size="8" bulletType="diamond"></item>
-<item text="PDZIAKBFVK" font="Arial" size="8" bulletType="diamond"></item>
-<item text="NKVHGOJEMR" font="Arial" size="8" bulletType="diamond"></item>
-<item text="GUXZQZYIXK" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WKYJUTQHUS" font="Arial" size="8" bulletType="diamond"></item>
-<item text="EIEPQNIFEC" font="Arial" size="8" bulletType="diamond"></item>
-<item text="SLAEQGPPHN" font="Arial" size="8" bulletType="diamond"></item>
-<item text="JBEREAFIGW" font="Arial" size="8" bulletType="diamond"></item>
-<item text="UGIDVCZLWO" font="Arial" size="8" bulletType="diamond"></item>
-<item text="FOILECOJZL" font="Arial" size="8" bulletType="diamond"></item>
-<item text="NJDYDPDGQF" font="Arial" size="8" bulletType="diamond"></item>
-<item text="CVFOEVOLXB" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WVYLRROQND" font="Arial" size="8" bulletType="diamond"></item>
-<item text="MVKPFTJEAF" font="Arial" size="8" bulletType="diamond"></item>
-<item text="IDLWOCOUUW" font="Arial" size="8" bulletType="diamond"></item>
-<item text="IUYOMUIQUV" font="Arial" size="8" bulletType="diamond"></item>
-<item text="SWSMVUWFOY" font="Arial" size="8" bulletType="diamond"></item>
-</list>
-<list>
-<item text="OASUJCAKJC" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="HEJJXHWNYG" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CZFSXHTHSF" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="RKVYHQPEZP" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="YVWNFJBMFE" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="IVNHQEXGOZ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="WFXTZGVEME" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="EHJTZVKLQO" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="KATYSGEJPO" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="VKDMVVDZDJ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="QKKZPGVOKJ" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="ZDCGBMAYPR" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="JSIOLFBGPC" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="WLXXADRIVC" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="RBKIBMKCQU" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CTQOVEIFBE" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="CMMUYCZYLG" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="GMJJYFTNCX" font="Comic Sans MS" size="12" bulletType="circle"></item>
-<item text="TDFQWRRHXL" font="Comic Sans MS" size="12" bulletType="circle"></item>
-</list>
-<list>
-<item text="VXFTJVMNAP" font="Arial" size="8" bulletType="diamond"></item>
-<item text="JQNDSLHNBV" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WTRYBJHUXP" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WWYVOPTWSR" font="Arial" size="8" bulletType="diamond"></item>
-<item text="EQOWHFGDQZ" font="Arial" size="8" bulletType="diamond"></item>
-<item text="MCFLPLULUN" font="Arial" size="8" bulletType="diamond"></item>
-<item text="MMTGPVORBL" font="Arial" size="8" bulletType="diamond"></item>
-<item text="WPIXSTWBUK" font="Arial" size="8" bulletType="diamond"></item>
-<item text="GGINQMEIOY" font="Arial" size="8" bulletType="diamond"></item>
-<item text="KWAQYUYRFZ" font="Arial" size="8" bulletType="diamond"></item>
-<item text="FXIFFWPPFY" font="Arial" size="8" bulletType="diamond"></item>
-<item text="ACIGMUOVTQ" font="Arial" size="8" bulletType="diamond"></item>
-<item text="XTCUKQIIZZ" font="Arial" size="8" bulletType="diamond"></item>
-<item text="TPLWAWGUFF" font="Arial" size="8" bulletType="diamond"></item>
-<item text="RCYRVNXCVI" font="Arial" size="8" bulletType="diamond"></item>
-<item text="FHGRVVKYQX" font="Arial" size="8" bulletType="diamond"></item>
-</list>
-<list>
-<item text="IOMBOVIMKQ" font="Arial" size="10" bulletType="traingle"></item>
-</list>
-<list>
-<item text="OTLYSUUSXI" font="Arial" size="10" bulletType="diamond"></item>
-<item text="CXGHTGEHPC" font="Arial" size="10" bulletType="diamond"></item>
-<item text="FZBJXVLOVH" font="Arial" size="10" bulletType="diamond"></item>
-<item text="RDESPWHTOJ" font="Arial" size="10" bulletType="diamond"></item>
-<item text="HDHIGKNJLY" font="Arial" size="10" bulletType="diamond"></item>
-<item text="WSSNPETRFG" font="Arial" size="10" bulletType="diamond"></item>
-<item text="IWDXMACZYD" font="Arial" size="10" bulletType="diamond"></item>
-<item text="FNXFQCVQDZ" font="Arial" size="10" bulletType="diamond"></item>
-<item text="RHTFYATZOF" font="Arial" size="10" bulletType="diamond"></item>
-<item text="JIXWCEDSKB" font="Arial" size="10" bulletType="diamond"></item>
-<item text="DKYRRBZIWI" font="Arial" size="10" bulletType="diamond"></item>
-<item text="OYJLTVJEWH" font="Arial" size="10" bulletType="diamond"></item>
-<item text="RKTZQPELWR" font="Arial" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="PVRNGIKKMY" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="QYXZTSSPBU" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="TSRAYWLSTX" font="Arial" size="12" bulletType="square"></item>
-<item text="BCAZCTFTQB" font="Arial" size="12" bulletType="square"></item>
-<item text="WDSOXGRKVI" font="Arial" size="12" bulletType="square"></item>
-<item text="BKDRUNXQAG" font="Arial" size="12" bulletType="square"></item>
-<item text="QFKLHAHFUP" font="Arial" size="12" bulletType="square"></item>
-<item text="AFAOMHCWLI" font="Arial" size="12" bulletType="square"></item>
-<item text="OKMGBTADMA" font="Arial" size="12" bulletType="square"></item>
-<item text="TXCGSPXNZM" font="Arial" size="12" bulletType="square"></item>
-<item text="RTOVDUXAIL" font="Arial" size="12" bulletType="square"></item>
-<item text="PJAGCUSYGN" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="ZDLPYSRRHE" font="Gotham" size="12" bulletType="square"></item>
-<item text="GHRYQUPTPV" font="Gotham" size="12" bulletType="square"></item>
-<item text="ZLVAKDXQGT" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="WLCAPWNCEP" font="Arial" size="14" bulletType="circle"></item>
-<item text="MKLORQSLFZ" font="Arial" size="14" bulletType="circle"></item>
-<item text="YCGHLDFDLI" font="Arial" size="14" bulletType="circle"></item>
-<item text="SNRBCLYBPG" font="Arial" size="14" bulletType="circle"></item>
-<item text="AZIDAHARWM" font="Arial" size="14" bulletType="circle"></item>
-<item text="QGULXYKOKX" font="Arial" size="14" bulletType="circle"></item>
-<item text="PEDMFUAXRQ" font="Arial" size="14" bulletType="circle"></item>
-<item text="KTVUHFEBXX" font="Arial" size="14" bulletType="circle"></item>
-<item text="VMJMFXJLMI" font="Arial" size="14" bulletType="circle"></item>
-<item text="TQARZJTBKQ" font="Arial" size="14" bulletType="circle"></item>
-<item text="CHVTXQJNFH" font="Arial" size="14" bulletType="circle"></item>
-<item text="YMDQWKFQQQ" font="Arial" size="14" bulletType="circle"></item>
-<item text="PUZNDWBZAO" font="Arial" size="14" bulletType="circle"></item>
-<item text="FXMANNHZOS" font="Arial" size="14" bulletType="circle"></item>
-<item text="CSTVGPSWJN" font="Arial" size="14" bulletType="circle"></item>
-<item text="UJQQJGJNNV" font="Arial" size="14" bulletType="circle"></item>
-<item text="TGSGXFSXKH" font="Arial" size="14" bulletType="circle"></item>
-</list>
-<list>
-<item text="OAHZCWCZFJ" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="QAGUCBJDWX" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="IWKQCHSGUJ" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="DUXMSJXUYR" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="QJIANDMGRP" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="VRNYNDITET" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="MKDOKJSSYZ" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="ODKGKTYAXF" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="ATPUPAQFQW" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="ZDWWYWAUJM" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="JXDPWVEZGA" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="WRHCEUIZXS" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="BUVOUNFUBA" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-</list>
-<list>
-<item text="XOZFVNPFYT" font="Arial" size="12" bulletType="diamond"></item>
-<item text="KBCKTYCAQP" font="Arial" size="12" bulletType="diamond"></item>
-<item text="DKBNBSKDKW" font="Arial" size="12" bulletType="diamond"></item>
-<item text="VZZZFCBXKN" font="Arial" size="12" bulletType="diamond"></item>
-<item text="OROTUVETRV" font="Arial" size="12" bulletType="diamond"></item>
-<item text="XDABOEKBIL" font="Arial" size="12" bulletType="diamond"></item>
-<item text="HLKGKGGJAW" font="Arial" size="12" bulletType="diamond"></item>
-<item text="NQOHFULFUD" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="NDBAABWFQO" font="Arial" size="12" bulletType="diamond"></item>
-<item text="RITYLIRCUG" font="Arial" size="12" bulletType="diamond"></item>
-<item text="JUCXNLAPXB" font="Arial" size="12" bulletType="diamond"></item>
-<item text="TECUPEWTML" font="Arial" size="12" bulletType="diamond"></item>
-<item text="CLROCSXOII" font="Arial" size="12" bulletType="diamond"></item>
-<item text="FWGZGBBBUR" font="Arial" size="12" bulletType="diamond"></item>
-<item text="TPQJKGILXC" font="Arial" size="12" bulletType="diamond"></item>
-<item text="WSIGOHLIWO" font="Arial" size="12" bulletType="diamond"></item>
-<item text="CMLJGQKUJE" font="Arial" size="12" bulletType="diamond"></item>
-<item text="LNSBUSXNIF" font="Arial" size="12" bulletType="diamond"></item>
-<item text="JIJWUAAICU" font="Arial" size="12" bulletType="diamond"></item>
-<item text="OVTOQIOYNF" font="Arial" size="12" bulletType="diamond"></item>
-<item text="LDQQOIWFPT" font="Arial" size="12" bulletType="diamond"></item>
-<item text="FVBYOIHECY" font="Arial" size="12" bulletType="diamond"></item>
-<item text="UWCFSDQSKA" font="Arial" size="12" bulletType="diamond"></item>
-<item text="RGSVCTBIJR" font="Arial" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="MCRNGZGRLC" font="Arial" size="12" bulletType="square"></item>
-<item text="PGYNWQRQBV" font="Arial" size="12" bulletType="square"></item>
-<item text="THSCVCYFOZ" font="Arial" size="12" bulletType="square"></item>
-<item text="SQSRDCYBSQ" font="Arial" size="12" bulletType="square"></item>
-<item text="ATBCOSDJLS" font="Arial" size="12" bulletType="square"></item>
-<item text="EFLPUBZCIS" font="Arial" size="12" bulletType="square"></item>
-<item text="DESUMGNFND" font="Arial" size="12" bulletType="square"></item>
-<item text="CUPIGRIBYH" font="Arial" size="12" bulletType="square"></item>
-<item text="AMTQVXWHVP" font="Arial" size="12" bulletType="square"></item>
-<item text="BTIQBCXUPU" font="Arial" size="12" bulletType="square"></item>
-<item text="DGBILGJWFY" font="Arial" size="12" bulletType="square"></item>
-<item text="CEVCQSIUXI" font="Arial" size="12" bulletType="square"></item>
-<item text="ADVTQSBMHR" font="Arial" size="12" bulletType="square"></item>
-<item text="KVNKPKRRQI" font="Arial" size="12" bulletType="square"></item>
-<item text="OETEEPZNFN" font="Arial" size="12" bulletType="square"></item>
-<item text="EDJIFMBMJM" font="Arial" size="12" bulletType="square"></item>
-<item text="KQMVNTTKNG" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="TQHYMUHDBA" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="NHMNYGBYGQ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="JRESHFOIMQ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="VWDLBGBAJT" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="IKFVSAQJOV" font="Arial" size="10" bulletType="diamond"></item>
-<item text="TPAAYWDVAE" font="Arial" size="10" bulletType="diamond"></item>
-<item text="WBMZYITSEG" font="Arial" size="10" bulletType="diamond"></item>
-<item text="RQXJJDUSFR" font="Arial" size="10" bulletType="diamond"></item>
-<item text="EUMAQTTUYE" font="Arial" size="10" bulletType="diamond"></item>
-<item text="XXEGZEFIJL" font="Arial" size="10" bulletType="diamond"></item>
-<item text="HUSZWAIPIV" font="Arial" size="10" bulletType="diamond"></item>
-<item text="NOVJEXZIFO" font="Arial" size="10" bulletType="diamond"></item>
-<item text="BFSLGZQINK" font="Arial" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="ESNQEEFFIW" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="MMHBIZFYDE" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="TDZQRVBLZU" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="FODIGKJWKL" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="TNYNSCRVHP" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="NWCLHLIGJZ" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="FLOOJLDYTC" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="JRCQDLHHUD" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="MKTBYVRYHU" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="ALLCJNHIZP" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="HZNZBTYGIB" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="THABLIFVHM" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="WKXSYILXVO" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="JIBDOAUVNC" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-<item text="LIYDSTVHNU" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="LGIXPDNTYS" font="Arial" size="8" bulletType="circle"></item>
-<item text="XQKYDWQMZG" font="Arial" size="8" bulletType="circle"></item>
-<item text="AYVHDROLGL" font="Arial" size="8" bulletType="circle"></item>
-<item text="XDHEWEQHXH" font="Arial" size="8" bulletType="circle"></item>
-<item text="ISFQPEOTQC" font="Arial" size="8" bulletType="circle"></item>
-<item text="OQRFQIBTLP" font="Arial" size="8" bulletType="circle"></item>
-</list>
-<list>
-<item text="RQYMIKCLWK" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="WHSXPSYZTK" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="IQZYAAWRJQ" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-</list>
-<list>
-<item text="GAWZSBNNMJ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="YYFSAXGVNZ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="NFGZNBPNNJ" font="Arial" size="14" bulletType="diamond"></item>
-<item text="OHIFNXTAAY" font="Arial" size="14" bulletType="diamond"></item>
-<item text="ERKMFZBMJG" font="Arial" size="14" bulletType="diamond"></item>
-</list>
-<list>
-<item text="VISPAJOTGK" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="EXCUHQYUWN" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="HMXDUAMNAC" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="QHJTHFVUGX" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="SKPZNYEJPM" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="HOESYIKDHP" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="YVCYHRGXVR" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="CCJEWDCDBZ" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="NKRPSEQNWV" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="XIBUDNPQYY" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="JALIPSVROG" font="Arial" size="12" bulletType="square"></item>
-<item text="LFVRZXEAKS" font="Arial" size="12" bulletType="square"></item>
-<item text="OJHBYPVTMT" font="Arial" size="12" bulletType="square"></item>
-<item text="JMGAADGWDD" font="Arial" size="12" bulletType="square"></item>
-<item text="AOFZXVJIKC" font="Arial" size="12" bulletType="square"></item>
-<item text="HPFFBBIDXQ" font="Arial" size="12" bulletType="square"></item>
-<item text="HUGGNBJCAW" font="Arial" size="12" bulletType="square"></item>
-<item text="ABMOVAYXZW" font="Arial" size="12" bulletType="square"></item>
-<item text="ECNCVNKMFS" font="Arial" size="12" bulletType="square"></item>
-<item text="OKPWQVHLAN" font="Arial" size="12" bulletType="square"></item>
-<item text="NGRDSSJBOF" font="Arial" size="12" bulletType="square"></item>
-<item text="QAZDQTIJPL" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="JROWPNPRRB" font="Arial" size="12" bulletType="square"></item>
-<item text="NGOYLGSHVE" font="Arial" size="12" bulletType="square"></item>
-<item text="DSUKTHGNYS" font="Arial" size="12" bulletType="square"></item>
-<item text="NQCVZMACDM" font="Arial" size="12" bulletType="square"></item>
-<item text="FYUQRWJIEU" font="Arial" size="12" bulletType="square"></item>
-<item text="GVLQIHGUMF" font="Arial" size="12" bulletType="square"></item>
-<item text="SPPZLFVJCH" font="Arial" size="12" bulletType="square"></item>
-<item text="RIPWPNBZAT" font="Arial" size="12" bulletType="square"></item>
-<item text="CPSWTTDTYP" font="Arial" size="12" bulletType="square"></item>
-<item text="EQPCPZSGXV" font="Arial" size="12" bulletType="square"></item>
-<item text="MDJDLXFRZJ" font="Arial" size="12" bulletType="square"></item>
-<item text="DDPDTCOWVT" font="Arial" size="12" bulletType="square"></item>
-<item text="UFCIDZIEUS" font="Arial" size="12" bulletType="square"></item>
-<item text="PNFTZDEBVZ" font="Arial" size="12" bulletType="square"></item>
-<item text="QLODVMGMER" font="Arial" size="12" bulletType="square"></item>
-<item text="ACJHWVTAJN" font="Arial" size="12" bulletType="square"></item>
-<item text="OTAYWSMFDG" font="Arial" size="12" bulletType="square"></item>
-<item text="IEFPJZZQZT" font="Arial" size="12" bulletType="square"></item>
-<item text="JKDKGNQPVI" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="VYHCRYISIF" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="WBKTTOXELD" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="OVKJXQUQOO" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="JXKYAJUCOK" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="LSUBTDETDE" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="RCIAAPHPUI" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="THRIRDVQWU" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="TMSPJKXAOE" font="Gotham" size="12" bulletType="square"></item>
-<item text="QCEKFQYBOJ" font="Gotham" size="12" bulletType="square"></item>
-<item text="BBLTTZPFPL" font="Gotham" size="12" bulletType="square"></item>
-<item text="EDHMDWZQZI" font="Gotham" size="12" bulletType="square"></item>
-<item text="JPWOKZYLFX" font="Gotham" size="12" bulletType="square"></item>
-<item text="HSLWJNDXLM" font="Gotham" size="12" bulletType="square"></item>
-<item text="RVQAMHXRAB" font="Gotham" size="12" bulletType="square"></item>
-<item text="CTQIKFXLDY" font="Gotham" size="12" bulletType="square"></item>
-<item text="RUZYZOVXNS" font="Gotham" size="12" bulletType="square"></item>
-<item text="REBMTAEQVL" font="Gotham" size="12" bulletType="square"></item>
-<item text="PWYFLSXXOS" font="Gotham" size="12" bulletType="square"></item>
-<item text="KIYHYSZFCQ" font="Gotham" size="12" bulletType="square"></item>
-<item text="NPLEUKVCGR" font="Gotham" size="12" bulletType="square"></item>
-<item text="XNTSATIOKY" font="Gotham" size="12" bulletType="square"></item>
-<item text="RYCSUODMKL" font="Gotham" size="12" bulletType="square"></item>
-<item text="OXWCIPUBCE" font="Gotham" size="12" bulletType="square"></item>
-<item text="OEJCTWEZEF" font="Gotham" size="12" bulletType="square"></item>
-<item text="MQBACCIVLC" font="Gotham" size="12" bulletType="square"></item>
-<item text="FWQHSIPQZJ" font="Gotham" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="JREXWLFOIV" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="XYAJMYSQLW" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="KQCDYFRYHE" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="NZWUKITGPW" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="JUQJXQOHLD" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="BEIOIVOOHO" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="YMSQXBFXBQ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="NPBRYDTVJV" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="LUFPBIJKKJ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="PMNNVDKGTM" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="PJFRIRCBPC" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="THOVFDOASR" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="OJOOXYLEZF" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="LBMKUXUYFL" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="XVNEGBAZBH" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="QYZTMQWGYX" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="AEDBQZILCD" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="ZHJFOIGSYL" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="WOJPAZSOVA" font="Comic Sans MS" size="8" bulletType="square"></item>
-</list>
-<list>
-<item text="NINOWNQXUH" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="DMMTBYQMLE" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="CAVRDYQXJV" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="RFSETTKPAU" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="IBSURLUVJM" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="AZARWXYBHP" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="WVUSPRSMVZ" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="FLSAGPNXON" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="ZVLJVJQSDA" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-<item text="YKTCEFFSZQ" font="Comic Sans MS" size="12" bulletType="diamond"></item>
-</list>
-<list>
-<item text="FPZYYWJDGY" font="Arial" size="8" bulletType="traingle"></item>
-<item text="YOCFDHNUCB" font="Arial" size="8" bulletType="traingle"></item>
-<item text="RQSLRLAYBJ" font="Arial" size="8" bulletType="traingle"></item>
-<item text="ZDNJGSEFKK" font="Arial" size="8" bulletType="traingle"></item>
-</list>
-<list>
-<item text="IPVYMVFQTT" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="ZCGSDHDLMM" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="LRHRYEEDHH" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="YYHSKRSAAV" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="EBQRBHDQTC" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="CLUZYTFFFR" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="BCSQAZGCQX" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="PNOVJYUXZH" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="BEDJURRLYM" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="NMYSTEYAQI" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="XHGZILOCDC" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="TRERFZXIED" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="FMNVHXLJOU" font="Comic Sans MS" size="12" bulletType="square"></item>
-<item text="UVGSOZACDQ" font="Comic Sans MS" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="YTAFQYRWNX" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ECGJOZVMIC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="AANXXNRFMC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="XVJKUXOPKQ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="SKKANCBYLN" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="EPTKEIFOQK" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="XCHFJJCUTQ" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="NZEYKINONE" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="YNDMMKOSCY" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="SBTIXDIGPV" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="AGNNTLZZMN" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="YSDXGJUNEB" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="RPNQRPTHEK" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="TNIYOHWNAA" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="ARRMVXGIFV" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="HVNSDSMVTV" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="ZDILORKPFW" font="Comic Sans MS" size="10" bulletType="circle"></item>
-<item text="SQVCBQHKRP" font="Comic Sans MS" size="10" bulletType="circle"></item>
-<item text="DSVYXSETHP" font="Comic Sans MS" size="10" bulletType="circle"></item>
-<item text="QLZKRKAJJT" font="Comic Sans MS" size="10" bulletType="circle"></item>
-</list>
-<list>
-<item text="SPRMYGJUHW" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="YESWBGLBNC" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="DPNEVGBBIO" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="IGXLAAQTCK" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="WLVJUDSBKH" font="Times New Roman" size="12" bulletType="square"></item>
-<item text="RZRWEXOEFT" font="Times New Roman" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="CUWOIOBTAP" font="Arial" size="12" bulletType="square"></item>
-<item text="KRTRXLZCDT" font="Arial" size="12" bulletType="square"></item>
-<item text="YUPARGYSCS" font="Arial" size="12" bulletType="square"></item>
-<item text="HFSEMVBBCP" font="Arial" size="12" bulletType="square"></item>
-<item text="FVGNWXZEBX" font="Arial" size="12" bulletType="square"></item>
-<item text="OBTAJAATPD" font="Arial" size="12" bulletType="square"></item>
-</list>
-<list>
-<item text="CKYNAYQBXV" font="Comic Sans MS" size="10" bulletType="diamond"></item>
-</list>
-<list>
-<item text="HVUSVBKTBW" font="Comic Sans MS" size="8" bulletType="traingle"></item>
-</list>
-<list>
-<item text="NRRJJCZDJI" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-<item text="HXPGWJWUXU" font="Comic Sans MS" size="10" bulletType="traingle"></item>
-</list>
-<list>
-<item text="HOCTDJSJRS" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="DYFORLWKPH" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="FKTSDFOCHT" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="EYBYDTGHRZ" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="BNGLNVJRVV" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="IXNUDGSOCH" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-<item text="TDLBOMAJWR" font="Comic Sans MS" size="14" bulletType="traingle"></item>
-</list>
-<list>
-<item text="HSCDPFVSRV" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="YUGDAZUEDO" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="GDQCHEEDAH" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="CFPWWGWOSW" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="SMQXJLOUNP" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="VVSKLGQVAZ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="RFLEDGDPMQ" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="YSVSDYQYUT" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="FJJDPSQWKL" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="YQHGAZZCYX" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="VNOZXBYFQL" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="YUEFFENMRG" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="EAEVKWOMNL" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="VTIBSKWCWN" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="QNHDRVVBAF" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="YCAAWRNXRW" font="Comic Sans MS" size="8" bulletType="square"></item>
-<item text="SRKVLDVAKZ" font="Comic Sans MS" size="8" bulletType="square"></item>
+<item text="OXOPRQWWIV" font="Arial" size="12" bulletType="square"></item>
+<item text="BIUDZWAUNB" font="Arial" size="12" bulletType="square"></item>
+<item text="OFTKLYUDOG" font="Arial" size="12" bulletType="square"></item>
+<item text="RQJFASZQLT" font="Arial" size="12" bulletType="square"></item>
+<item text="KTXNXAVPRU" font="Arial" size="12" bulletType="square"></item>
+<item text="VGRPQWNBGG" font="Arial" size="12" bulletType="square"></item>
+<item text="KPYCRTOTCY" font="Arial" size="12" bulletType="square"></item>
+<item text="MKENAZWYER" font="Arial" size="12" bulletType="square"></item>
+<item text="OMXOEXEGZS" font="Arial" size="12" bulletType="square"></item>
+<item text="ZWWCNAYDZQ" font="Arial" size="12" bulletType="square"></item>
+<item text="UCVOAOJQDN" font="Arial" size="12" bulletType="square"></item>
+<item text="KIRMQONZCW" font="Arial" size="12" bulletType="square"></item>
+<item text="NHOFUFTFAA" font="Arial" size="12" bulletType="square"></item>
+<item text="SXGFGJQRKY" font="Arial" size="12" bulletType="square"></item>
+<item text="RXOEVLZTQR" font="Arial" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="TWRZIBIAVI" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YMCEUJFMIU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KUGABVWOFM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TQRDIJHRAD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JHDTCVFGFQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YBTAWPPYZG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PPEOVAKYGC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BEAIPUVUZF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BFIYOETVPP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KLTWATHDJY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XFTKHVBRXE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DXXKQKSUHY" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="VCUCYYHVAR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZDKICSOLBD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RKJNSNCOEM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JHOHBOSTPQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="NUUHJICAVV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TSFBTTKLJT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HXIEIYPASC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YZICWYKSDQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XNQAQIKZIL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZSYZGGRNDI" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CEGOHCRDCP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ILOXRVPLMH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XPRRQVWOTK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BKAYSEUJOM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JKJKKWSIFQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PQYDMDBTDH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BGGKWTSWQM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MWSNWEZAYH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QXANLQPAVE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TFIUAAOAZT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="THJCSQAJKS" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="FWICFTEEIO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UONPAEGAPF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HGKDDYDJFJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UZGQOSYSCN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FVKZOBBEQR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LNNQPFJMPK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LMZBXRJCQA" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="IDLSEXAVPE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NGRVCQPIAC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RDKZAQNHOC" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="FCGXESWCSN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EPIFWKWJRQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LDWDWCBTGW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YFLYSNIADZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VGVLLNYITY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BBTMDIGYEC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QRSTSFGUTW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BLOYEMNZDL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FLLCUDXLBZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CJKVJHBLON" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QCFMRHOUIY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZHQFSNSKIK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XAPYBQORZV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OHLPMRJYSU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ELVZPSYWRA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PYLOHQOBPR" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="WYYLGCMETV" font="Arial" size="8" bulletType="square"></item>
+<item text="RXMUOOYVVL" font="Arial" size="8" bulletType="square"></item>
+<item text="MYFEVYCLYH" font="Arial" size="8" bulletType="square"></item>
+<item text="AIQLUHHXVO" font="Arial" size="8" bulletType="square"></item>
+<item text="DYRRBLLBEL" font="Arial" size="8" bulletType="square"></item>
+<item text="ILEJHTJVUQ" font="Arial" size="8" bulletType="square"></item>
+<item text="BGKUDJXNJS" font="Arial" size="8" bulletType="square"></item>
+<item text="VJDZZBVSPN" font="Arial" size="8" bulletType="square"></item>
+<item text="CYEATZFQWG" font="Arial" size="8" bulletType="square"></item>
+<item text="SPWAGMORAR" font="Arial" size="8" bulletType="square"></item>
+<item text="DXRWYSWQNE" font="Arial" size="8" bulletType="square"></item>
+<item text="ECTZCPPMJX" font="Arial" size="8" bulletType="square"></item>
+<item text="OFCOJGGNTW" font="Arial" size="8" bulletType="square"></item>
+<item text="AACBTKTKTS" font="Arial" size="8" bulletType="square"></item>
+</list>
+<list>
+<item text="QHSUFOIVLT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IIKCHUNGZC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KQXEXUFNLF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UPNYIUCBES" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OIJAWABQYH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MZCIYZJIAB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GMMDCBVIZX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BLPECTCMJR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XASFAGAUXW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VFRIUQKRUR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PUMEKBRXTF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CVUQXYTMTZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FLRIQNIZZM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CWOAYOFLGI" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="ZXLVDUHQDC" font="Arial" size="10" bulletType="diamond"></item>
+</list>
+<list>
+<item text="BXOFRYWVQH" font="Arial" size="12" bulletType="square"></item>
+<item text="OSUDBPCWBA" font="Arial" size="12" bulletType="square"></item>
+<item text="GRGXQBEBUW" font="Arial" size="12" bulletType="square"></item>
+<item text="YKFWZGLZIM" font="Arial" size="12" bulletType="square"></item>
+<item text="RHOIEXDNEB" font="Arial" size="12" bulletType="square"></item>
+<item text="XWTMBCSTBX" font="Arial" size="12" bulletType="square"></item>
+<item text="UWHLCWLMIQ" font="Arial" size="12" bulletType="square"></item>
+<item text="GUPHBLLPFW" font="Arial" size="12" bulletType="square"></item>
+<item text="SBGIZHIQDF" font="Arial" size="12" bulletType="square"></item>
+<item text="CYGPCLEQPR" font="Arial" size="12" bulletType="square"></item>
+<item text="ZKUWXWNAUA" font="Arial" size="12" bulletType="square"></item>
+<item text="PBZNBNUCWP" font="Arial" size="12" bulletType="square"></item>
+<item text="PMTHIAIGEQ" font="Arial" size="12" bulletType="square"></item>
+<item text="MNIENDPLHT" font="Arial" size="12" bulletType="square"></item>
+<item text="QHYZLWVMIY" font="Arial" size="12" bulletType="square"></item>
+<item text="IMSIDDPHGQ" font="Arial" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="TBSQGROEJN" font="Arial" size="10" bulletType="circle"></item>
+<item text="VAHVKPLRPE" font="Arial" size="10" bulletType="circle"></item>
+<item text="FBYEWYRCEN" font="Arial" size="10" bulletType="circle"></item>
+<item text="MXYNUTQYFF" font="Arial" size="10" bulletType="circle"></item>
+<item text="QVPQALLAUW" font="Arial" size="10" bulletType="circle"></item>
+<item text="ONOSSDGSLF" font="Arial" size="10" bulletType="circle"></item>
+<item text="VDJYYABCOG" font="Arial" size="10" bulletType="circle"></item>
+<item text="WBZKEONZKG" font="Arial" size="10" bulletType="circle"></item>
+<item text="UPJKZUHRDA" font="Arial" size="10" bulletType="circle"></item>
+<item text="ZXNZOJSQRJ" font="Arial" size="10" bulletType="circle"></item>
+<item text="MUOFTIGDDJ" font="Arial" size="10" bulletType="circle"></item>
+<item text="JXNOIJVCWN" font="Arial" size="10" bulletType="circle"></item>
+<item text="KZPTXSNJXW" font="Arial" size="10" bulletType="circle"></item>
+<item text="ARAQWLHORS" font="Arial" size="10" bulletType="circle"></item>
+<item text="NESVZHPZAB" font="Arial" size="10" bulletType="circle"></item>
+</list>
+<list>
+<item text="WZUHNJZXNZ" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="SEJWGLFKCI" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="HQKSROMCXP" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="ERQNNQXKMY" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="NAFJZHCJJD" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="DHHLMRBCDR" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="YSXZWHBQPX" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="NTTEHPWJIX" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="ICMMYAQCWW" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="WKVISRPYBK" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+</list>
+<list>
+<item text="VOJSHAQSOP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VXLNJFLZHL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DEWMRBLQFI" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GISEQZPIRB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YGJCRHSYXG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EQOCCMSXUH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UOBICIGYHX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WWKSMXRMXN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YEXNIEQPFW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VARKPEEIHL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QIMOFMMFGW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VWCJLDPOPP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YJAMMATZAQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="YIYRREDQHW" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="JLOSPOSVEO" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="DKVJMVPQFE" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="DTWUELYYVJ" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="QXZZTSJWXT" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="HFGEZHXGOI" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="FEBYHCXPLK" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="WYAGQDRHID" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="QFORENGCFR" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="EGVXLWAEQD" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="QERBMUTXJF" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="DVJUBYTEUL" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="UCWBLOSLKG" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+</list>
+<list>
+<item text="YWRYYDFNAY" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="UZGWWTVHIM" font="Times New Roman" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="VEOADWLMGQ" font="Arial" size="8" bulletType="diamond"></item>
+<item text="ADLUHYIXQO" font="Arial" size="8" bulletType="diamond"></item>
+<item text="ULOZTHIKFZ" font="Arial" size="8" bulletType="diamond"></item>
+<item text="FYFOGKNKOK" font="Arial" size="8" bulletType="diamond"></item>
+<item text="LIKUQZSCEI" font="Arial" size="8" bulletType="diamond"></item>
+<item text="ROXEKMZIDA" font="Arial" size="8" bulletType="diamond"></item>
+<item text="KSJBLVFWUL" font="Arial" size="8" bulletType="diamond"></item>
+<item text="ENBBGXKGFT" font="Arial" size="8" bulletType="diamond"></item>
+<item text="VWVDNUNEIY" font="Arial" size="8" bulletType="diamond"></item>
+<item text="TAYWKMUYJR" font="Arial" size="8" bulletType="diamond"></item>
+<item text="AIIKOODZTH" font="Arial" size="8" bulletType="diamond"></item>
+<item text="JIBKSDBXOY" font="Arial" size="8" bulletType="diamond"></item>
+<item text="VJGNKBKTMG" font="Arial" size="8" bulletType="diamond"></item>
+<item text="DAZPVBDSVF" font="Arial" size="8" bulletType="diamond"></item>
+<item text="KFBVJTXYMV" font="Arial" size="8" bulletType="diamond"></item>
+<item text="LNJQBFECUL" font="Arial" size="8" bulletType="diamond"></item>
+<item text="ILTXOVHOHZ" font="Arial" size="8" bulletType="diamond"></item>
+<item text="HINLIRAWBE" font="Arial" size="8" bulletType="diamond"></item>
+<item text="JMEJPGXNDT" font="Arial" size="8" bulletType="diamond"></item>
+</list>
+<list>
+<item text="JYKMKXCUSK" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="CXBZSDLHJE" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="NHKAXBVBSJ" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="FLLKKVLXVC" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="NDSYMMZGQV" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="VZSUTZLOTP" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="BNYYDEKMBI" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="LZMKUTNNFF" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="QMFDTALVRB" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="PRETSBFGKP" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+</list>
+<list>
+<item text="RRUFOCEIHD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XVXMKHGMIF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AROYVMEBXC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CBMMJDHUGE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XSHSUQJELS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LPIYNLWEGX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JMCOWDEGKY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IWBUDCUDBQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XVTNJJJGSP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MXYRCUVZSL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SZWDLLJCTW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DLKOPOQMFF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IYTTDSGWEV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OLAZZSHTRL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KULAKVVOEE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EJENNYFUPJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="KJQRYTCCUA" font="Arial" size="14" bulletType="diamond"></item>
+<item text="OHMVEBLMJB" font="Arial" size="14" bulletType="diamond"></item>
+<item text="MKQYXFPMUY" font="Arial" size="14" bulletType="diamond"></item>
+<item text="ZXVMJZXTSI" font="Arial" size="14" bulletType="diamond"></item>
+<item text="TGRFAXPHQY" font="Arial" size="14" bulletType="diamond"></item>
+<item text="VEHNKVGWPL" font="Arial" size="14" bulletType="diamond"></item>
+<item text="KXMSZXKHVP" font="Arial" size="14" bulletType="diamond"></item>
+<item text="IIPIUIKJDO" font="Arial" size="14" bulletType="diamond"></item>
+<item text="TWUEAYKQZG" font="Arial" size="14" bulletType="diamond"></item>
+<item text="JZAZUCYNGO" font="Arial" size="14" bulletType="diamond"></item>
+<item text="CBVAYDUVVL" font="Arial" size="14" bulletType="diamond"></item>
+<item text="WQNULOJLGA" font="Arial" size="14" bulletType="diamond"></item>
+<item text="GTVKQQYUZZ" font="Arial" size="14" bulletType="diamond"></item>
+<item text="QZCJKIMOVA" font="Arial" size="14" bulletType="diamond"></item>
+<item text="ZDVCXYOBBU" font="Arial" size="14" bulletType="diamond"></item>
+</list>
+<list>
+<item text="LSPYBAXFGA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZZXVISTEUW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MDMQYYAFIE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SAWCWFIJUT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AAGMRELWAJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OVTWTFQWRY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GQILNHNRDT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YMBCMDRUTY" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="DZTMUDMMEF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BTVJQXVAAV" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="HFJULZMTTS" font="Arial" size="14" bulletType="diamond"></item>
+<item text="HEFUAZDQRX" font="Arial" size="14" bulletType="diamond"></item>
+<item text="REXIDBHQMK" font="Arial" size="14" bulletType="diamond"></item>
+<item text="KNKSJWJZHT" font="Arial" size="14" bulletType="diamond"></item>
+<item text="FOZOISIQGL" font="Arial" size="14" bulletType="diamond"></item>
+<item text="FBJWPOODYC" font="Arial" size="14" bulletType="diamond"></item>
+<item text="QWTQEUIQPD" font="Arial" size="14" bulletType="diamond"></item>
+<item text="PRGIRWLKBW" font="Arial" size="14" bulletType="diamond"></item>
+<item text="OQXIZFWKJG" font="Arial" size="14" bulletType="diamond"></item>
+<item text="FNNSZAXAGA" font="Arial" size="14" bulletType="diamond"></item>
+<item text="EVPXNOCJUW" font="Arial" size="14" bulletType="diamond"></item>
+<item text="LSLTJLUZJN" font="Arial" size="14" bulletType="diamond"></item>
+<item text="KGEDFWXSSL" font="Arial" size="14" bulletType="diamond"></item>
+<item text="JHLFWPCMWO" font="Arial" size="14" bulletType="diamond"></item>
+</list>
+<list>
+<item text="JHQGICULNG" font="Arial" size="14" bulletType="traingle"></item>
+<item text="BDGTZROACK" font="Arial" size="14" bulletType="traingle"></item>
+<item text="RZDBGGIYCT" font="Arial" size="14" bulletType="traingle"></item>
+<item text="CPIMSDZZXK" font="Arial" size="14" bulletType="traingle"></item>
+<item text="XXNAJQGEIZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="PJGZOMZDOV" font="Arial" size="14" bulletType="traingle"></item>
+<item text="ZKPEWNKSEZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="OKINQELMQE" font="Arial" size="14" bulletType="traingle"></item>
+<item text="WMHSWXCLFH" font="Arial" size="14" bulletType="traingle"></item>
+<item text="WMCFEOFJRN" font="Arial" size="14" bulletType="traingle"></item>
+<item text="SDZHLXIPAF" font="Arial" size="14" bulletType="traingle"></item>
+<item text="ZWNNZYAVAE" font="Arial" size="14" bulletType="traingle"></item>
+<item text="LTITQVXZPP" font="Arial" size="14" bulletType="traingle"></item>
+<item text="ERFQTHTWEM" font="Arial" size="14" bulletType="traingle"></item>
+<item text="TSVZACHHCE" font="Arial" size="14" bulletType="traingle"></item>
+<item text="KWASEQGEWC" font="Arial" size="14" bulletType="traingle"></item>
+<item text="RIQKOLWGZZ" font="Arial" size="14" bulletType="traingle"></item>
+</list>
+<list>
+<item text="GKDRNPUDTE" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="XFIMEHSFDS" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="PVGCOSSRUQ" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="XLPRTCIBID" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="WNBNGXIWXK" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="IWDLUNFBNO" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="AHRNQGCXGS" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="TWFBBFQBXI" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="QTQYDJBDLL" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="UCJGXNIZCP" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="KIQMUVUCQL" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="ZASDBTSZGX" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="BCOSHAHGTD" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="KESDFVNZJE" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="VZRUEMRZME" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="FCXZRGMCKT" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="MWYQRSNCGA" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="NZSUAOXMBK" font="Times New Roman" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="LTGKBIAGPC" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="EDYUNVASVZ" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="RSSTQCKYTG" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="HUUYHBDCMM" font="Times New Roman" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="AKYJDXBISQ" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="ZHJDJRFPGE" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="JMOVKKOVLW" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="LUCEOYRXAI" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="ZCCANAUDDY" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="ZKRHHFNHAD" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="DRSNEEYNIF" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="GSHGNYWTJJ" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="GJNWCJSFBC" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="HTABAYCMKE" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="FGSNSJXAXJ" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="LXKPCWEZED" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="VPFHVLNDFM" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="HZZTBQWFNK" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="CBLJCUIDGY" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="JSBXSWKKTL" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="ICNQRKHTVH" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="OEWQJUESCX" font="Comic Sans MS" size="8" bulletType="circle"></item>
+<item text="ZWNGSKYGQD" font="Comic Sans MS" size="8" bulletType="circle"></item>
+</list>
+<list>
+<item text="UNBJTOJRBS" font="Comic Sans MS" size="8" bulletType="diamond"></item>
+<item text="AQJCAVYKHY" font="Comic Sans MS" size="8" bulletType="diamond"></item>
+<item text="TMMGKOGOKF" font="Comic Sans MS" size="8" bulletType="diamond"></item>
+</list>
+<list>
+<item text="YCHZDJEFBW" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="EYPAUOORKU" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="CXNJZQHHIV" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="QJZJHEBXGK" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="USBGTHQAGG" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="ZZWDRVEWJW" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="BEFYFEPXLO" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="RMQBMCRQML" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="FLAAAQCHXB" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="ZEMNWDISCV" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="FHKNSNYCYP" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="YUKDLCLOQC" font="Comic Sans MS" size="10" bulletType="circle"></item>
+<item text="JYYAPRNKDV" font="Comic Sans MS" size="10" bulletType="circle"></item>
+</list>
+<list>
+<item text="XDGHGLGNCB" font="Arial" size="12" bulletType="square"></item>
+<item text="RJDBFIWEKR" font="Arial" size="12" bulletType="square"></item>
+<item text="KTBLTPITPT" font="Arial" size="12" bulletType="square"></item>
+<item text="QUTCIBDCNA" font="Arial" size="12" bulletType="square"></item>
+<item text="ILLHKPQALK" font="Arial" size="12" bulletType="square"></item>
+<item text="PDQSPXOEDX" font="Arial" size="12" bulletType="square"></item>
+<item text="RAQEYJITFX" font="Arial" size="12" bulletType="square"></item>
+<item text="YUSTOUGHJX" font="Arial" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="WERCTCQEFL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NLMUMFEJDJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZTZYVCIWDX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ABXLTYXAJY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZWAYKSFKHH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XDILODGJUI" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="JDTDRKTSKN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MQKPBTBXIY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PEWKKJBVZH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FQWTJQOKBU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ESGLIOXSGV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HCKGJMEDFO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PFSLCGWZCL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="URAVWDCFVV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HXSZUDMOZT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="REGKAGBRUX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GANXGEQJJD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NMCOCZPJGR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FDNVOFOALV" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="EORAHRJTLE" font="Arial" size="10" bulletType="diamond"></item>
+<item text="BMKHQLYSPK" font="Arial" size="10" bulletType="diamond"></item>
+<item text="XWFVHVCMRI" font="Arial" size="10" bulletType="diamond"></item>
+<item text="VKXGCZJTNZ" font="Arial" size="10" bulletType="diamond"></item>
+<item text="XAQYAENFDR" font="Arial" size="10" bulletType="diamond"></item>
+<item text="AGRTZUJUYH" font="Arial" size="10" bulletType="diamond"></item>
+<item text="BSBHKSKIQL" font="Arial" size="10" bulletType="diamond"></item>
+</list>
+<list>
+<item text="OLNKUVUEXT" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="MVHWQKYGHE" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="FLHFRQLYRC" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="RTJHAKEBOU" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="WKJJZJFUEP" font="Times New Roman" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="GFUVDZZIAZ" font="Arial" size="10" bulletType="traingle"></item>
+<item text="PIAKAMANJX" font="Arial" size="10" bulletType="traingle"></item>
+<item text="VZOSRRTETZ" font="Arial" size="10" bulletType="traingle"></item>
+<item text="IVTFHRXFXH" font="Arial" size="10" bulletType="traingle"></item>
+<item text="DUMUNVGRXE" font="Arial" size="10" bulletType="traingle"></item>
+<item text="BJHOQUJZBF" font="Arial" size="10" bulletType="traingle"></item>
+<item text="DSIQWIAWEF" font="Arial" size="10" bulletType="traingle"></item>
+<item text="JQCJGIGJUJ" font="Arial" size="10" bulletType="traingle"></item>
+<item text="TVUAJUUDHJ" font="Arial" size="10" bulletType="traingle"></item>
+<item text="KHMWLRWKCO" font="Arial" size="10" bulletType="traingle"></item>
+<item text="LUFKPQQNSA" font="Arial" size="10" bulletType="traingle"></item>
+<item text="ADZEWJOMBB" font="Arial" size="10" bulletType="traingle"></item>
+<item text="NIXZZOSTRH" font="Arial" size="10" bulletType="traingle"></item>
+<item text="RWAERPFNPI" font="Arial" size="10" bulletType="traingle"></item>
+<item text="OZGZOFBOPW" font="Arial" size="10" bulletType="traingle"></item>
+<item text="ONRRDDURRK" font="Arial" size="10" bulletType="traingle"></item>
+<item text="GEUTJEBZKX" font="Arial" size="10" bulletType="traingle"></item>
+<item text="IOIBOFSYXS" font="Arial" size="10" bulletType="traingle"></item>
+</list>
+<list>
+<item text="QGNMEAURIG" font="Gotham" size="12" bulletType="square"></item>
+<item text="ZLVAEUMZTB" font="Gotham" size="12" bulletType="square"></item>
+<item text="FATKOYZFQL" font="Gotham" size="12" bulletType="square"></item>
+<item text="ZLMYOJVBEG" font="Gotham" size="12" bulletType="square"></item>
+<item text="SIPZDILDNS" font="Gotham" size="12" bulletType="square"></item>
+<item text="NFSDKMGBHT" font="Gotham" size="12" bulletType="square"></item>
+<item text="JGBUQOZKWT" font="Gotham" size="12" bulletType="square"></item>
+<item text="TYKZUEYOZG" font="Gotham" size="12" bulletType="square"></item>
+<item text="TPFYSZKFIX" font="Gotham" size="12" bulletType="square"></item>
+<item text="LLBNUBWRBQ" font="Gotham" size="12" bulletType="square"></item>
+<item text="LNYHWJDBQH" font="Gotham" size="12" bulletType="square"></item>
+<item text="MYGHQIAOIV" font="Gotham" size="12" bulletType="square"></item>
+<item text="NCSTRRTKLC" font="Gotham" size="12" bulletType="square"></item>
+<item text="GBUHAYNUIB" font="Gotham" size="12" bulletType="square"></item>
+<item text="LQDEOOLTUO" font="Gotham" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="OMXLQLFUMB" font="Arial" size="8" bulletType="square"></item>
+<item text="FCGSZLCPXK" font="Arial" size="8" bulletType="square"></item>
+<item text="HGYAOQINZQ" font="Arial" size="8" bulletType="square"></item>
+<item text="SJISFUHTOB" font="Arial" size="8" bulletType="square"></item>
+<item text="LIZCQIZKOG" font="Arial" size="8" bulletType="square"></item>
+<item text="NPSKTLNQHX" font="Arial" size="8" bulletType="square"></item>
+<item text="APSMXLKEYQ" font="Arial" size="8" bulletType="square"></item>
+</list>
+<list>
+<item text="YANLEVBIFO" font="Arial" size="12" bulletType="diamond"></item>
+<item text="ZPLWXFCVHY" font="Arial" size="12" bulletType="diamond"></item>
+<item text="YKTOJSGPUT" font="Arial" size="12" bulletType="diamond"></item>
+<item text="QBYNEJHGRG" font="Arial" size="12" bulletType="diamond"></item>
+<item text="VKXWFHTIGN" font="Arial" size="12" bulletType="diamond"></item>
+<item text="RFFCJXPEWC" font="Arial" size="12" bulletType="diamond"></item>
+<item text="GHKFNXBHWR" font="Arial" size="12" bulletType="diamond"></item>
+<item text="VAHDKSYTKH" font="Arial" size="12" bulletType="diamond"></item>
+<item text="POBDDNLFUR" font="Arial" size="12" bulletType="diamond"></item>
+<item text="PKZAKXNEWZ" font="Arial" size="12" bulletType="diamond"></item>
+<item text="RIFMMOTOKJ" font="Arial" size="12" bulletType="diamond"></item>
+<item text="PPMBSFSOBN" font="Arial" size="12" bulletType="diamond"></item>
+<item text="PUFLUTJKVZ" font="Arial" size="12" bulletType="diamond"></item>
+<item text="GEFQAPQUZO" font="Arial" size="12" bulletType="diamond"></item>
+<item text="YPYAGFJEQL" font="Arial" size="12" bulletType="diamond"></item>
+<item text="HQTNXDFBBP" font="Arial" size="12" bulletType="diamond"></item>
+<item text="JMGXGTJXEK" font="Arial" size="12" bulletType="diamond"></item>
+<item text="PCYXCQDNPY" font="Arial" size="12" bulletType="diamond"></item>
+<item text="TDVJGJSAIM" font="Arial" size="12" bulletType="diamond"></item>
+</list>
+<list>
+<item text="BQFQMCACKC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FEQDIICDRO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WXRAZQZCXM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EAKEZWDGBF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TYXZLILCJT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VQMHIGVKAH" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="WTATVKVTWR" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="QKTPBNCBGH" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="IZWNCBTWBN" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="LYCTJKADAR" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="HNNAYMETJA" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="UCZLHIDGNT" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="TTLOZSVURW" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="RZFJSBHIZE" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="FEPPILSRYO" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="BMMPZUYGDA" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="SGLRMAUIBF" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="PJHXMKUQTF" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="ICKJKOKKKZ" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="GBXKOHMKOV" font="Comic Sans MS" size="14" bulletType="square"></item>
+</list>
+<list>
+<item text="HDOKMIFLUY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LOZXWURXOW" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="PWMAFHKFFU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JMQCYKZDVJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="BDSIXYCGNU" font="Arial" size="14" bulletType="square"></item>
+</list>
+<list>
+<item text="CDVLIHLKXN" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="ERCPWRVWYK" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="AKBXFENNNV" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="ZZJJLWISCJ" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="KKDRTFXYGG" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="HVTTJBGTEO" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="WVEIAYBYXM" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="JJKAAMZZFC" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="FIEICLTSIF" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="DNKKFWWVTA" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="GRLZSQBWLP" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="JLQKCHVGXD" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="PFUPIRJMML" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="ZALOQUNJJK" font="Comic Sans MS" size="14" bulletType="square"></item>
+</list>
+<list>
+<item text="EMWZKZESFY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EBEJDUNALR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CYBQARKXKK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QOKZMTEPZL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UJXXSNRHVK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XWQFJOWXRB" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="MAAHKLJQDG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TMKODRAJEV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WHXSXIODNY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NQVZTPPBKL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YGYBBIJXDF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VAMVWOPCAF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QVICAIBQFE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UYMXAVLHJA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DGFFDYEQRJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MXODPJGEAF" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="XALMEYAEDY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HLWGBTOYER" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JXDKXLHHCZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XEDJQVBOLC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TPVOIRVEJZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XQFOIRCONU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZFSGJGTCQO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XYTHHENSOJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MDGKMUTOQA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OETKEFHMLT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PDPMORZHIN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FKUAIVONSD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QTYKROBEIZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="IWXMZFWMJD" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="RMQNAUVDAB" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="HXRALTOHXG" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="UNPNGENINF" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="JQQJLGOOVI" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="PKFFJGHYJT" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+<item text="SUWRNYGONB" font="Comic Sans MS" size="14" bulletType="diamond"></item>
+</list>
+<list>
+<item text="XRRNGKRIBZ" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="LCSXKCDVJO" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="ORPQKYIVRU" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="WDMXNDPEVB" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="PEMFKMNNNH" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="APARASJZGZ" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="IMRGLISVOR" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="ZPBLIKYFLQ" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="WSSJEBARYW" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="IQQFKVGAEI" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="KUDOYGJGXY" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="QMOZPUOMVS" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="QXYYTXDXER" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="TDMNHXMFXD" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="NXDERKHTUG" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="INIAAFQAYL" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="QRMDGRKLCH" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="SNZMWODHYP" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="KDCCGNESVU" font="Comic Sans MS" size="10" bulletType="square"></item>
+</list>
+<list>
+<item text="BGBBQNYGIS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OFYJHXAKWM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UTVUQHVQKQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SGATOIHRKN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NCWKBYILYW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WTSPNBTGUA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NCLDIXHEBV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KYOBKSNVXV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ITQQYWAXAO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HWJIKKBVRD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FKJSLIHETY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GLBOPTORMO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TCLKQJDEXA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JCIOTNAUJE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HTGADKGNBA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NGGVCWHNWB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EATVPERCQN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RVNHJCSHYJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="LZEMOGSRYF" font="Gotham" size="12" bulletType="square"></item>
+<item text="BVTGMGNZEG" font="Gotham" size="12" bulletType="square"></item>
+<item text="RRJXDIJNNN" font="Gotham" size="12" bulletType="square"></item>
+<item text="ENAULPIION" font="Gotham" size="12" bulletType="square"></item>
+<item text="XQCJDDIBOJ" font="Gotham" size="12" bulletType="square"></item>
+<item text="FAMMPCHZQG" font="Gotham" size="12" bulletType="square"></item>
+<item text="NTYBUZYMTX" font="Gotham" size="12" bulletType="square"></item>
+<item text="VIPJGTEWZV" font="Gotham" size="12" bulletType="square"></item>
+<item text="FUOHLHDCQF" font="Gotham" size="12" bulletType="square"></item>
+<item text="WSISZQGAJH" font="Gotham" size="12" bulletType="square"></item>
+<item text="FWOHEEYCWE" font="Gotham" size="12" bulletType="square"></item>
+<item text="TOQKQFDHIJ" font="Gotham" size="12" bulletType="square"></item>
+<item text="HLSYREAGIC" font="Gotham" size="12" bulletType="square"></item>
+<item text="GFXSXMZJHV" font="Gotham" size="12" bulletType="square"></item>
+<item text="CHDOKOHVXQ" font="Gotham" size="12" bulletType="square"></item>
+<item text="MLYLCJRXOL" font="Gotham" size="12" bulletType="square"></item>
+<item text="CMPYLAQZLU" font="Gotham" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="NSLVRAXBUS" font="Arial" size="14" bulletType="circle"></item>
+<item text="LCCNVQMFHJ" font="Arial" size="14" bulletType="circle"></item>
+<item text="BNTQMPSUHW" font="Arial" size="14" bulletType="circle"></item>
+<item text="IAARIRPYPD" font="Arial" size="14" bulletType="circle"></item>
+<item text="KCCOQHUPJD" font="Arial" size="14" bulletType="circle"></item>
+<item text="ZDEFFKCQYA" font="Arial" size="14" bulletType="circle"></item>
+<item text="LJXAXCEUIH" font="Arial" size="14" bulletType="circle"></item>
+<item text="ZNKANDHKAT" font="Arial" size="14" bulletType="circle"></item>
+<item text="BLZKNIVZSQ" font="Arial" size="14" bulletType="circle"></item>
+<item text="HDNDHFHWGT" font="Arial" size="14" bulletType="circle"></item>
+<item text="XFFTBKKGUM" font="Arial" size="14" bulletType="circle"></item>
+</list>
+<list>
+<item text="YJGWXYPJFN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KDHOPSZBEV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EOGJIUOHFS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AXHXBVMMDX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MIXEDDPCSF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZKXJCPBQQK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WEZDRZNYFW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PXPISTJQWD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QCSIQWQZYU" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="KIBSKMODUR" font="Arial" size="10" bulletType="square"></item>
+<item text="JOKQUDVHTH" font="Arial" size="10" bulletType="square"></item>
+<item text="UIIKSOCKDE" font="Arial" size="10" bulletType="square"></item>
+<item text="ZOTFRIUZBF" font="Arial" size="10" bulletType="square"></item>
+<item text="HSEDSYKMZM" font="Arial" size="10" bulletType="square"></item>
+<item text="OTWMNRJOGZ" font="Arial" size="10" bulletType="square"></item>
+<item text="PMQKMLDOJV" font="Arial" size="10" bulletType="square"></item>
+<item text="SXQCCAZHSQ" font="Arial" size="10" bulletType="square"></item>
+<item text="UVBRJLIIBW" font="Arial" size="10" bulletType="square"></item>
+<item text="AEYGNBIAZH" font="Arial" size="10" bulletType="square"></item>
+<item text="RQKMWNYHIB" font="Arial" size="10" bulletType="square"></item>
+<item text="IZOOMCNCMX" font="Arial" size="10" bulletType="square"></item>
+<item text="NCSPGBECMP" font="Arial" size="10" bulletType="square"></item>
+<item text="FFJTZXWUZG" font="Arial" size="10" bulletType="square"></item>
+<item text="QLZRZZRKMQ" font="Arial" size="10" bulletType="square"></item>
+<item text="UQHOGWNRGL" font="Arial" size="10" bulletType="square"></item>
+<item text="JLXBDZLMCL" font="Arial" size="10" bulletType="square"></item>
+<item text="YGNCXRBFPY" font="Arial" size="10" bulletType="square"></item>
+</list>
+<list>
+<item text="ILUZQVUCGB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QMXEEULFJR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KVZOHJXDEO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AASECAFSZH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UQYREHTVHM" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="RREYMHHCQT" font="Arial" size="14" bulletType="traingle"></item>
+<item text="IXACNUTJPJ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="CLBFTQESRO" font="Arial" size="14" bulletType="traingle"></item>
+<item text="EGQHECXUCH" font="Arial" size="14" bulletType="traingle"></item>
+<item text="EXQAZZCWTB" font="Arial" size="14" bulletType="traingle"></item>
+<item text="FHOOWPCXID" font="Arial" size="14" bulletType="traingle"></item>
+<item text="BUKLEPERPB" font="Arial" size="14" bulletType="traingle"></item>
+<item text="ZOIDGHMYIH" font="Arial" size="14" bulletType="traingle"></item>
+<item text="RHKIWABXYD" font="Arial" size="14" bulletType="traingle"></item>
+<item text="NGCVXMXADQ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="DRJVXIKARJ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="QPZTWAIUWT" font="Arial" size="14" bulletType="traingle"></item>
+<item text="FTLBVPVPTZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="JDWYRUXFPG" font="Arial" size="14" bulletType="traingle"></item>
+<item text="NODUKGWDWQ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="YYYPXCFPNB" font="Arial" size="14" bulletType="traingle"></item>
+<item text="GREZWHMERD" font="Arial" size="14" bulletType="traingle"></item>
+</list>
+<list>
+<item text="IYEPSESLSD" font="Arial" size="14" bulletType="circle"></item>
+<item text="SKJROHVVCH" font="Arial" size="14" bulletType="circle"></item>
+<item text="FWJDHPOBGR" font="Arial" size="14" bulletType="circle"></item>
+<item text="NLNZXNVIUS" font="Arial" size="14" bulletType="circle"></item>
+<item text="NIIDIHCEXG" font="Arial" size="14" bulletType="circle"></item>
+<item text="CDBKSREINK" font="Arial" size="14" bulletType="circle"></item>
+<item text="FPKROPOOHX" font="Arial" size="14" bulletType="circle"></item>
+<item text="TVDDRIDEBD" font="Arial" size="14" bulletType="circle"></item>
+<item text="UHCSVIQKID" font="Arial" size="14" bulletType="circle"></item>
+</list>
+<list>
+<item text="BLGZWDUYQV" font="Arial" size="10" bulletType="traingle"></item>
+<item text="JMRKOQMZJS" font="Arial" size="10" bulletType="traingle"></item>
+<item text="JQOHVYJVLG" font="Arial" size="10" bulletType="traingle"></item>
+<item text="RMQIEOFMFK" font="Arial" size="10" bulletType="traingle"></item>
+<item text="YLFRYBPQBU" font="Arial" size="10" bulletType="traingle"></item>
+<item text="RNGBKJNEPZ" font="Arial" size="10" bulletType="traingle"></item>
+<item text="BAQSMWHKHH" font="Arial" size="10" bulletType="traingle"></item>
+<item text="NMMNQSLKNI" font="Arial" size="10" bulletType="traingle"></item>
+<item text="VIINJTUHEN" font="Arial" size="10" bulletType="traingle"></item>
+<item text="HLAZCYARWX" font="Arial" size="10" bulletType="traingle"></item>
+<item text="ZOAGUYCXVW" font="Arial" size="10" bulletType="traingle"></item>
+<item text="XNDJRLVFAD" font="Arial" size="10" bulletType="traingle"></item>
+</list>
+<list>
+<item text="IWZCBJAOYV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OUEDPYZAHX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VOALTYTENF" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="TSJVROVXSZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NRKVHDEFCO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TDHWTDHYAV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LBLODQGRJG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KTIWORJOUV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="URBDIUWNPG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LFJVOUMEIK" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="QBXHNMUEBF" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="KTJPXHZFRQ" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="OPMLFLQTSO" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="MRBFSGNWVB" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="DEUXXUDRSM" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="JCPWHZDQWF" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="BNITHYIXFE" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="LZKQTQNIPW" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="POFHDRPPZE" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="ZRROZUIWCI" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="KZQCVQFVAA" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="TRKLRJRFME" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="DLNIXUOTPW" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="LSWPEJXITE" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="SZWYYGCXFV" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="PNIXKRYPLG" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+<item text="DSAGAFSODX" font="Comic Sans MS" size="12" bulletType="diamond"></item>
+</list>
+<list>
+<item text="YKFNROBTGJ" font="Arial" size="8" bulletType="square"></item>
+<item text="QMJIFXYOCO" font="Arial" size="8" bulletType="square"></item>
+<item text="XTWVAKYEMX" font="Arial" size="8" bulletType="square"></item>
+<item text="IJQIIIYWZT" font="Arial" size="8" bulletType="square"></item>
+<item text="TXLHXTNQVL" font="Arial" size="8" bulletType="square"></item>
+<item text="URYYBMVNLM" font="Arial" size="8" bulletType="square"></item>
+<item text="CHWHSPUDJE" font="Arial" size="8" bulletType="square"></item>
+<item text="CCXBFTIUJG" font="Arial" size="8" bulletType="square"></item>
+<item text="EWJPLQISKZ" font="Arial" size="8" bulletType="square"></item>
+<item text="OYJQYJULYU" font="Arial" size="8" bulletType="square"></item>
+<item text="BMBDKEFRRV" font="Arial" size="8" bulletType="square"></item>
+<item text="EJRGHBPKIC" font="Arial" size="8" bulletType="square"></item>
+<item text="LQWKRURPQX" font="Arial" size="8" bulletType="square"></item>
+<item text="BUQHAHKJRO" font="Arial" size="8" bulletType="square"></item>
+<item text="ZVMKZRUBMD" font="Arial" size="8" bulletType="square"></item>
+</list>
+<list>
+<item text="SMVGXLWJFM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GATBAPIOXJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MHCOWNPJAO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EZRNUAHSHE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FVDHDKRRZV" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="JPTZWBXLPN" font="Arial" size="14" bulletType="traingle"></item>
+<item text="UCBXKXHQUI" font="Arial" size="14" bulletType="traingle"></item>
+<item text="UOBGLESCGM" font="Arial" size="14" bulletType="traingle"></item>
+<item text="HKZCKLYISZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="KXLXNGIZOJ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="YZXBKSOQQL" font="Arial" size="14" bulletType="traingle"></item>
+<item text="EDKYTIDIHO" font="Arial" size="14" bulletType="traingle"></item>
+<item text="TIEMAXGJVS" font="Arial" size="14" bulletType="traingle"></item>
+</list>
+<list>
+<item text="FDYTIIPAMY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SIYYEPEQZZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NFIVIDXOCW" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="JFSJOZQRSW" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="TWLBTZBRLN" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="RSNKONPAWZ" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="YOOHBERCOP" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="ZJDMZAVFBY" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="PACXCJAGLG" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="FABICCOOJT" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="TROFAWIMMO" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="TUYXIGFMJA" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="PADQSYBWVM" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="TLVKDEEQPK" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="EKRPHHVNUX" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="OFKZBRIEOE" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="JRIVGXTYIY" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="RBIKOGIOOT" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="PHSZDFMMWE" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+</list>
+<list>
+<item text="AEZAFFFUOV" font="Arial" size="8" bulletType="diamond"></item>
+<item text="QKDIZRFWYA" font="Arial" size="8" bulletType="diamond"></item>
+<item text="PPNBVNGODJ" font="Arial" size="8" bulletType="diamond"></item>
+</list>
+<list>
+<item text="SQBLUFYUWJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ENNCSDAQAC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JLOWAFYGZS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EXACIJRKSG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RJBFOQHAIL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AXEAYLWBJJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZJRWEPSSTG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EMBAMVZOBS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WERRXQRQGH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GSEUOXUGEE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OFCKJWFVUT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IOEMNKPKMF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KIWNUYHHIC" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="XHGRDVTRPX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TDHXHHOYKJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WZHBGGTQEX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FLLMMOHNSE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JYPJMJWGWL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PSXITPNBMW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DGZDETGTTE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BIFGYVEMWM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NFUVAMLEJR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BOWADXLJVX" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="BWIJYVDMRY" font="Arial" size="14" bulletType="square"></item>
+<item text="RFEXIXOMGF" font="Arial" size="14" bulletType="square"></item>
+<item text="YMRJVRXWWL" font="Arial" size="14" bulletType="square"></item>
+<item text="PXNSMQVCXP" font="Arial" size="14" bulletType="square"></item>
+<item text="EYCYTPYKOP" font="Arial" size="14" bulletType="square"></item>
+<item text="NFQOCSGKYR" font="Arial" size="14" bulletType="square"></item>
+<item text="ERFGSTFBNB" font="Arial" size="14" bulletType="square"></item>
+<item text="VJSPQOQWWW" font="Arial" size="14" bulletType="square"></item>
+<item text="IOUJARXVOJ" font="Arial" size="14" bulletType="square"></item>
+<item text="IKPPYNIYHN" font="Arial" size="14" bulletType="square"></item>
+<item text="YDVQXKHXZV" font="Arial" size="14" bulletType="square"></item>
+<item text="LYLELBXOKA" font="Arial" size="14" bulletType="square"></item>
+</list>
+<list>
+<item text="PRTTJVTAGL" font="Arial" size="8" bulletType="circle"></item>
+<item text="XMUXDTCIXK" font="Arial" size="8" bulletType="circle"></item>
+<item text="LXPFLYSWIK" font="Arial" size="8" bulletType="circle"></item>
+<item text="DZXFANROPY" font="Arial" size="8" bulletType="circle"></item>
+<item text="UPGBVHYFNY" font="Arial" size="8" bulletType="circle"></item>
+<item text="OBHGZVLCVN" font="Arial" size="8" bulletType="circle"></item>
+<item text="UJUTICTNWM" font="Arial" size="8" bulletType="circle"></item>
+</list>
+<list>
+<item text="XIGFFXTNRA" font="Arial" size="10" bulletType="diamond"></item>
+<item text="GELBTEWVSD" font="Arial" size="10" bulletType="diamond"></item>
+<item text="DHTKRYUFUF" font="Arial" size="10" bulletType="diamond"></item>
+<item text="UVHDDVYWSE" font="Arial" size="10" bulletType="diamond"></item>
+<item text="BCMZHZIRYB" font="Arial" size="10" bulletType="diamond"></item>
+<item text="VADFBJAQCQ" font="Arial" size="10" bulletType="diamond"></item>
+<item text="NYOUGSJFJM" font="Arial" size="10" bulletType="diamond"></item>
+<item text="PUCYJDXEEG" font="Arial" size="10" bulletType="diamond"></item>
+<item text="YHPENVXMYE" font="Arial" size="10" bulletType="diamond"></item>
+<item text="XLZWMDFJLE" font="Arial" size="10" bulletType="diamond"></item>
+<item text="IFCYEVGJWM" font="Arial" size="10" bulletType="diamond"></item>
+<item text="YRMMDIOBFO" font="Arial" size="10" bulletType="diamond"></item>
+<item text="LSFQMUXSHZ" font="Arial" size="10" bulletType="diamond"></item>
+<item text="BLTJHLJARF" font="Arial" size="10" bulletType="diamond"></item>
+</list>
+<list>
+<item text="UTRVATJSIP" font="Arial" size="10" bulletType="diamond"></item>
+<item text="YCGNTLVKEC" font="Arial" size="10" bulletType="diamond"></item>
+<item text="RATHTOLEPD" font="Arial" size="10" bulletType="diamond"></item>
+<item text="OQUKUVENUX" font="Arial" size="10" bulletType="diamond"></item>
+<item text="AEXUTSJMKD" font="Arial" size="10" bulletType="diamond"></item>
+<item text="VNVQWZJBEC" font="Arial" size="10" bulletType="diamond"></item>
+<item text="HXUJBWMBSD" font="Arial" size="10" bulletType="diamond"></item>
+</list>
+<list>
+<item text="BTIDFIKBID" font="Arial" size="10" bulletType="circle"></item>
+<item text="XXZZLRXNLD" font="Arial" size="10" bulletType="circle"></item>
+<item text="KMQTFKMBRR" font="Arial" size="10" bulletType="circle"></item>
+<item text="OMAMFZUKCT" font="Arial" size="10" bulletType="circle"></item>
+<item text="HPSRFAXNQQ" font="Arial" size="10" bulletType="circle"></item>
+<item text="ANXWHTOXMI" font="Arial" size="10" bulletType="circle"></item>
+<item text="XNJPFNBFJV" font="Arial" size="10" bulletType="circle"></item>
+<item text="IPGGDEPNHR" font="Arial" size="10" bulletType="circle"></item>
+<item text="GUPNXUUYQW" font="Arial" size="10" bulletType="circle"></item>
+<item text="VZNGUFOPXA" font="Arial" size="10" bulletType="circle"></item>
+<item text="TOOUFEDVQF" font="Arial" size="10" bulletType="circle"></item>
+<item text="PRBWCPZSWY" font="Arial" size="10" bulletType="circle"></item>
+<item text="IEMRLYASVR" font="Arial" size="10" bulletType="circle"></item>
+<item text="WWFBMRAYKS" font="Arial" size="10" bulletType="circle"></item>
+<item text="PLVLVKMQCO" font="Arial" size="10" bulletType="circle"></item>
+<item text="USFNFXHHEP" font="Arial" size="10" bulletType="circle"></item>
+</list>
+<list>
+<item text="QFJIWUAOGZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LRRSWSPRDH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PPHDKHHKEP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JAVFAYPGBA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KEISCZJWVK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SRUGWPWVNI" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DLVHGOSNDG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KRWSXHXHBM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ARWMOTMONX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LQOGDFLFIY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SBZTRZNIZI" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="DWSWCZHCLE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WMURVIPWLW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XCQMJVVRXJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VLQTRVYQKS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GHONOIYJET" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XPYFHGLCSE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KRFXJVNIFM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PSCANRPSTY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HPCOWXTBGW" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="CKIYRJITXI" font="Arial" size="12" bulletType="diamond"></item>
+<item text="VRLHGGENHF" font="Arial" size="12" bulletType="diamond"></item>
+<item text="PLNHZAAUDP" font="Arial" size="12" bulletType="diamond"></item>
+<item text="MCZABGPUWB" font="Arial" size="12" bulletType="diamond"></item>
+<item text="VQEBMUVGBA" font="Arial" size="12" bulletType="diamond"></item>
+</list>
+<list>
+<item text="UXBIVJBTNV" font="Arial" size="14" bulletType="square"></item>
+<item text="UKDBARGTUC" font="Arial" size="14" bulletType="square"></item>
+<item text="JEDPNTMEAX" font="Arial" size="14" bulletType="square"></item>
+<item text="CYNAAPIZQQ" font="Arial" size="14" bulletType="square"></item>
+<item text="PMORKKCLFT" font="Arial" size="14" bulletType="square"></item>
+<item text="BYEHSOFVDU" font="Arial" size="14" bulletType="square"></item>
+<item text="UFZSDHCMVJ" font="Arial" size="14" bulletType="square"></item>
+<item text="BATTRRENUF" font="Arial" size="14" bulletType="square"></item>
+<item text="MVAUTCSCBT" font="Arial" size="14" bulletType="square"></item>
+<item text="UAEFXWGFEB" font="Arial" size="14" bulletType="square"></item>
+<item text="LVLOUWVVBB" font="Arial" size="14" bulletType="square"></item>
+</list>
+<list>
+<item text="EEPOEFFUYL" font="Comic Sans MS" size="14" bulletType="circle"></item>
+<item text="WXSGQXLJQT" font="Comic Sans MS" size="14" bulletType="circle"></item>
+</list>
+<list>
+<item text="IEJPBQPUDC" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="LOXXYXSTSO" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="WXCCJIAYMN" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="ZXUIEODSOH" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="BQUYMRTRPI" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="ELGUMOEKBP" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="BNRQTGGBMI" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="OQTIXNYYZL" font="Comic Sans MS" size="10" bulletType="square"></item>
+<item text="RUAQRXTHFO" font="Comic Sans MS" size="10" bulletType="square"></item>
+</list>
+<list>
+<item text="LRTQWQWSJN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WCQSEHWBDB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JPWZQAOIEE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FNSOYENJMJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XEVLWFCKQD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PJTTCFVFIX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="NCQQFTFOEY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DHCUEWEBCC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QCLQVELAAU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WKKXKPAHDI" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JQMGDSBSYC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PQPOHLYATH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JTQTJXMNKL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JXCDUICVZT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AQPZTURXLK" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="LDDDAONVGB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="OANBMZFKCL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YEPJACQGNL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FNINOMZECR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DTMBMZVNYU" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WCMLKLUVIA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KDHTFJVDGB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DLSPGLFUKC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZDTCHOSFQW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZADYXUYCKM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KFFUCJAVEW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XXNXEHZGMP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ABYAWAHFTJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="NGWPTXAEPS" font="Arial" size="10" bulletType="diamond"></item>
+<item text="YALCMHBQEQ" font="Arial" size="10" bulletType="diamond"></item>
+<item text="IZFCKJJXTY" font="Arial" size="10" bulletType="diamond"></item>
+<item text="RHPPWNPUFD" font="Arial" size="10" bulletType="diamond"></item>
+<item text="GUMAOBAURN" font="Arial" size="10" bulletType="diamond"></item>
+<item text="PYUIXBAXES" font="Arial" size="10" bulletType="diamond"></item>
+<item text="YLDPJQSTJH" font="Arial" size="10" bulletType="diamond"></item>
+</list>
+<list>
+<item text="ZGPGUVZAQX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TBHQXXFHDW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LUORERQXLN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YOBVCSCJLO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TDZUHDIMFW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YKHWRHRFZO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ROUHPCNZOT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WAXXIDBFRN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LARDSZDFCR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FMORXJMPJF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HMKWWIDFQZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QKUZEJXMHO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="CAAVEGRMPB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="JVWZIIWJBJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="LECTRYJNKN" font="Arial" size="14" bulletType="traingle"></item>
+<item text="IMMLOFVNIR" font="Arial" size="14" bulletType="traingle"></item>
+<item text="XPAUOMOZYZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="UHNKJMJYBE" font="Arial" size="14" bulletType="traingle"></item>
+<item text="ZOBJNFTMRK" font="Arial" size="14" bulletType="traingle"></item>
+<item text="QROKEOFCOD" font="Arial" size="14" bulletType="traingle"></item>
+<item text="ITWQABECRZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="UBYHMOUKSX" font="Arial" size="14" bulletType="traingle"></item>
+<item text="LWJSPGCGAZ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="NUOGJBYWWQ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="DTNOXUOXKY" font="Arial" size="14" bulletType="traingle"></item>
+</list>
+<list>
+<item text="MPHLNSBYML" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="OHCMDVQODU" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="KQGSHXTTIJ" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="BPSDWFTEGF" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="BFHHJJBHWT" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+</list>
+<list>
+<item text="FKEBOAYDXX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YTYQIWPLSZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TGFJWMJLUP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PTMTJZUDRH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SYKTGENJKK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WNWCWRDUUC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RATINRKOWU" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="SWETMZWKIQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EBJVRJAWBY" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GKZMNZOSKA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IIWTKEDTNS" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="XNKWIVQPWM" font="Arial" size="12" bulletType="square"></item>
+<item text="UFKVHUMVPX" font="Arial" size="12" bulletType="square"></item>
+<item text="QFUVGOSKER" font="Arial" size="12" bulletType="square"></item>
+<item text="ESWBTQDPPX" font="Arial" size="12" bulletType="square"></item>
+<item text="FQOHUEVLUG" font="Arial" size="12" bulletType="square"></item>
+<item text="AEVZPCYURE" font="Arial" size="12" bulletType="square"></item>
+<item text="BWVWHTZLZI" font="Arial" size="12" bulletType="square"></item>
+<item text="ZZATBQQCVH" font="Arial" size="12" bulletType="square"></item>
+<item text="RWSWQKIAJV" font="Arial" size="12" bulletType="square"></item>
+<item text="XKRMSQNAIV" font="Arial" size="12" bulletType="square"></item>
+<item text="ZENGMLBXFV" font="Arial" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="CHYNHCGCMG" font="Arial" size="14" bulletType="traingle"></item>
+<item text="MPFLBUORGH" font="Arial" size="14" bulletType="traingle"></item>
+<item text="HOGUTVHCUQ" font="Arial" size="14" bulletType="traingle"></item>
+<item text="KKFYKTNXIS" font="Arial" size="14" bulletType="traingle"></item>
+<item text="WGQSBELXCC" font="Arial" size="14" bulletType="traingle"></item>
+<item text="YULHBSIVIT" font="Arial" size="14" bulletType="traingle"></item>
+</list>
+<list>
+<item text="PWLWIYYHFR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QXQLWVGRMT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ECURRZNILS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YARXWYTIVT" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="NEBGKOHNHW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RKNXREAUPH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YFRNWGYXPM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ZHOHVNPWGK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XPGUWLEZIG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GWNAYLSGKP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GCTPZKNRDM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MNAWFARZTK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="VVGUCZHXTB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FSCJVNCLRD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QEFLPZIWQE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ILTFWXQPVL" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IHJHURVENX" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="XGWRVXCRYT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="SQXHJWKDGO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IWGKQFKISC" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BEVAWQDMVQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QAUOIYAMFJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YGNNUCTWMQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WQNFTXNKGO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="GNYTKTQMMG" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="WRVYGMWODA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QUNIMPHQTH" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HKPWGEGMRO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="MGLYTQOUIJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="HQTQGTXRIR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IKKUPLUQRV" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PKWXMDIHES" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="IMVCFZUTHQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="YKKCOGQUDH" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="VTVWVGXTCO" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="TGVQHBFUAD" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="CPWJFGSUHW" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="KOBTYGDCIL" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="ITBBWAYVMK" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="XTGVOBNGGA" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="GLGYXNXTYO" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="FOLJOPPXGW" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="KRPPCAWFNK" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="EKBKHPDTFA" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="OLHTXLALLT" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="UTDPJSSGPP" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="MKSCNKXYVW" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="ARQPVLOVUI" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="JGUXHNFGHS" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+<item text="QFGFKDYBTX" font="Comic Sans MS" size="12" bulletType="traingle"></item>
+</list>
+<list>
+<item text="TJMHWMQDCV" font="Arial" size="8" bulletType="traingle"></item>
+<item text="URRQGMSADF" font="Arial" size="8" bulletType="traingle"></item>
+<item text="WHEBZSQEVV" font="Arial" size="8" bulletType="traingle"></item>
+<item text="SJJYRPGQUX" font="Arial" size="8" bulletType="traingle"></item>
+<item text="JLVKMHJWFF" font="Arial" size="8" bulletType="traingle"></item>
+<item text="UFRSMNPSRU" font="Arial" size="8" bulletType="traingle"></item>
+<item text="DWPZPANNSI" font="Arial" size="8" bulletType="traingle"></item>
+<item text="RCCBHYMUBT" font="Arial" size="8" bulletType="traingle"></item>
+<item text="XDSNCABSBW" font="Arial" size="8" bulletType="traingle"></item>
+<item text="ISHXNFCAAI" font="Arial" size="8" bulletType="traingle"></item>
+<item text="SEOENQDMJI" font="Arial" size="8" bulletType="traingle"></item>
+<item text="WXVFRODFHN" font="Arial" size="8" bulletType="traingle"></item>
+<item text="YYDUJHRAYH" font="Arial" size="8" bulletType="traingle"></item>
+<item text="BZBMJKZKLK" font="Arial" size="8" bulletType="traingle"></item>
+<item text="TBEZWXDXFJ" font="Arial" size="8" bulletType="traingle"></item>
+</list>
+<list>
+<item text="UUMXCGDNUF" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="NMITMFBIUR" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="ASCJFEAQNG" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="LNGCBZHOEN" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="YGPOBRANIY" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="TXIXNDKMPC" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="ZSZJFPKXOB" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="CUAPNMLQXJ" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="XRUGKKKTBR" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="NTZIRLJASN" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="OTTSROXCRA" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="ROMJKKLNYA" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="NHHGTCCWHQ" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="QZXZBHSNBK" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="KZMKSSRVTM" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="PEMJRCTAUM" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="XMOGCLFBLF" font="Times New Roman" size="12" bulletType="square"></item>
+<item text="LCUMXZVEVK" font="Times New Roman" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="DGUTRRXPGE" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KJDUBMWKHO" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="REANACLONB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="BBRLOGXSSR" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DAKGFYRTTA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KQRLIODUOX" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LAPKSXGOVM" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DQIIHBOEYZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LPQNJAMMOI" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="LYGGORCZEJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="YDHUVOBHXS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PMRSQZJLVX" font="Comic Sans MS" size="12" bulletType="square"></item>
+</list>
+<list>
+<item text="UAYPIKBMKF" font="Arial" size="8" bulletType="diamond"></item>
+<item text="LRXBBAHRNZ" font="Arial" size="8" bulletType="diamond"></item>
+<item text="SSTYMEYNZF" font="Arial" size="8" bulletType="diamond"></item>
+<item text="WCBSZPASFJ" font="Arial" size="8" bulletType="diamond"></item>
+<item text="HBUQINEQUF" font="Arial" size="8" bulletType="diamond"></item>
+<item text="EEWMQKFQTA" font="Arial" size="8" bulletType="diamond"></item>
+<item text="DZWDQFAHCA" font="Arial" size="8" bulletType="diamond"></item>
+<item text="IPXBJSHBFO" font="Arial" size="8" bulletType="diamond"></item>
+<item text="XRNEHMSHVV" font="Arial" size="8" bulletType="diamond"></item>
+<item text="YABLSCPSTR" font="Arial" size="8" bulletType="diamond"></item>
+<item text="GRUZHPNOCZ" font="Arial" size="8" bulletType="diamond"></item>
+<item text="VICGHQCWRA" font="Arial" size="8" bulletType="diamond"></item>
+<item text="IKGRUYSVLW" font="Arial" size="8" bulletType="diamond"></item>
+<item text="JHEYAIHRRZ" font="Arial" size="8" bulletType="diamond"></item>
+</list>
+<list>
+<item text="VNFCGLVYMI" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="IYTWFOJQSW" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="QUNUAKUIJH" font="Comic Sans MS" size="14" bulletType="square"></item>
+<item text="IIHVBCJHLI" font="Comic Sans MS" size="14" bulletType="square"></item>
+</list>
+<list>
+<item text="FIDBWRRNUK" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AADGCNLAQB" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FFBJQRZKBP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ULZZOPSMYN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QDPODSLKAN" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="PPYHIEDEED" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="QNTNEOOMVF" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="AMBAFSGTTQ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ADJMRTLULA" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="ECCZMTXUCS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="FSZAEBNTUJ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="DDLEBKONJS" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="XKTVCDHJYD" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="EHVRNJOPQP" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="KBVHBRJHVZ" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="UMMZVXGJQT" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="TOUZTWIJEW" font="Comic Sans MS" size="12" bulletType="square"></item>
+<item text="RZQQXJBRGA" font="Comic Sans MS" size="12" bulletType="square"></item>
 </list>
 </input>

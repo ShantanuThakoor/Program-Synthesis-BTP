@@ -1,21 +1,24 @@
 import random
 from string import ascii_uppercase
 import sys
+from datetime import datetime
 
-# x =  datetime.now()
-# print x
-# random.seed(x)
+args = sys.argv
+date_object = datetime.strptime(args[2],"%Y-%m-%d %H:%M:%S.%f")
+x =  date_object
+print x
+random.seed(x)
 
 args = sys.argv
 impurity_rank = float(args[1])
-impurity_test = 0.2
+impurity_test = float(args[1])
 impurity_train = 0.1
 
 train_examples = 100
 rank_examples = 300
 test_examples = 100
 
-random.seed(1301)
+# random.seed(1301)
 
 colors = ['red','blue','green','black']
 colors2 = ['orange','yellow','pink']
@@ -133,7 +136,7 @@ print a,b,c,d
 
 ##################################################################################################3
 
-random.seed(101)
+# random.seed(101)
 
 f1 = open('../ranking/input7.xml','w')
 f2 = open('../ranking/output7.xml','w')
@@ -246,7 +249,7 @@ print a,b,c,d
 
 # # ###########################################################################################
 
-random.seed(11)
+# random.seed(11)
 
 f1 = open('../test/input7.xml','w')
 f2 = open('../test/output7.xml','w')

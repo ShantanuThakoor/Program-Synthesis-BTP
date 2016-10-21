@@ -3,13 +3,14 @@ from string import ascii_uppercase
 import sys
 from datetime import datetime
 
-x =  datetime.now()
+args = sys.argv
+date_object = datetime.strptime(args[2],"%Y-%m-%d %H:%M:%S.%f")
+x =  date_object
 print x
 random.seed(x)
 
-args = sys.argv
 impurity_rank = float(args[1])
-impurity_test = 0.2
+impurity_test = float(args[1])
 impurity_train = 0.1
 
 train_examples = 200

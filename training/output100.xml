@@ -1,0 +1,16 @@
+<output>
+<table>
+	<para color="red" size="10"></para>
+	<para color="red" size="12"></para>
+</table>
+<table>
+	<para color="red" size="14"></para>
+</table>
+<table>
+	<tableRow color="red" size="8"></tableRow>
+	<tableRow color="green" size="8"></tableRow>
+</table>
+<table>
+	<tableRow color="yellow" size="8"></tableRow>
+</table>
+</output>

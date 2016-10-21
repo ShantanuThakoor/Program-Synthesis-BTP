@@ -1,0 +1,25 @@
+2016-09-14 15:13:43.059498
+5 31 32 27
+22 85 81 74
+11 26 31 23
+{'C': 0.077426368268112777} [[ 0.14799107 0.01219032 -1.55534989 -0.14591343 -0.14591343 0.02197277 -0.00905724]] 95 of 100 successfully predicted 278 of 300 successfully predicted 89 of 100 successfully predicted 80
+
+2016-09-14 15:14:43.123555
+3 31 32 27
+52 61 63 56
+20 22 24 14
+{'C': 0.077426368268112777} [[ 0.06449572 0.60130951 -1.34168459 0.07295901 0.07295901 0.03596795 -0.01136345]] 97 of 100 successfully predicted 248 of 300 successfully predicted 80 of 100 successfully predicted 60
+
+2016-09-14 16:44:28.247441
+3 33 31 26
+79 45 49 26
+28 17 13 10
+97 of 100 successfully predicted Accuracy 97 221 of 300 successfully predicted Accuracy 73 72 of 100 successfully predicted Accuracy 72 40
+
+===================================================================================
+
+2016-09-14 16:47:59.892609
+2 32 31 27
+54 40 41 39
+15 16 14 10
+78 of 100 successfully predicted Accuracy 78 231 of 300 successfully predicted Accuracy 77 75 of 100 successfully predicted Accuracy 75
